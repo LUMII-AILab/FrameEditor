@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sentences>
+  <Sentence ID="S1" Text="Labrīt!">
+    <Words>
+      <Word Index="0" Original="Labrīt!" Morph1="" Morph2="" Lemma="Labrīt" Parent="-1" />
+    </Words>
+    <FrameEntities />
+    <NamedEntities />
+    <Markers />
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled1" Text="Mārtiņš Bondars ir dzimis 1971. g. 31. decembrī , Rīgā .">
+    <Words>
+      <Word Index="0" Original="Mārtiņš" Morph1="n" Morph2="n_msn_" Lemma="Mārtiņš" Parent="1" />
+      <Word Index="1" Original="Bondars" Morph1="n" Morph2="n_msn_" Lemma="Bondars" Parent="2" />
+      <Word Index="2" Original="ir" Morph1="v" Morph2="vc_ip__30__" Lemma="būt" Parent="10" />
+      <Word Index="3" Original="dzimis" Morph1="v" Morph2="vm_pdmsn_s_" Lemma="dzimt" Parent="2" />
+      <Word Index="4" Original="1971." Morph1="x" Morph2="xo" Lemma="1971." Parent="5" />
+      <Word Index="5" Original="g." Morph1="y" Morph2="y" Lemma="g." Parent="7" />
+      <Word Index="6" Original="31." Morph1="x" Morph2="xo" Lemma="31." Parent="7" />
+      <Word Index="7" Original="decembrī" Morph1="n" Morph2="n_msl_" Lemma="decembris" Parent="2" />
+      <Word Index="8" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="2" />
+      <Word Index="9" Original="Rīgā" Morph1="n" Morph2="n_fsl_" Lemma="Rīga" Parent="8" />
+      <Word Index="10" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="1" WordIndex="3" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="2" WordIndex="1" />
+      <NamedEntity ID="3" WordIndex="7" />
+      <NamedEntity ID="4" WordIndex="9" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="1" X="541" Y="379" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled2" Text="Silvestra Stallones māte Džekija Stallone ( 90 ) apmeklējusi dēla jaunākās filmas „ The Expendables 2 ” pirmizrādi Losandželosā .">
+    <Words>
+      <Word Index="0" Original="Silvestra" Morph1="n" Morph2="n_msg_" Lemma="Silvestrs" Parent="1" />
+      <Word Index="1" Original="Stallones" Morph1="n" Morph2="n_msg_" Lemma="Stallone" Parent="2" />
+      <Word Index="2" Original="māte" Morph1="n" Morph2="n_fsn_" Lemma="māte" Parent="8" />
+      <Word Index="3" Original="Džekija" Morph1="n" Morph2="n_fsn_" Lemma="Džekija" Parent="4" />
+      <Word Index="4" Original="Stallone" Morph1="n" Morph2="n_fsn_" Lemma="Stallone" Parent="2" />
+      <Word Index="5" Original="(" Morph1="z" Morph2="zb" Lemma="(" Parent="2" />
+      <Word Index="6" Original="90" Morph1="x" Morph2="xn" Lemma="90" Parent="5" />
+      <Word Index="7" Original=")" Morph1="z" Morph2="zb" Lemma=")" Parent="5" />
+      <Word Index="8" Original="apmeklējusi" Morph1="v" Morph2="vm_pdfsn_s_" Lemma="apmeklēt" Parent="19" />
+      <Word Index="9" Original="dēla" Morph1="n" Morph2="n_msg_" Lemma="dēls" Parent="11" />
+      <Word Index="10" Original="jaunākās" Morph1="a" Morph2="a_fpa__" Lemma="jauna" Parent="11" />
+      <Word Index="11" Original="filmas" Morph1="n" Morph2="n_fpa_" Lemma="filma" Parent="17" />
+      <Word Index="12" Original="„" Morph1="z" Morph2="zq" Lemma="„" Parent="11" />
+      <Word Index="13" Original="The" Morph1="x" Morph2="xf" Lemma="the" Parent="15" />
+      <Word Index="14" Original="Expendables" Morph1="x" Morph2="xf" Lemma="expendables" Parent="15" />
+      <Word Index="15" Original="2" Morph1="x" Morph2="xn" Lemma="2" Parent="12" />
+      <Word Index="16" Original="”" Morph1="z" Morph2="zq" Lemma="”" Parent="12" />
+      <Word Index="17" Original="pirmizrādi" Morph1="n" Morph2="n_fsa_" Lemma="pirmizrāde" Parent="8" />
+      <Word Index="18" Original="Losandželosā" Morph1="n" Morph2="n_fsl_" Lemma="Losandželosa" Parent="17" />
+      <Word Index="19" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="5" WordIndex="2" />
+      <FrameEntity ID="8" WordIndex="6" />
+      <FrameEntity ID="9" WordIndex="8" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="6" WordIndex="4" />
+      <NamedEntity ID="7" WordIndex="1" />
+      <NamedEntity ID="10" WordIndex="17" />
+      <NamedEntity ID="11" WordIndex="18" />
+      <NamedEntity ID="7" WordIndex="9" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="5" X="391" Y="487" />
+      <FrameEntityMarker ID="8" X="883" Y="414" />
+      <FrameEntityMarker ID="9" X="1256" Y="474" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled3" Text="A. Lembergs dzīvo savā lauku īpašumā Ventspils novada Puzes pagastā .">
+    <Words>
+      <Word Index="0" Original="A." Morph1="y" Morph2="y" Lemma="A." Parent="1" />
+      <Word Index="1" Original="Lembergs" Morph1="n" Morph2="n_msn_" Lemma="Lembergs" Parent="2" />
+      <Word Index="2" Original="dzīvo" Morph1="v" Morph2="vm_ip__30__" Lemma="dzīvot" Parent="10" />
+      <Word Index="3" Original="savā" Morph1="p" Morph2="p_0msl_" Lemma="savs" Parent="5" />
+      <Word Index="4" Original="lauku" Morph1="n" Morph2="n_mpg_" Lemma="lauks" Parent="5" />
+      <Word Index="5" Original="īpašumā" Morph1="n" Morph2="n_msl_" Lemma="īpašums" Parent="2" />
+      <Word Index="6" Original="Ventspils" Morph1="n" Morph2="n_msg_" Lemma="Ventspils" Parent="7" />
+      <Word Index="7" Original="novada" Morph1="n" Morph2="n_msg_" Lemma="novads" Parent="9" />
+      <Word Index="8" Original="Puzes" Morph1="n" Morph2="n_fsg_" Lemma="Puze" Parent="9" />
+      <Word Index="9" Original="pagastā" Morph1="n" Morph2="n_msl_" Lemma="pagasts" Parent="2" />
+      <Word Index="10" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="12" WordIndex="2" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="13" WordIndex="1" />
+      <NamedEntity ID="14" WordIndex="9" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="12" X="715" Y="394" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled4" Text="1977. gadā pabeidzis Latvijas Valsts universitātes Ekonomikas fakultāti , iegūstot ekonomista kvalifikāciju rūpniecības plānošanas specialitātē .">
+    <Words>
+      <Word Index="0" Original="1977." Morph1="x" Morph2="xo" Lemma="1977." Parent="1" />
+      <Word Index="1" Original="gadā" Morph1="n" Morph2="n_msl_" Lemma="gads" Parent="2" />
+      <Word Index="2" Original="pabeidzis" Morph1="v" Morph2="vm_pdmsn_s_" Lemma="pabeigt" Parent="15" />
+      <Word Index="3" Original="Latvijas" Morph1="n" Morph2="n_fsg_" Lemma="Latvija" Parent="5" />
+      <Word Index="4" Original="Valsts" Morph1="n" Morph2="n_fsg_" Lemma="valsts" Parent="5" />
+      <Word Index="5" Original="universitātes" Morph1="n" Morph2="n_fsg_" Lemma="universitāte" Parent="7" />
+      <Word Index="6" Original="Ekonomikas" Morph1="n" Morph2="n_fsg_" Lemma="ekonomika" Parent="7" />
+      <Word Index="7" Original="fakultāti" Morph1="n" Morph2="n_fsa_" Lemma="fakultāte" Parent="2" />
+      <Word Index="8" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="2" />
+      <Word Index="9" Original="iegūstot" Morph1="v" Morph2="vm_pu000_0_" Lemma="iegūt" Parent="8" />
+      <Word Index="10" Original="ekonomista" Morph1="n" Morph2="n_msg_" Lemma="ekonomists" Parent="11" />
+      <Word Index="11" Original="kvalifikāciju" Morph1="n" Morph2="n_fsa_" Lemma="kvalifikācija" Parent="9" />
+      <Word Index="12" Original="rūpniecības" Morph1="n" Morph2="n_fsg_" Lemma="rūpniecība" Parent="14" />
+      <Word Index="13" Original="plānošanas" Morph1="n" Morph2="n_fsg_" Lemma="plānošana" Parent="14" />
+      <Word Index="14" Original="specialitātē" Morph1="n" Morph2="n_fsl_" Lemma="specialitāte" Parent="9" />
+      <Word Index="15" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="15" WordIndex="2" />
+      <FrameEntity ID="19" WordIndex="11" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="16" WordIndex="7" />
+      <NamedEntity ID="17" WordIndex="14" />
+      <NamedEntity ID="18" WordIndex="1" />
+      <NamedEntity ID="20" WordIndex="10" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="15" X="1148" Y="434" />
+      <FrameEntityMarker ID="19" X="1585" Y="374" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled5" Text="Bondaru ģimene dzīvoja Bostonā , kur Mārtiņš Bondars studēja Hārvarda universitātes maģistratūrā .">
+    <Words>
+      <Word Index="0" Original="Bondaru" Morph1="n" Morph2="n_mpg_" Lemma="Bondars" Parent="1" />
+      <Word Index="1" Original="ģimene" Morph1="n" Morph2="n_fsn_" Lemma="ģimene" Parent="2" />
+      <Word Index="2" Original="dzīvoja" Morph1="v" Morph2="vm_is__30__" Lemma="dzīvot" Parent="12" />
+      <Word Index="3" Original="Bostonā" Morph1="n" Morph2="n_fsl_" Lemma="Bostona" Parent="2" />
+      <Word Index="4" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="3" />
+      <Word Index="5" Original="kur" Morph1="r" Morph2="r__" Lemma="kur" Parent="8" />
+      <Word Index="6" Original="Mārtiņš" Morph1="n" Morph2="n_msn_" Lemma="Mārtiņš" Parent="7" />
+      <Word Index="7" Original="Bondars" Morph1="n" Morph2="n_msn_" Lemma="Bondars" Parent="8" />
+      <Word Index="8" Original="studēja" Morph1="v" Morph2="vm_is__30__" Lemma="studēt" Parent="4" />
+      <Word Index="9" Original="Hārvarda" Morph1="n" Morph2="n_msg_" Lemma="Hārvards" Parent="10" />
+      <Word Index="10" Original="universitātes" Morph1="n" Morph2="n_fsg_" Lemma="universitāte" Parent="11" />
+      <Word Index="11" Original="maģistratūrā" Morph1="n" Morph2="n_fsl_" Lemma="maģistratūra" Parent="8" />
+      <Word Index="12" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="21" WordIndex="2" />
+      <FrameEntity ID="24" WordIndex="8" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="22" WordIndex="0" />
+      <NamedEntity ID="23" WordIndex="3" />
+      <NamedEntity ID="2" WordIndex="7" />
+      <NamedEntity ID="25" WordIndex="10" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="21" X="925" Y="514" />
+      <FrameEntityMarker ID="24" X="1235" Y="454" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled6" Text="Latvijas Krājbankas akcionāri par valdes priekšsēdētāju iecēluši bijušo basketbolistu un ilggadējo Valsts Prezidentes kancelejas vadītāju Mārtiņu Bondaru .">
+    <Words>
+      <Word Index="0" Original="Latvijas" Morph1="n" Morph2="n_fsg_" Lemma="Latvija" Parent="1" />
+      <Word Index="1" Original="Krājbankas" Morph1="n" Morph2="n_fsg_" Lemma="krājbanka" Parent="2" />
+      <Word Index="2" Original="akcionāri" Morph1="n" Morph2="n_mpn_" Lemma="akcionārs" Parent="6" />
+      <Word Index="3" Original="par" Morph1="s" Morph2="spsan" Lemma="par" Parent="6" />
+      <Word Index="4" Original="valdes" Morph1="n" Morph2="n_fsg_" Lemma="valde" Parent="5" />
+      <Word Index="5" Original="priekšsēdētāju" Morph1="n" Morph2="n_msa_" Lemma="priekšsēdētājs" Parent="3" />
+      <Word Index="6" Original="iecēluši" Morph1="v" Morph2="vm_pdmpn_s_" Lemma="iecelt" Parent="17" />
+      <Word Index="7" Original="bijušo" Morph1="v" Morph2="vc_pdmsa_s_" Lemma="būt" Parent="8" />
+      <Word Index="8" Original="basketbolistu" Morph1="n" Morph2="n_msa_" Lemma="basketbolists" Parent="9" />
+      <Word Index="9" Original="un" Morph1="c" Morph2="cc_" Lemma="un" Parent="6" />
+      <Word Index="10" Original="ilggadējo" Morph1="a" Morph2="a_msa__" Lemma="ilggadējs" Parent="14" />
+      <Word Index="11" Original="Valsts" Morph1="n" Morph2="n_fsg_" Lemma="valsts" Parent="12" />
+      <Word Index="12" Original="Prezidentes" Morph1="n" Morph2="n_fsg_" Lemma="prezidente" Parent="13" />
+      <Word Index="13" Original="kancelejas" Morph1="n" Morph2="n_fsg_" Lemma="kanceleja" Parent="14" />
+      <Word Index="14" Original="vadītāju" Morph1="n" Morph2="n_msa_" Lemma="vadītājs" Parent="9" />
+      <Word Index="15" Original="Mārtiņu" Morph1="n" Morph2="n_msa_" Lemma="Mārtiņš" Parent="16" />
+      <Word Index="16" Original="Bondaru" Morph1="n" Morph2="n_msa_" Lemma="Bondars" Parent="9" />
+      <Word Index="17" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="26" WordIndex="6" />
+      <FrameEntity ID="30" WordIndex="8" />
+      <FrameEntity ID="32" WordIndex="14" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="27" WordIndex="2" />
+      <NamedEntity ID="28" WordIndex="5" />
+      <NamedEntity ID="2" WordIndex="16" />
+      <NamedEntity ID="29" WordIndex="1" />
+      <NamedEntity ID="31" WordIndex="7" />
+      <NamedEntity ID="33" WordIndex="13" />
+      <NamedEntity ID="34" WordIndex="10" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="26" X="1322" Y="474" />
+      <FrameEntityMarker ID="30" X="1738" Y="632" />
+      <FrameEntityMarker ID="32" X="1922" Y="434" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled7" Text="Piedāvājam sarunu ar bijušo prezidenta kancelejas vadītāju un baņķieri , tagad – uzņēmēju Mārtiņu Bondaru .">
+    <Words>
+      <Word Index="0" Original="Piedāvājam" Morph1="v" Morph2="vm_ip__1p__" Lemma="piedāvāt" Parent="15" />
+      <Word Index="1" Original="sarunu" Morph1="n" Morph2="n_fsa_" Lemma="saruna" Parent="0" />
+      <Word Index="2" Original="ar" Morph1="s" Morph2="spsan" Lemma="ar" Parent="1" />
+      <Word Index="3" Original="bijušo" Morph1="v" Morph2="vc_pdmsa_s_" Lemma="būt" Parent="6" />
+      <Word Index="4" Original="prezidenta" Morph1="n" Morph2="n_msg_" Lemma="prezidents" Parent="5" />
+      <Word Index="5" Original="kancelejas" Morph1="n" Morph2="n_fsg_" Lemma="kanceleja" Parent="6" />
+      <Word Index="6" Original="vadītāju" Morph1="n" Morph2="n_msa_" Lemma="vadītājs" Parent="7" />
+      <Word Index="7" Original="un" Morph1="c" Morph2="cc_" Lemma="un" Parent="2" />
+      <Word Index="8" Original="baņķieri" Morph1="n" Morph2="n_msa_" Lemma="baņķieris" Parent="9" />
+      <Word Index="9" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="7" />
+      <Word Index="10" Original="tagad" Morph1="r" Morph2="r__" Lemma="tagad" Parent="11" />
+      <Word Index="11" Original="–" Morph1="z" Morph2="zd" Lemma="–" Parent="12" />
+      <Word Index="12" Original="uzņēmēju" Morph1="n" Morph2="n_msa_" Lemma="uzņēmējs" Parent="9" />
+      <Word Index="13" Original="Mārtiņu" Morph1="n" Morph2="n_msa_" Lemma="Mārtiņš" Parent="14" />
+      <Word Index="14" Original="Bondaru" Morph1="n" Morph2="n_msa_" Lemma="Bondars" Parent="7" />
+      <Word Index="15" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="35" WordIndex="6" />
+      <FrameEntity ID="37" WordIndex="8" />
+      <FrameEntity ID="38" WordIndex="12" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="2" WordIndex="14" />
+      <NamedEntity ID="33" WordIndex="5" />
+      <NamedEntity ID="36" WordIndex="3" />
+      <NamedEntity ID="39" WordIndex="10" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="35" X="773" Y="474" />
+      <FrameEntityMarker ID="37" X="1246" Y="454" />
+      <FrameEntityMarker ID="38" X="1583" Y="454" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled8" Text="MĀRTIŅŠ BONDARS , a / s Interbaltija Invest valdes priekšsēdētājs un arī skaistumkaralienes Ievas Bondares dzīvesbiedrs , savu vārdu saņēmis , pateicoties vecvecmāmiņas vēlmei .">
+    <Words>
+      <Word Index="0" Original="MĀRTIŅŠ" Morph1="n" Morph2="n_msn_" Lemma="Mārtiņš" Parent="1" />
+      <Word Index="1" Original="BONDARS" Morph1="n" Morph2="n_msn_" Lemma="Bondars" Parent="19" />
+      <Word Index="2" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="1" />
+      <Word Index="3" Original="a" Morph1="x" Morph2="xx" Lemma="a" Parent="5" />
+      <Word Index="4" Original="/" Morph1="z" Morph2="zx" Lemma="/" Parent="5" />
+      <Word Index="5" Original="s" Morph1="x" Morph2="xx" Lemma="s" Parent="8" />
+      <Word Index="6" Original="Interbaltija" Morph1="n" Morph2="n_fsn_" Lemma="Interbaltija" Parent="7" />
+      <Word Index="7" Original="Invest" Morph1="x" Morph2="xf" Lemma="Invest" Parent="5" />
+      <Word Index="8" Original="valdes" Morph1="n" Morph2="n_fsg_" Lemma="valde" Parent="9" />
+      <Word Index="9" Original="priekšsēdētājs" Morph1="n" Morph2="n_msn_" Lemma="priekšsēdētājs" Parent="10" />
+      <Word Index="10" Original="un" Morph1="c" Morph2="cc_" Lemma="un" Parent="2" />
+      <Word Index="11" Original="arī" Morph1="c" Morph2="cc_" Lemma="arī" Parent="10" />
+      <Word Index="12" Original="skaistumkaralienes" Morph1="n" Morph2="n_fsg_" Lemma="skaistumkaraliene" Parent="15" />
+      <Word Index="13" Original="Ievas" Morph1="n" Morph2="n_fsg_" Lemma="Ieva" Parent="14" />
+      <Word Index="14" Original="Bondares" Morph1="n" Morph2="n_fsg_" Lemma="Bondare" Parent="12" />
+      <Word Index="15" Original="dzīvesbiedrs" Morph1="n" Morph2="n_msn_" Lemma="dzīvesbiedrs" Parent="11" />
+      <Word Index="16" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="24" />
+      <Word Index="17" Original="savu" Morph1="p" Morph2="p_0msa_" Lemma="savs" Parent="18" />
+      <Word Index="18" Original="vārdu" Morph1="n" Morph2="n_msa_" Lemma="vārds" Parent="19" />
+      <Word Index="19" Original="saņēmis" Morph1="v" Morph2="vm_pdmsn_s_" Lemma="saņemt" Parent="24" />
+      <Word Index="20" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="2" />
+      <Word Index="21" Original="pateicoties" Morph1="v" Morph2="vm_pu000_0_" Lemma="pateikties" Parent="16" />
+      <Word Index="22" Original="vecvecmāmiņas" Morph1="n" Morph2="n_fsg_" Lemma="vecvecmāmiņa" Parent="23" />
+      <Word Index="23" Original="vēlmei" Morph1="n" Morph2="n_fsd_" Lemma="vēlme" Parent="21" />
+      <Word Index="24" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="40" WordIndex="9" />
+      <FrameEntity ID="42" WordIndex="15" />
+      <FrameEntity ID="44" WordIndex="12" />
+      <FrameEntity ID="45" WordIndex="22" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="2" WordIndex="1" />
+      <NamedEntity ID="41" WordIndex="5" />
+      <NamedEntity ID="43" WordIndex="14" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="40" X="910" Y="514" />
+      <FrameEntityMarker ID="42" X="1941" Y="544" />
+      <FrameEntityMarker ID="44" X="1834" Y="474" />
+      <FrameEntityMarker ID="45" X="2261" Y="688" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled9" Text="Ilggadējais AS “ Latvijas Krājbanka ” valdes priekšsēdētājs Mārtiņš Bondars nolēmis pamest amatu , viņa pienākumus no 17. augusta turpinās pildīt līdzšinējais valdes loceklis Ivars Priedītis , portālu “ Delfi ” informēja bankā .">
+    <Words>
+      <Word Index="0" Original="Ilggadējais" Morph1="a" Morph2="a_msn__" Lemma="ilggadējs" Parent="7" />
+      <Word Index="1" Original="AS" Morph1="y" Morph2="y" Lemma="AS" Parent="6" />
+      <Word Index="2" Original="“" Morph1="z" Morph2="zq" Lemma="“" Parent="1" />
+      <Word Index="3" Original="Latvijas" Morph1="n" Morph2="n_fsg_" Lemma="Latvija" Parent="4" />
+      <Word Index="4" Original="Krājbanka" Morph1="n" Morph2="n_fsn_" Lemma="krājbanka" Parent="2" />
+      <Word Index="5" Original="”" Morph1="z" Morph2="zq" Lemma="”" Parent="2" />
+      <Word Index="6" Original="valdes" Morph1="n" Morph2="n_fsg_" Lemma="valde" Parent="7" />
+      <Word Index="7" Original="priekšsēdētājs" Morph1="n" Morph2="n_msn_" Lemma="priekšsēdētājs" Parent="10" />
+      <Word Index="8" Original="Mārtiņš" Morph1="n" Morph2="n_msn_" Lemma="Mārtiņš" Parent="9" />
+      <Word Index="9" Original="Bondars" Morph1="n" Morph2="n_msn_" Lemma="Bondars" Parent="7" />
+      <Word Index="10" Original="nolēmis" Morph1="v" Morph2="vm_pdmsn_s_" Lemma="nolemt" Parent="13" />
+      <Word Index="11" Original="pamest" Morph1="v" Morph2="vm_n0__00__" Lemma="pamest" Parent="10" />
+      <Word Index="12" Original="amatu" Morph1="n" Morph2="n_msa_" Lemma="amats" Parent="11" />
+      <Word Index="13" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="31" />
+      <Word Index="14" Original="viņa" Morph1="p" Morph2="p_3msg_" Lemma="viņš" Parent="15" />
+      <Word Index="15" Original="pienākumus" Morph1="n" Morph2="n_mpa_" Lemma="pienākums" Parent="19" />
+      <Word Index="16" Original="no" Morph1="s" Morph2="spsgy" Lemma="no" Parent="19" />
+      <Word Index="17" Original="17." Morph1="x" Morph2="xo" Lemma="17." Parent="18" />
+      <Word Index="18" Original="augusta" Morph1="n" Morph2="n_msg_" Lemma="augusts" Parent="16" />
+      <Word Index="19" Original="turpinās" Morph1="v" Morph2="vp_if__30__" Lemma="turpināt" Parent="26" />
+      <Word Index="20" Original="pildīt" Morph1="v" Morph2="vm_n0__00__" Lemma="pildīt" Parent="19" />
+      <Word Index="21" Original="līdzšinējais" Morph1="a" Morph2="a_msn__" Lemma="līdzšinējs" Parent="23" />
+      <Word Index="22" Original="valdes" Morph1="n" Morph2="n_fsg_" Lemma="valde" Parent="23" />
+      <Word Index="23" Original="loceklis" Morph1="n" Morph2="n_msn_" Lemma="loceklis" Parent="19" />
+      <Word Index="24" Original="Ivars" Morph1="n" Morph2="n_msn_" Lemma="Ivars" Parent="25" />
+      <Word Index="25" Original="Priedītis" Morph1="n" Morph2="n_msn_" Lemma="Priedītis" Parent="23" />
+      <Word Index="26" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="13" />
+      <Word Index="27" Original="portālu" Morph1="n" Morph2="n_msa_" Lemma="portāls" Parent="31" />
+      <Word Index="28" Original="“" Morph1="z" Morph2="zq" Lemma="“" Parent="27" />
+      <Word Index="29" Original="Delfi" Morph1="n" Morph2="n_____" Lemma="delfi" Parent="28" />
+      <Word Index="30" Original="”" Morph1="z" Morph2="zq" Lemma="”" Parent="28" />
+      <Word Index="31" Original="informēja" Morph1="v" Morph2="vm_is__30__" Lemma="informēt" Parent="33" />
+      <Word Index="32" Original="bankā" Morph1="n" Morph2="n_fsl_" Lemma="banka" Parent="31" />
+      <Word Index="33" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="46" WordIndex="7" />
+      <FrameEntity ID="48" WordIndex="11" />
+      <FrameEntity ID="50" WordIndex="23" />
+      <FrameEntity ID="51" WordIndex="20" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="2" WordIndex="9" />
+      <NamedEntity ID="29" WordIndex="1" />
+      <NamedEntity ID="47" WordIndex="0" />
+      <NamedEntity ID="49" WordIndex="25" />
+      <NamedEntity ID="28" WordIndex="15" />
+      <NamedEntity ID="52" WordIndex="18" />
+      <NamedEntity ID="29" WordIndex="32" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="46" X="777" Y="534" />
+      <FrameEntityMarker ID="48" X="1754" Y="534" />
+      <FrameEntityMarker ID="50" X="3352" Y="514" />
+      <FrameEntityMarker ID="51" X="2951" Y="644" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled10" Text="&quot; Re &amp; Re &quot; valdes sastāvu atstājis un no uzņēmuma operatīvās darbības aizgājis viens no iepriekšējās valdes locekļiem Marģeris Bitmetis .">
+    <Words>
+      <Word Index="0" Original="&quot;" Morph1="z" Morph2="zq" Lemma="&quot;" Parent="5" />
+      <Word Index="1" Original="Re" Morph1="x" Morph2="xx" Lemma="Re" Parent="3" />
+      <Word Index="2" Original="&amp;" Morph1="x" Morph2="xx" Lemma="&amp;" Parent="3" />
+      <Word Index="3" Original="Re" Morph1="x" Morph2="xx" Lemma="Re" Parent="0" />
+      <Word Index="4" Original="&quot;" Morph1="z" Morph2="zq" Lemma="&quot;" Parent="0" />
+      <Word Index="5" Original="valdes" Morph1="n" Morph2="n_fsg_" Lemma="valde" Parent="6" />
+      <Word Index="6" Original="sastāvu" Morph1="n" Morph2="n_msa_" Lemma="sastāvs" Parent="7" />
+      <Word Index="7" Original="atstājis" Morph1="v" Morph2="vm_pdmsn_s_" Lemma="atstāt" Parent="8" />
+      <Word Index="8" Original="un" Morph1="c" Morph2="cc_" Lemma="un" Parent="21" />
+      <Word Index="9" Original="no" Morph1="s" Morph2="spsgy" Lemma="no" Parent="13" />
+      <Word Index="10" Original="uzņēmuma" Morph1="n" Morph2="n_msg_" Lemma="uzņēmums" Parent="12" />
+      <Word Index="11" Original="operatīvās" Morph1="a" Morph2="a_fsg__" Lemma="operatīva" Parent="12" />
+      <Word Index="12" Original="darbības" Morph1="n" Morph2="n_fsg_" Lemma="darbība" Parent="9" />
+      <Word Index="13" Original="aizgājis" Morph1="v" Morph2="vm_pdmsn_s_" Lemma="aiziet" Parent="8" />
+      <Word Index="14" Original="viens" Morph1="m" Morph2="m__msn_" Lemma="viens" Parent="15" />
+      <Word Index="15" Original="no" Morph1="s" Morph2="sppdy" Lemma="no" Parent="8" />
+      <Word Index="16" Original="iepriekšējās" Morph1="a" Morph2="a_fsg__" Lemma="iepriekšēja" Parent="17" />
+      <Word Index="17" Original="valdes" Morph1="n" Morph2="n_fsg_" Lemma="valde" Parent="18" />
+      <Word Index="18" Original="locekļiem" Morph1="n" Morph2="n_mpd_" Lemma="loceklis" Parent="15" />
+      <Word Index="19" Original="Marģeris" Morph1="n" Morph2="n_msn_" Lemma="Marģeris" Parent="20" />
+      <Word Index="20" Original="Bitmetis" Morph1="n" Morph2="n_msn_" Lemma="Bitmetis" Parent="15" />
+      <Word Index="21" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="53" WordIndex="7" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="54" WordIndex="3" />
+      <NamedEntity ID="55" WordIndex="18" />
+      <NamedEntity ID="56" WordIndex="20" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="53" X="542" Y="494" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled11" Text="Latvijas PSR laikā A. Lembergs bija Komunistiskās partijas biedrs ( līdz 1990. gadam ) un partijas darbinieks .">
+    <Words>
+      <Word Index="0" Original="Latvijas" Morph1="n" Morph2="n_fsg_" Lemma="Latvija" Parent="1" />
+      <Word Index="1" Original="PSR" Morph1="y" Morph2="y" Lemma="PSR" Parent="2" />
+      <Word Index="2" Original="laikā" Morph1="n" Morph2="n_msl_" Lemma="laiks" Parent="17" />
+      <Word Index="3" Original="A." Morph1="y" Morph2="y" Lemma="a." Parent="5" />
+      <Word Index="4" Original="Lembergs" Morph1="n" Morph2="n_msn_" Lemma="Lembergs" Parent="3" />
+      <Word Index="5" Original="bija" Morph1="v" Morph2="vc_is__30__" Lemma="būt" Parent="17" />
+      <Word Index="6" Original="Komunistiskās" Morph1="a" Morph2="a_fsg__" Lemma="komunistiska" Parent="7" />
+      <Word Index="7" Original="partijas" Morph1="n" Morph2="n_fsg_" Lemma="partija" Parent="14" />
+      <Word Index="8" Original="biedrs" Morph1="n" Morph2="n_msn_" Lemma="biedrs" Parent="14" />
+      <Word Index="9" Original="(" Morph1="z" Morph2="zb" Lemma="(" Parent="8" />
+      <Word Index="10" Original="līdz" Morph1="s" Morph2="spsdy" Lemma="līdz" Parent="9" />
+      <Word Index="11" Original="1990." Morph1="x" Morph2="xo" Lemma="1990." Parent="12" />
+      <Word Index="12" Original="gadam" Morph1="n" Morph2="n_msd_" Lemma="gads" Parent="10" />
+      <Word Index="13" Original=")" Morph1="z" Morph2="zb" Lemma=")" Parent="9" />
+      <Word Index="14" Original="un" Morph1="c" Morph2="cc_" Lemma="un" Parent="5" />
+      <Word Index="15" Original="partijas" Morph1="n" Morph2="n_fsg_" Lemma="partija" Parent="16" />
+      <Word Index="16" Original="darbinieks" Morph1="n" Morph2="n_msn_" Lemma="darbinieks" Parent="14" />
+      <Word Index="17" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="57" WordIndex="8" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="13" WordIndex="3" />
+      <NamedEntity ID="58" WordIndex="7" />
+      <NamedEntity ID="59" WordIndex="10" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="57" X="1553" Y="474" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled12" Text="M. Bondars Rīgas pašvaldības vēlēšanās pirms vairākiem gadiem kandidējis jau iepriekš no Tēvzemei un Brīvībai / LNNK ( TB / LNNK ) saraksta , tiesa gan neveiksmīgi .">
+    <Words>
+      <Word Index="0" Original="M." Morph1="y" Morph2="y" Lemma="M." Parent="1" />
+      <Word Index="1" Original="Bondars" Morph1="n" Morph2="n_msn_" Lemma="Bondars" Parent="8" />
+      <Word Index="2" Original="Rīgas" Morph1="n" Morph2="n_fsg_" Lemma="Rīga" Parent="3" />
+      <Word Index="3" Original="pašvaldības" Morph1="n" Morph2="n_fsg_" Lemma="pašvaldība" Parent="4" />
+      <Word Index="4" Original="vēlēšanās" Morph1="n" Morph2="n_fsl_" Lemma="vēlēšanās" Parent="8" />
+      <Word Index="5" Original="pirms" Morph1="s" Morph2="sppdy" Lemma="pirms" Parent="8" />
+      <Word Index="6" Original="vairākiem" Morph1="p" Morph2="p_0mpd_" Lemma="vairāki" Parent="7" />
+      <Word Index="7" Original="gadiem" Morph1="n" Morph2="n_mpd_" Lemma="gads" Parent="5" />
+      <Word Index="8" Original="kandidējis" Morph1="v" Morph2="vm_pdmsn_s_" Lemma="kandidēt" Parent="27" />
+      <Word Index="9" Original="jau" Morph1="r" Morph2="r__" Lemma="jau" Parent="10" />
+      <Word Index="10" Original="iepriekš" Morph1="r" Morph2="r__" Lemma="iepriekš" Parent="8" />
+      <Word Index="11" Original="no" Morph1="s" Morph2="spsgy" Lemma="no" Parent="8" />
+      <Word Index="12" Original="Tēvzemei" Morph1="n" Morph2="n_fsd_" Lemma="tēvzeme" Parent="13" />
+      <Word Index="13" Original="un" Morph1="c" Morph2="cc_" Lemma="un" Parent="15" />
+      <Word Index="14" Original="Brīvībai" Morph1="n" Morph2="n_fsd_" Lemma="brīvība" Parent="13" />
+      <Word Index="15" Original="/" Morph1="z" Morph2="zx" Lemma="/" Parent="22" />
+      <Word Index="16" Original="LNNK" Morph1="y" Morph2="y" Lemma="LNNK" Parent="15" />
+      <Word Index="17" Original="(" Morph1="z" Morph2="zb" Lemma="(" Parent="15" />
+      <Word Index="18" Original="TB" Morph1="y" Morph2="y" Lemma="TB" Parent="19" />
+      <Word Index="19" Original="/" Morph1="z" Morph2="zx" Lemma="/" Parent="17" />
+      <Word Index="20" Original="LNNK" Morph1="y" Morph2="y" Lemma="LNNK" Parent="19" />
+      <Word Index="21" Original=")" Morph1="z" Morph2="zb" Lemma=")" Parent="17" />
+      <Word Index="22" Original="saraksta" Morph1="n" Morph2="n_msg_" Lemma="saraksts" Parent="11" />
+      <Word Index="23" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="8" />
+      <Word Index="24" Original="tiesa" Morph1="n" Morph2="n_fsn_" Lemma="tiesa" Parent="23" />
+      <Word Index="25" Original="gan" Morph1="q" Morph2="q_" Lemma="gan" Parent="24" />
+      <Word Index="26" Original="neveiksmīgi" Morph1="r" Morph2="r__" Lemma="neveiksmīgi" Parent="23" />
+      <Word Index="27" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="60" WordIndex="8" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="2" WordIndex="1" />
+      <NamedEntity ID="61" WordIndex="4" />
+      <NamedEntity ID="62" WordIndex="26" />
+      <NamedEntity ID="63" WordIndex="5" />
+      <NamedEntity ID="64" WordIndex="2" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="60" X="1769" Y="514" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled13" Text="Savās atmiņās par Ventspils mēra Aivara Lemberga draugu Vitālu Lejiņu dalījās izpildītāja V. Jonase , savukārt par kratīšanām un dokumentu izņemšanu atminējās A. Lemberga advokāta Ginta Laiviņa Laivenieka sieva , Ventspilī praktizējošā notāre M. Laiviņa Laiveniece .">
+    <Words>
+      <Word Index="0" Original="Savās" Morph1="p" Morph2="p_0fpl_" Lemma="sava" Parent="1" />
+      <Word Index="1" Original="atmiņās" Morph1="n" Morph2="n_fdl_" Lemma="atmiņas" Parent="10" />
+      <Word Index="2" Original="par" Morph1="s" Morph2="spsan" Lemma="par" Parent="1" />
+      <Word Index="3" Original="Ventspils" Morph1="n" Morph2="n_msn_" Lemma="Ventspils" Parent="4" />
+      <Word Index="4" Original="mēra" Morph1="n" Morph2="n_msg_" Lemma="mērs" Parent="7" />
+      <Word Index="5" Original="Aivara" Morph1="n" Morph2="n_msg_" Lemma="Aivars" Parent="6" />
+      <Word Index="6" Original="Lemberga" Morph1="n" Morph2="n_msg_" Lemma="Lembergs" Parent="4" />
+      <Word Index="7" Original="draugu" Morph1="n" Morph2="n_msa_" Lemma="draugs" Parent="2" />
+      <Word Index="8" Original="Vitālu" Morph1="a" Morph2="a_msa__" Lemma="Vitāls" Parent="9" />
+      <Word Index="9" Original="Lejiņu" Morph1="n" Morph2="n_msa_" Lemma="Lejiņš" Parent="7" />
+      <Word Index="10" Original="dalījās" Morph1="v" Morph2="vm_is__30__" Lemma="dalīties" Parent="14" />
+      <Word Index="11" Original="izpildītāja" Morph1="n" Morph2="n_fsn_" Lemma="izpildītāja" Parent="10" />
+      <Word Index="12" Original="V." Morph1="y" Morph2="y" Lemma="V." Parent="13" />
+      <Word Index="13" Original="Jonase" Morph1="n" Morph2="n_fsn_" Lemma="Jonase" Parent="11" />
+      <Word Index="14" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="36" />
+      <Word Index="15" Original="savukārt" Morph1="r" Morph2="r__" Lemma="savukārt" Parent="21" />
+      <Word Index="16" Original="par" Morph1="s" Morph2="sppdn" Lemma="par" Parent="21" />
+      <Word Index="17" Original="kratīšanām" Morph1="n" Morph2="n_fpd_" Lemma="kratīšana" Parent="18" />
+      <Word Index="18" Original="un" Morph1="c" Morph2="cc_" Lemma="un" Parent="16" />
+      <Word Index="19" Original="dokumentu" Morph1="n" Morph2="n_mpg_" Lemma="dokuments" Parent="20" />
+      <Word Index="20" Original="izņemšanu" Morph1="n" Morph2="n_fsa_" Lemma="izņemšana" Parent="18" />
+      <Word Index="21" Original="atminējās" Morph1="v" Morph2="vm_is__30__" Lemma="atminēties" Parent="14" />
+      <Word Index="22" Original="A." Morph1="y" Morph2="y" Lemma="A." Parent="23" />
+      <Word Index="23" Original="Lemberga" Morph1="n" Morph2="n_msg_" Lemma="Lembergs" Parent="24" />
+      <Word Index="24" Original="advokāta" Morph1="n" Morph2="n_msg_" Lemma="advokāts" Parent="28" />
+      <Word Index="25" Original="Ginta" Morph1="n" Morph2="n_msg_" Lemma="Gints" Parent="27" />
+      <Word Index="26" Original="Laiviņa" Morph1="n" Morph2="n_msg_" Lemma="Laiviņš" Parent="27" />
+      <Word Index="27" Original="Laivenieka" Morph1="n" Morph2="n_msg_" Lemma="laivenieks" Parent="24" />
+      <Word Index="28" Original="sieva" Morph1="n" Morph2="n_fsn_" Lemma="sieva" Parent="29" />
+      <Word Index="29" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="21" />
+      <Word Index="30" Original="Ventspilī" Morph1="n" Morph2="n_fsl_" Lemma="Ventspils" Parent="31" />
+      <Word Index="31" Original="praktizējošā" Morph1="v" Morph2="vm_pdfsn_p_" Lemma="praktizēt" Parent="32" />
+      <Word Index="32" Original="notāre" Morph1="n" Morph2="n_fsn_" Lemma="notāre" Parent="29" />
+      <Word Index="33" Original="M." Morph1="y" Morph2="y" Lemma="M." Parent="35" />
+      <Word Index="34" Original="Laiviņa" Morph1="n" Morph2="n_fsn_" Lemma="Laiviņa" Parent="35" />
+      <Word Index="35" Original="Laiveniece" Morph1="n" Morph2="n_fsn_" Lemma="Laiveniece" Parent="29" />
+      <Word Index="36" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="65" WordIndex="4" />
+      <FrameEntity ID="67" WordIndex="7" />
+      <FrameEntity ID="69" WordIndex="11" />
+      <FrameEntity ID="71" WordIndex="24" />
+      <FrameEntity ID="73" WordIndex="28" />
+      <FrameEntity ID="75" WordIndex="32" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="13" WordIndex="6" />
+      <NamedEntity ID="13" WordIndex="23" />
+      <NamedEntity ID="66" WordIndex="3" />
+      <NamedEntity ID="68" WordIndex="9" />
+      <NamedEntity ID="70" WordIndex="13" />
+      <NamedEntity ID="72" WordIndex="27" />
+      <NamedEntity ID="74" WordIndex="35" />
+      <NamedEntity ID="76" WordIndex="30" />
+      <NamedEntity ID="77" WordIndex="31" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="65" X="742" Y="454" />
+      <FrameEntityMarker ID="67" X="931" Y="474" />
+      <FrameEntityMarker ID="69" X="1802" Y="514" />
+      <FrameEntityMarker ID="71" X="3559" Y="474" />
+      <FrameEntityMarker ID="73" X="4217" Y="700" />
+      <FrameEntityMarker ID="75" X="4405" Y="494" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled14" Text="SIA &quot; Re &amp; Re &quot; ir viens no Latvijas lielākajiem būvuzņēmumiem , kas dibināts 1993. gadā .">
+    <Words>
+      <Word Index="0" Original="SIA" Morph1="y" Morph2="y" Lemma="SIA" Parent="6" />
+      <Word Index="1" Original="&quot;" Morph1="z" Morph2="zq" Lemma="&quot;" Parent="0" />
+      <Word Index="2" Original="Re" Morph1="x" Morph2="xx" Lemma="Re" Parent="4" />
+      <Word Index="3" Original="&amp;" Morph1="x" Morph2="xx" Lemma="&amp;" Parent="4" />
+      <Word Index="4" Original="Re" Morph1="x" Morph2="xx" Lemma="Re" Parent="1" />
+      <Word Index="5" Original="&quot;" Morph1="z" Morph2="zq" Lemma="&quot;" Parent="1" />
+      <Word Index="6" Original="ir" Morph1="v" Morph2="vc_ip__30__" Lemma="būt" Parent="17" />
+      <Word Index="7" Original="viens" Morph1="m" Morph2="m__msn_" Lemma="viens" Parent="8" />
+      <Word Index="8" Original="no" Morph1="s" Morph2="sppdy" Lemma="no" Parent="6" />
+      <Word Index="9" Original="Latvijas" Morph1="n" Morph2="n_fsg_" Lemma="latvija" Parent="11" />
+      <Word Index="10" Original="lielākajiem" Morph1="a" Morph2="a_mpd__" Lemma="liels" Parent="11" />
+      <Word Index="11" Original="būvuzņēmumiem" Morph1="n" Morph2="n_mpd_" Lemma="būvuzņēmums" Parent="8" />
+      <Word Index="12" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="8" />
+      <Word Index="13" Original="kas" Morph1="p" Morph2="p_000n_" Lemma="kas" Parent="14" />
+      <Word Index="14" Original="dibināts" Morph1="v" Morph2="vm_pdmsn_s_" Lemma="dibināt" Parent="12" />
+      <Word Index="15" Original="1993." Morph1="x" Morph2="xo" Lemma="1993." Parent="16" />
+      <Word Index="16" Original="gadā" Morph1="n" Morph2="n_msl_" Lemma="gads" Parent="14" />
+      <Word Index="17" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="78" WordIndex="11" />
+      <FrameEntity ID="80" WordIndex="14" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="54" WordIndex="0" />
+      <NamedEntity ID="79" WordIndex="10" />
+      <NamedEntity ID="81" WordIndex="16" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="78" X="1287" Y="434" />
+      <FrameEntityMarker ID="80" X="1896" Y="414" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled15" Text="Pie Latvijas Nacionālās Bibliotēkas būvniecības strādā trīs spēcīgākās un pieredzes bagātākās Latvijas būvkopmānijas : SIA RE &amp; RE , AS RBSSKALS un SIA Skonto būve , kas līdz šim realizējušas vairākus vērienīgus valsts nozīmes projektus .">
+    <Words>
+      <Word Index="0" Original="Pie" Morph1="s" Morph2="spsgy" Lemma="pie" Parent="5" />
+      <Word Index="1" Original="Latvijas" Morph1="n" Morph2="n_fsg_" Lemma="Latvija" Parent="3" />
+      <Word Index="2" Original="Nacionālās" Morph1="a" Morph2="a_fsg__" Lemma="nacionāla" Parent="3" />
+      <Word Index="3" Original="Bibliotēkas" Morph1="n" Morph2="n_fsg_" Lemma="bibliotēka" Parent="4" />
+      <Word Index="4" Original="būvniecības" Morph1="n" Morph2="n_fsg_" Lemma="būvniecība" Parent="0" />
+      <Word Index="5" Original="strādā" Morph1="v" Morph2="vm_ip__30__" Lemma="strādāt" Parent="35" />
+      <Word Index="6" Original="trīs" Morph1="m" Morph2="m__fpn_" Lemma="trīs" Parent="12" />
+      <Word Index="7" Original="spēcīgākās" Morph1="a" Morph2="a_fpn__" Lemma="spēcīga" Parent="8" />
+      <Word Index="8" Original="un" Morph1="c" Morph2="cc_" Lemma="un" Parent="12" />
+      <Word Index="9" Original="pieredzes" Morph1="n" Morph2="n_fsg_" Lemma="pieredze" Parent="10" />
+      <Word Index="10" Original="bagātākās" Morph1="a" Morph2="a_fpn__" Lemma="bagāta" Parent="8" />
+      <Word Index="11" Original="Latvijas" Morph1="n" Morph2="n_fsg_" Lemma="Latvija" Parent="12" />
+      <Word Index="12" Original="būvkopmānijas" Morph1="n" Morph2="n_fpn_" Lemma="būvkopmānija" Parent="13" />
+      <Word Index="13" Original=":" Morph1="z" Morph2="zo" Lemma=":" Parent="5" />
+      <Word Index="14" Original="SIA" Morph1="y" Morph2="y" Lemma="SIA" Parent="18" />
+      <Word Index="15" Original="RE" Morph1="x" Morph2="xx" Lemma="RE" Parent="17" />
+      <Word Index="16" Original="&amp;" Morph1="x" Morph2="xx" Lemma="&amp;" Parent="17" />
+      <Word Index="17" Original="RE" Morph1="x" Morph2="xx" Lemma="RE" Parent="14" />
+      <Word Index="18" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="13" />
+      <Word Index="19" Original="AS" Morph1="y" Morph2="y" Lemma="AS" Parent="21" />
+      <Word Index="20" Original="RBSSKALS" Morph1="x" Morph2="xx" Lemma="N/A" Parent="19" />
+      <Word Index="21" Original="un" Morph1="c" Morph2="cc_" Lemma="un" Parent="18" />
+      <Word Index="22" Original="SIA" Morph1="y" Morph2="y" Lemma="SIA" Parent="21" />
+      <Word Index="23" Original="Skonto" Morph1="n" Morph2="n_____" Lemma="skonto" Parent="24" />
+      <Word Index="24" Original="būve" Morph1="n" Morph2="n_fsn_" Lemma="būve" Parent="22" />
+      <Word Index="25" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="13" />
+      <Word Index="26" Original="kas" Morph1="p" Morph2="p_000n_" Lemma="kas" Parent="29" />
+      <Word Index="27" Original="līdz" Morph1="s" Morph2="spsdy" Lemma="līdz" Parent="29" />
+      <Word Index="28" Original="šim" Morph1="p" Morph2="p_3msd_" Lemma="šis" Parent="27" />
+      <Word Index="29" Original="realizējušas" Morph1="v" Morph2="vm_pdfpn_s_" Lemma="realizēt" Parent="25" />
+      <Word Index="30" Original="vairākus" Morph1="p" Morph2="p_0mpa_" Lemma="vairāki" Parent="34" />
+      <Word Index="31" Original="vērienīgus" Morph1="a" Morph2="a_mpa__" Lemma="vērienīgs" Parent="34" />
+      <Word Index="32" Original="valsts" Morph1="n" Morph2="n_fsg_" Lemma="valsts" Parent="33" />
+      <Word Index="33" Original="nozīmes" Morph1="n" Morph2="n_fsg_" Lemma="nozīme" Parent="34" />
+      <Word Index="34" Original="projektus" Morph1="n" Morph2="n_mpa_" Lemma="projekts" Parent="29" />
+      <Word Index="35" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="82" WordIndex="5" />
+      <FrameEntity ID="85" WordIndex="12" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="54" WordIndex="14" />
+      <NamedEntity ID="83" WordIndex="4" />
+      <NamedEntity ID="84" WordIndex="18" />
+      <NamedEntity ID="86" WordIndex="8" />
+      <NamedEntity ID="87" WordIndex="19" />
+      <NamedEntity ID="88" WordIndex="22" />
+      <NamedEntity ID="89" WordIndex="3" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="82" X="2411" Y="514" />
+      <FrameEntityMarker ID="85" X="1471" Y="474" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled16" Text="Pagājušajā gadā &quot; Re &amp; Re &quot; peļņa bija 1_739_913 lati , un tā ir par 46,5 % mazāka nekā 2010. gadā gūtā 3_250_007 latu peļņa .">
+    <Words>
+      <Word Index="0" Original="Pagājušajā" Morph1="v" Morph2="vm_pdmsl_s_" Lemma="paiet" Parent="1" />
+      <Word Index="1" Original="gadā" Morph1="n" Morph2="n_msl_" Lemma="gads" Parent="26" />
+      <Word Index="2" Original="&quot;" Morph1="z" Morph2="zq" Lemma="&quot;" Parent="7" />
+      <Word Index="3" Original="Re" Morph1="x" Morph2="xx" Lemma="Re" Parent="2" />
+      <Word Index="4" Original="&amp;" Morph1="x" Morph2="xx" Lemma="&amp;" Parent="3" />
+      <Word Index="5" Original="Re" Morph1="x" Morph2="xx" Lemma="Re" Parent="3" />
+      <Word Index="6" Original="&quot;" Morph1="z" Morph2="zq" Lemma="&quot;" Parent="2" />
+      <Word Index="7" Original="peļņa" Morph1="n" Morph2="n_fsn_" Lemma="peļņa" Parent="8" />
+      <Word Index="8" Original="bija" Morph1="v" Morph2="vc_is__30__" Lemma="būt" Parent="12" />
+      <Word Index="9" Original="1_739_913" Morph1="x" Morph2="xn" Lemma="1_739_913" Parent="10" />
+      <Word Index="10" Original="lati" Morph1="n" Morph2="n_mpn_" Lemma="lats" Parent="8" />
+      <Word Index="11" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="12" />
+      <Word Index="12" Original="un" Morph1="c" Morph2="cc_" Lemma="un" Parent="26" />
+      <Word Index="13" Original="tā" Morph1="p" Morph2="p_3fsn_" Lemma="tā" Parent="14" />
+      <Word Index="14" Original="ir" Morph1="v" Morph2="vc_ip__30__" Lemma="būt" Parent="12" />
+      <Word Index="15" Original="par" Morph1="s" Morph2="sppdn" Lemma="par" Parent="18" />
+      <Word Index="16" Original="46,5" Morph1="x" Morph2="xn" Lemma="46,5" Parent="17" />
+      <Word Index="17" Original="%" Morph1="x" Morph2="xx" Lemma="%" Parent="15" />
+      <Word Index="18" Original="mazāka" Morph1="a" Morph2="a_fsn__" Lemma="maza" Parent="14" />
+      <Word Index="19" Original="nekā" Morph1="c" Morph2="cs_" Lemma="nekā" Parent="14" />
+      <Word Index="20" Original="2010." Morph1="x" Morph2="xo" Lemma="2010." Parent="21" />
+      <Word Index="21" Original="gadā" Morph1="n" Morph2="n_msl_" Lemma="gads" Parent="22" />
+      <Word Index="22" Original="gūtā" Morph1="v" Morph2="vm_pdfsn_s_" Lemma="gūt" Parent="25" />
+      <Word Index="23" Original="3_250_007" Morph1="x" Morph2="xn" Lemma="3_250_007" Parent="24" />
+      <Word Index="24" Original="latu" Morph1="n" Morph2="n_mpg_" Lemma="lats" Parent="25" />
+      <Word Index="25" Original="peļņa" Morph1="n" Morph2="n_fsn_" Lemma="peļņa" Parent="19" />
+      <Word Index="26" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="90" WordIndex="7" />
+      <FrameEntity ID="94" WordIndex="25" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="54" WordIndex="3" />
+      <NamedEntity ID="91" WordIndex="10" />
+      <NamedEntity ID="92" WordIndex="1" />
+      <NamedEntity ID="93" WordIndex="18" />
+      <NamedEntity ID="95" WordIndex="24" />
+      <NamedEntity ID="96" WordIndex="21" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="90" X="685" Y="474" />
+      <FrameEntityMarker ID="94" X="2981" Y="454" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled17" Text="2006. gadā &quot; Re &amp; Re &quot; ar 41 miljona latu apgrozījumu bija trešais lielākais būvniecības uzņēmums Latvijā .">
+    <Words>
+      <Word Index="0" Original="2006." Morph1="x" Morph2="xo" Lemma="2006." Parent="1" />
+      <Word Index="1" Original="gadā" Morph1="n" Morph2="n_msl_" Lemma="gads" Parent="18" />
+      <Word Index="2" Original="&quot;" Morph1="z" Morph2="zq" Lemma="&quot;" Parent="12" />
+      <Word Index="3" Original="Re" Morph1="x" Morph2="xx" Lemma="Re" Parent="2" />
+      <Word Index="4" Original="&amp;" Morph1="x" Morph2="xx" Lemma="&amp;" Parent="3" />
+      <Word Index="5" Original="Re" Morph1="x" Morph2="xx" Lemma="Re" Parent="3" />
+      <Word Index="6" Original="&quot;" Morph1="z" Morph2="zq" Lemma="&quot;" Parent="2" />
+      <Word Index="7" Original="ar" Morph1="s" Morph2="spsan" Lemma="ar" Parent="12" />
+      <Word Index="8" Original="41" Morph1="x" Morph2="xn" Lemma="41" Parent="9" />
+      <Word Index="9" Original="miljona" Morph1="m" Morph2="m__msg_" Lemma="miljons" Parent="11" />
+      <Word Index="10" Original="latu" Morph1="n" Morph2="n_mpg_" Lemma="lats" Parent="9" />
+      <Word Index="11" Original="apgrozījumu" Morph1="n" Morph2="n_msa_" Lemma="apgrozījums" Parent="7" />
+      <Word Index="12" Original="bija" Morph1="v" Morph2="vc_is__30__" Lemma="būt" Parent="18" />
+      <Word Index="13" Original="trešais" Morph1="m" Morph2="m__msn_" Lemma="trešais" Parent="16" />
+      <Word Index="14" Original="lielākais" Morph1="a" Morph2="a_msn__" Lemma="liels" Parent="16" />
+      <Word Index="15" Original="būvniecības" Morph1="n" Morph2="n_fsg_" Lemma="būvniecība" Parent="16" />
+      <Word Index="16" Original="uzņēmums" Morph1="n" Morph2="n_msn_" Lemma="uzņēmums" Parent="12" />
+      <Word Index="17" Original="Latvijā" Morph1="n" Morph2="n_fsl_" Lemma="Latvija" Parent="16" />
+      <Word Index="18" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="97" WordIndex="11" />
+      <FrameEntity ID="100" WordIndex="14" />
+      <FrameEntity ID="103" WordIndex="15" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="54" WordIndex="2" />
+      <NamedEntity ID="98" WordIndex="9" />
+      <NamedEntity ID="99" WordIndex="1" />
+      <NamedEntity ID="101" WordIndex="13" />
+      <NamedEntity ID="102" WordIndex="17" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="97" X="1187" Y="394" />
+      <FrameEntityMarker ID="100" X="1812" Y="394" />
+      <FrameEntityMarker ID="103" X="1943" Y="394" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled18" Text="&quot; Re &amp; Re &quot; īpašnieki ir Marģers Bitmetis ( 25 % ) , Egīls Bērzups ( 25 % ) , Ainārs Pauniņš ( 25 % ) un Didzis Putniņš ( 25 % ) .">
+    <Words>
+      <Word Index="0" Original="&quot;" Morph1="z" Morph2="zq" Lemma="&quot;" Parent="5" />
+      <Word Index="1" Original="Re" Morph1="x" Morph2="xx" Lemma="Re" Parent="3" />
+      <Word Index="2" Original="&amp;" Morph1="x" Morph2="xx" Lemma="&amp;" Parent="3" />
+      <Word Index="3" Original="Re" Morph1="x" Morph2="xx" Lemma="Re" Parent="0" />
+      <Word Index="4" Original="&quot;" Morph1="z" Morph2="zq" Lemma="&quot;" Parent="0" />
+      <Word Index="5" Original="īpašnieki" Morph1="n" Morph2="n_mpn_" Lemma="īpašnieks" Parent="6" />
+      <Word Index="6" Original="ir" Morph1="v" Morph2="vc_ip__30__" Lemma="būt" Parent="34" />
+      <Word Index="7" Original="Marģers" Morph1="n" Morph2="n_msn_" Lemma="Marģers" Parent="8" />
+      <Word Index="8" Original="Bitmetis" Morph1="n" Morph2="n_msn_" Lemma="Bitmetis" Parent="13" />
+      <Word Index="9" Original="(" Morph1="z" Morph2="zb" Lemma="(" Parent="8" />
+      <Word Index="10" Original="25" Morph1="x" Morph2="xn" Lemma="25" Parent="11" />
+      <Word Index="11" Original="%" Morph1="x" Morph2="xx" Lemma="%" Parent="9" />
+      <Word Index="12" Original=")" Morph1="z" Morph2="zb" Lemma=")" Parent="9" />
+      <Word Index="13" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="6" />
+      <Word Index="14" Original="Egīls" Morph1="n" Morph2="n_msn_" Lemma="Egīls" Parent="15" />
+      <Word Index="15" Original="Bērzups" Morph1="n" Morph2="n_msn_" Lemma="Bērzups" Parent="20" />
+      <Word Index="16" Original="(" Morph1="z" Morph2="zb" Lemma="(" Parent="15" />
+      <Word Index="17" Original="25" Morph1="x" Morph2="xn" Lemma="25" Parent="18" />
+      <Word Index="18" Original="%" Morph1="x" Morph2="xx" Lemma="%" Parent="16" />
+      <Word Index="19" Original=")" Morph1="z" Morph2="zb" Lemma=")" Parent="16" />
+      <Word Index="20" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="13" />
+      <Word Index="21" Original="Ainārs" Morph1="n" Morph2="n_msn_" Lemma="Ainārs" Parent="22" />
+      <Word Index="22" Original="Pauniņš" Morph1="n" Morph2="n_msn_" Lemma="Pauniņš" Parent="27" />
+      <Word Index="23" Original="(" Morph1="z" Morph2="zb" Lemma="(" Parent="22" />
+      <Word Index="24" Original="25" Morph1="x" Morph2="xn" Lemma="25" Parent="25" />
+      <Word Index="25" Original="%" Morph1="x" Morph2="xx" Lemma="%" Parent="23" />
+      <Word Index="26" Original=")" Morph1="z" Morph2="zb" Lemma=")" Parent="23" />
+      <Word Index="27" Original="un" Morph1="c" Morph2="cc_" Lemma="un" Parent="20" />
+      <Word Index="28" Original="Didzis" Morph1="n" Morph2="n_msn_" Lemma="Didzis" Parent="29" />
+      <Word Index="29" Original="Putniņš" Morph1="n" Morph2="n_msn_" Lemma="Putniņš" Parent="27" />
+      <Word Index="30" Original="(" Morph1="z" Morph2="zb" Lemma="(" Parent="29" />
+      <Word Index="31" Original="25" Morph1="x" Morph2="xn" Lemma="25" Parent="32" />
+      <Word Index="32" Original="%" Morph1="x" Morph2="xx" Lemma="%" Parent="30" />
+      <Word Index="33" Original=")" Morph1="z" Morph2="zb" Lemma=")" Parent="30" />
+      <Word Index="34" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="104" WordIndex="5" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="54" WordIndex="0" />
+      <NamedEntity ID="105" WordIndex="13" />
+      <NamedEntity ID="106" WordIndex="8" />
+      <NamedEntity ID="107" WordIndex="15" />
+      <NamedEntity ID="108" WordIndex="22" />
+      <NamedEntity ID="109" WordIndex="29" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="104" X="379" Y="534" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled19" Text="Kompānija ir izveidojusi meitas uzņēmumu &quot; RERE04 &quot; , kas nodarbojas ar restaurācijas pakalpojumiem .">
+    <Words>
+      <Word Index="0" Original="Kompānija" Morph1="n" Morph2="n_fsn_" Lemma="kompānija" Parent="1" />
+      <Word Index="1" Original="ir" Morph1="v" Morph2="vc_ip__30__" Lemma="būt" Parent="14" />
+      <Word Index="2" Original="izveidojusi" Morph1="v" Morph2="vm_pdfsn_s_" Lemma="izveidot" Parent="1" />
+      <Word Index="3" Original="meitas" Morph1="n" Morph2="n_fsg_" Lemma="meita" Parent="4" />
+      <Word Index="4" Original="uzņēmumu" Morph1="n" Morph2="n_msa_" Lemma="uzņēmums" Parent="1" />
+      <Word Index="5" Original="&quot;" Morph1="z" Morph2="zq" Lemma="&quot;" Parent="4" />
+      <Word Index="6" Original="RERE04" Morph1="x" Morph2="xx" Lemma="RERE04" Parent="5" />
+      <Word Index="7" Original="&quot;" Morph1="z" Morph2="zq" Lemma="&quot;" Parent="5" />
+      <Word Index="8" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="4" />
+      <Word Index="9" Original="kas" Morph1="p" Morph2="p_000n_" Lemma="kas" Parent="10" />
+      <Word Index="10" Original="nodarbojas" Morph1="v" Morph2="vm_ip__30__" Lemma="nodarboties" Parent="8" />
+      <Word Index="11" Original="ar" Morph1="s" Morph2="sppdn" Lemma="ar" Parent="10" />
+      <Word Index="12" Original="restaurācijas" Morph1="n" Morph2="n_fsg_" Lemma="restaurācija" Parent="13" />
+      <Word Index="13" Original="pakalpojumiem" Morph1="n" Morph2="n_mpd_" Lemma="pakalpojums" Parent="11" />
+      <Word Index="14" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="110" WordIndex="2" />
+      <FrameEntity ID="113" WordIndex="3" />
+      <FrameEntity ID="115" WordIndex="10" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="54" WordIndex="0" />
+      <NamedEntity ID="111" WordIndex="6" />
+      <NamedEntity ID="112" WordIndex="12" />
+      <NamedEntity ID="114" WordIndex="4" />
+      <NamedEntity ID="116" WordIndex="13" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="110" X="277" Y="610" />
+      <FrameEntityMarker ID="113" X="638" Y="654" />
+      <FrameEntityMarker ID="115" X="1559" Y="454" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled20" Text="Lielākais parādnieks ZRP ir Valdemārs Gailītis , kurš aizņēmies 1,7 miljonus latu , bet aizdevis 2,4 miljonus .">
+    <Words>
+      <Word Index="0" Original="Lielākais" Morph1="a" Morph2="a_msn__" Lemma="liels" Parent="1" />
+      <Word Index="1" Original="parādnieks" Morph1="n" Morph2="n_msn_" Lemma="parādnieks" Parent="3" />
+      <Word Index="2" Original="ZRP" Morph1="y" Morph2="y" Lemma="ZRP" Parent="1" />
+      <Word Index="3" Original="ir" Morph1="v" Morph2="vc_ip__30__" Lemma="būt" Parent="17" />
+      <Word Index="4" Original="Valdemārs" Morph1="n" Morph2="n_msn_" Lemma="Valdemārs" Parent="3" />
+      <Word Index="5" Original="Gailītis" Morph1="n" Morph2="n_msn_" Lemma="Gailītis" Parent="4" />
+      <Word Index="6" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="4" />
+      <Word Index="7" Original="kurš" Morph1="p" Morph2="p_0msn_" Lemma="kurš" Parent="13" />
+      <Word Index="8" Original="aizņēmies" Morph1="v" Morph2="vm_pdmsn_s_" Lemma="aizņemties" Parent="13" />
+      <Word Index="9" Original="1,7" Morph1="x" Morph2="xn" Lemma="1,7" Parent="10" />
+      <Word Index="10" Original="miljonus" Morph1="m" Morph2="m__mpa_" Lemma="miljons" Parent="8" />
+      <Word Index="11" Original="latu" Morph1="n" Morph2="n_mpg_" Lemma="lats" Parent="10" />
+      <Word Index="12" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="13" />
+      <Word Index="13" Original="bet" Morph1="c" Morph2="cc_" Lemma="bet" Parent="6" />
+      <Word Index="14" Original="aizdevis" Morph1="v" Morph2="vm_pdmsn_s_" Lemma="aizdot" Parent="13" />
+      <Word Index="15" Original="2,4" Morph1="x" Morph2="xn" Lemma="2,4" Parent="16" />
+      <Word Index="16" Original="miljonus" Morph1="m" Morph2="m__mpa_" Lemma="miljons" Parent="14" />
+      <Word Index="17" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="117" WordIndex="1" />
+      <FrameEntity ID="121" WordIndex="14" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="118" WordIndex="5" />
+      <NamedEntity ID="119" WordIndex="2" />
+      <NamedEntity ID="120" WordIndex="10" />
+      <NamedEntity ID="122" WordIndex="16" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="117" X="669" Y="549" />
+      <FrameEntityMarker ID="121" X="2017" Y="434" />
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_IzlaseFreimiem-dep-unlabeled21" Text="2005. gada 29. decembrī Ģenerālprokuratūra uzsāka kriminālprocesu pret A. Lembergu par dienesta stāvokļa ļaunprātīgu izmantošanu ( tā sauktā Grinberga lieta ) .">
+    <Words>
+      <Word Index="0" Original="2005." Morph1="x" Morph2="xo" Lemma="2005." Parent="1" />
+      <Word Index="1" Original="gada" Morph1="n" Morph2="n_msg_" Lemma="gads" Parent="3" />
+      <Word Index="2" Original="29." Morph1="x" Morph2="xo" Lemma="29." Parent="3" />
+      <Word Index="3" Original="decembrī" Morph1="n" Morph2="n_msl_" Lemma="decembris" Parent="21" />
+      <Word Index="4" Original="Ģenerālprokuratūra" Morph1="n" Morph2="n_fsn_" Lemma="ģenerālprokuratūra" Parent="5" />
+      <Word Index="5" Original="uzsāka" Morph1="v" Morph2="vm_is__30__" Lemma="uzsākt" Parent="21" />
+      <Word Index="6" Original="kriminālprocesu" Morph1="n" Morph2="n_msa_" Lemma="kriminālprocess" Parent="5" />
+      <Word Index="7" Original="pret" Morph1="s" Morph2="spsay" Lemma="pret" Parent="5" />
+      <Word Index="8" Original="A." Morph1="y" Morph2="y" Lemma="a." Parent="9" />
+      <Word Index="9" Original="Lembergu" Morph1="n" Morph2="n_msa_" Lemma="lembergs" Parent="7" />
+      <Word Index="10" Original="par" Morph1="s" Morph2="spsan" Lemma="par" Parent="5" />
+      <Word Index="11" Original="dienesta" Morph1="n" Morph2="n_msg_" Lemma="dienests" Parent="12" />
+      <Word Index="12" Original="stāvokļa" Morph1="n" Morph2="n_msg_" Lemma="stāvoklis" Parent="14" />
+      <Word Index="13" Original="ļaunprātīgu" Morph1="a" Morph2="a_fsa__" Lemma="ļaunprātīga" Parent="14" />
+      <Word Index="14" Original="izmantošanu" Morph1="n" Morph2="n_fsa_" Lemma="izmantošana" Parent="10" />
+      <Word Index="15" Original="(" Morph1="z" Morph2="zb" Lemma="(" Parent="5" />
+      <Word Index="16" Original="tā" Morph1="r" Morph2="r__" Lemma="tā" Parent="17" />
+      <Word Index="17" Original="sauktā" Morph1="v" Morph2="vm_pdfsn_s_" Lemma="saukt" Parent="19" />
+      <Word Index="18" Original="Grinberga" Morph1="n" Morph2="n_msg_" Lemma="grinbergs" Parent="19" />
+      <Word Index="19" Original="lieta" Morph1="n" Morph2="n_fsn_" Lemma="lieta" Parent="15" />
+      <Word Index="20" Original=")" Morph1="z" Morph2="zb" Lemma=")" Parent="15" />
+      <Word Index="21" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1" />
+    </Words>
+    <FrameEntities>
+      <FrameEntity ID="123" WordIndex="6" />
+    </FrameEntities>
+    <NamedEntities>
+      <NamedEntity ID="124" WordIndex="4" />
+      <NamedEntity ID="13" WordIndex="9" />
+      <NamedEntity ID="125" WordIndex="14" />
+      <NamedEntity ID="126" WordIndex="3" />
+      <NamedEntity ID="127" WordIndex="18" />
+    </NamedEntities>
+    <Markers>
+      <FrameEntityMarker ID="123" X="977" Y="414" />
+    </Markers>
+  </Sentence>
+</Sentences>

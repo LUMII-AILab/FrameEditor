@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SemanticDB>
+  <NamedEntities>
+  </NamedEntities>
+  <Frames>
+    <Frame TargetID="-1" Type="Being_employed" TypeLV="" SentenceID="DIENA_intervija_20130128-dep-unlabeled2" WordIndex="4">
+      <Element Name="Time" NameLV="Time" RefID="-1" WordIndex="15" />
+    </Frame>
+    <Frame TargetID="-1" Type="Earnings_and_losses" TypeLV="" SentenceID="tDIENA_intervija_20130128-dep-unlabeled2" WordIndex="18">
+      <Element Name="Earnings" NameLV="Earnings" RefID="-1" WordIndex="17" />
+      <Element Name="Time" NameLV="Time" RefID="-1" WordIndex="15" />
+    </Frame>
+    <Frame TargetID="-1" Type="Earnings_and_losses" TypeLV="" SentenceID="DIENA_intervija_20130128-dep-unlabeled2" WordIndex="6">
+      <Element Name="Time" NameLV="Time" RefID="-1" WordIndex="10" />
+      <Element Name="Earner" NameLV="Earner" RefID="-1" WordIndex="0" />
+    </Frame>
+    <Frame TargetID="-1" Type="People_by_vocation" TypeLV="" SentenceID="DIENA_intervija_20130128-dep-unlabeled2" WordIndex="11">
+      <Element Name="Vocation" NameLV="Vocation" RefID="-1" WordIndex="11" />
+    </Frame>
+  </Frames>
+</SemanticDB>

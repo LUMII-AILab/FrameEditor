@@ -1,0 +1,3355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SemanticDB>
+  <NamedEntity ID="2" Type="persona">
+    <PrimeAlias Label="Mārtiņš Bondars" />
+  </NamedEntity>
+  <NamedEntity ID="3" Type="Unknown">
+    <PrimeAlias Label="1971. g. 31. decembris" />
+  </NamedEntity>
+  <NamedEntity ID="4" Type="Unknown">
+    <PrimeAlias Label="Rīga" />
+  </NamedEntity>
+  <NamedEntity ID="6" Type="Unknown">
+    <PrimeAlias Label="Džekija Stallone" />
+  </NamedEntity>
+  <NamedEntity ID="7" Type="Unknown">
+    <PrimeAlias Label="Silvestrs Stallone" />
+  </NamedEntity>
+  <NamedEntity ID="10" Type="Unknown">
+    <PrimeAlias Label="dēls jauna filma „ the expendables 2 ” pirmizrāde Losandželosa" />
+  </NamedEntity>
+  <NamedEntity ID="11" Type="Unknown">
+    <PrimeAlias Label="Losandželosa" />
+  </NamedEntity>
+  <NamedEntity ID="13" Type="Unknown">
+    <PrimeAlias Label="A. Lembergs" />
+  </NamedEntity>
+  <NamedEntity ID="14" Type="Unknown">
+    <PrimeAlias Label="Ventspils novads Puze pagasts" />
+  </NamedEntity>
+  <NamedEntity ID="16" Type="Unknown">
+    <PrimeAlias Label="Latvija valsts universitāte ekonomika fakultāte" />
+  </NamedEntity>
+  <NamedEntity ID="17" Type="Unknown">
+    <PrimeAlias Label="rūpniecība plānošana specialitāte" />
+  </NamedEntity>
+  <NamedEntity ID="18" Type="Unknown">
+    <PrimeAlias Label="1977. gads" />
+  </NamedEntity>
+  <NamedEntity ID="20" Type="Unknown">
+    <PrimeAlias Label="ekonomists" />
+  </NamedEntity>
+  <NamedEntity ID="22" Type="Unknown">
+    <PrimeAlias Label="Bondars" />
+  </NamedEntity>
+  <NamedEntity ID="23" Type="Unknown">
+    <PrimeAlias Label="Bostona" />
+  </NamedEntity>
+  <NamedEntity ID="25" Type="Unknown">
+    <PrimeAlias Label="Hārvards universitāte" />
+  </NamedEntity>
+  <NamedEntity ID="27" Type="Unknown">
+    <PrimeAlias Label="Latvija krājbanka akcionārs" />
+  </NamedEntity>
+  <NamedEntity ID="28" Type="Unknown">
+    <PrimeAlias Label="valde priekšsēdētājs" />
+  </NamedEntity>
+  <NamedEntity ID="29" Type="Unknown">
+    <PrimeAlias Label="Latvija krājbanka" />
+  </NamedEntity>
+  <NamedEntity ID="31" Type="Unknown">
+    <PrimeAlias Label="būt" />
+  </NamedEntity>
+  <NamedEntity ID="33" Type="Unknown">
+    <PrimeAlias Label="valsts prezidente kanceleja" />
+  </NamedEntity>
+  <NamedEntity ID="34" Type="Unknown">
+    <PrimeAlias Label="ilggadējs" />
+  </NamedEntity>
+  <NamedEntity ID="36" Type="Unknown">
+    <PrimeAlias Label="būt" />
+  </NamedEntity>
+  <NamedEntity ID="39" Type="Unknown">
+    <PrimeAlias Label="tagad" />
+  </NamedEntity>
+  <NamedEntity ID="41" Type="Unknown">
+    <PrimeAlias Label="a / s Interbaltija Invest" />
+  </NamedEntity>
+  <NamedEntity ID="43" Type="Unknown">
+    <PrimeAlias Label="Ieva Bondare" />
+  </NamedEntity>
+  <NamedEntity ID="47" Type="Unknown">
+    <PrimeAlias Label="ilggadējs" />
+  </NamedEntity>
+  <NamedEntity ID="49" Type="Unknown">
+    <PrimeAlias Label="Ivars Priedītis" />
+  </NamedEntity>
+  <NamedEntity ID="52" Type="Unknown">
+    <PrimeAlias Label="17. augusts" />
+  </NamedEntity>
+  <NamedEntity ID="54" Type="Unknown">
+    <PrimeAlias Label="Re &amp; Re" />
+  </NamedEntity>
+  <NamedEntity ID="55" Type="Unknown">
+    <PrimeAlias Label="iepriekšēja valde loceklis" />
+  </NamedEntity>
+  <NamedEntity ID="56" Type="Unknown">
+    <PrimeAlias Label="Marģeris Bitmetis" />
+  </NamedEntity>
+  <NamedEntity ID="58" Type="Unknown">
+    <PrimeAlias Label="komunistiska partija" />
+  </NamedEntity>
+  <NamedEntity ID="59" Type="Unknown">
+    <PrimeAlias Label="līdz 1990. gads" />
+  </NamedEntity>
+  <NamedEntity ID="61" Type="Unknown">
+    <PrimeAlias Label="Rīga pašvaldība vēlēšanās" />
+  </NamedEntity>
+  <NamedEntity ID="62" Type="Unknown">
+    <PrimeAlias Label="neveiksmīgi" />
+  </NamedEntity>
+  <NamedEntity ID="63" Type="Unknown">
+    <PrimeAlias Label="pirms vairāki gads" />
+  </NamedEntity>
+  <NamedEntity ID="64" Type="Unknown">
+    <PrimeAlias Label="Rīga" />
+  </NamedEntity>
+  <NamedEntity ID="66" Type="Unknown">
+    <PrimeAlias Label="Ventspils" />
+  </NamedEntity>
+  <NamedEntity ID="68" Type="Unknown">
+    <PrimeAlias Label="Vitāls Lejiņš" />
+  </NamedEntity>
+  <NamedEntity ID="70" Type="Unknown">
+    <PrimeAlias Label="V. Jonase" />
+  </NamedEntity>
+  <NamedEntity ID="72" Type="Unknown">
+    <PrimeAlias Label="Gints Laiviņš laivenieks" />
+  </NamedEntity>
+  <NamedEntity ID="74" Type="Unknown">
+    <PrimeAlias Label="M. Laiviņa Laiveniece" />
+  </NamedEntity>
+  <NamedEntity ID="76" Type="Unknown">
+    <PrimeAlias Label="Ventspils" />
+  </NamedEntity>
+  <NamedEntity ID="77" Type="Unknown">
+    <PrimeAlias Label="Ventspils praktizēt" />
+  </NamedEntity>
+  <NamedEntity ID="79" Type="Unknown">
+    <PrimeAlias Label="liels" />
+  </NamedEntity>
+  <NamedEntity ID="81" Type="Unknown">
+    <PrimeAlias Label="1993. gads" />
+  </NamedEntity>
+  <NamedEntity ID="83" Type="Unknown">
+    <PrimeAlias Label="Latvija nacionāla bibliotēka būvniecība" />
+  </NamedEntity>
+  <NamedEntity ID="84" Type="Unknown">
+    <PrimeAlias Label="SIA RE &amp; RE" />
+  </NamedEntity>
+  <NamedEntity ID="86" Type="Unknown">
+    <PrimeAlias Label="spēcīga un pieredze bagāta" />
+  </NamedEntity>
+  <NamedEntity ID="87" Type="Unknown">
+    <PrimeAlias Label="AS N/A" />
+  </NamedEntity>
+  <NamedEntity ID="88" Type="Unknown">
+    <PrimeAlias Label="SIA skonto būve" />
+  </NamedEntity>
+  <NamedEntity ID="89" Type="Unknown">
+    <PrimeAlias Label="Latvija nacionāla bibliotēka" />
+  </NamedEntity>
+  <NamedEntity ID="91" Type="Unknown">
+    <PrimeAlias Label="1_739_913 lats" />
+  </NamedEntity>
+  <NamedEntity ID="92" Type="Unknown">
+    <PrimeAlias Label="paiet gads" />
+  </NamedEntity>
+  <NamedEntity ID="93" Type="Unknown">
+    <PrimeAlias Label="par 46" />
+  </NamedEntity>
+  <NamedEntity ID="95" Type="Unknown">
+    <PrimeAlias Label="3_250_007 lats" />
+  </NamedEntity>
+  <NamedEntity ID="96" Type="Unknown">
+    <PrimeAlias Label="2010. gads" />
+  </NamedEntity>
+  <NamedEntity ID="98" Type="Unknown">
+    <PrimeAlias Label="41 miljons lats" />
+  </NamedEntity>
+  <NamedEntity ID="99" Type="Unknown">
+    <PrimeAlias Label="2006. gads" />
+  </NamedEntity>
+  <NamedEntity ID="101" Type="Unknown">
+    <PrimeAlias Label="trešais" />
+  </NamedEntity>
+  <NamedEntity ID="102" Type="Unknown">
+    <PrimeAlias Label="Latvija" />
+  </NamedEntity>
+  <NamedEntity ID="105" Type="Unknown">
+    <PrimeAlias Label="Marģers Bitmetis ( 25 % )" />
+  </NamedEntity>
+  <NamedEntity ID="106" Type="Unknown">
+    <PrimeAlias Label="Marģers Bitmetis ( 25 % )" />
+  </NamedEntity>
+  <NamedEntity ID="107" Type="Unknown">
+    <PrimeAlias Label="Egīls Bērzups ( 25 % )" />
+  </NamedEntity>
+  <NamedEntity ID="108" Type="Unknown">
+    <PrimeAlias Label="Ainārs Pauniņš ( 25 % )" />
+  </NamedEntity>
+  <NamedEntity ID="109" Type="Unknown">
+    <PrimeAlias Label="Didzis Putniņš ( 25 % )" />
+  </NamedEntity>
+  <NamedEntity ID="111" Type="Unknown">
+    <PrimeAlias Label="RERE04" />
+  </NamedEntity>
+  <NamedEntity ID="112" Type="Unknown">
+    <PrimeAlias Label="restaurācija" />
+  </NamedEntity>
+  <NamedEntity ID="114" Type="Unknown">
+    <PrimeAlias Label="meita uzņēmums &quot; RERE04 &quot;" />
+  </NamedEntity>
+  <NamedEntity ID="116" Type="Unknown">
+    <PrimeAlias Label="restaurācija pakalpojums" />
+  </NamedEntity>
+  <NamedEntity ID="118" Type="Unknown">
+    <PrimeAlias Label="Gailītis" />
+  </NamedEntity>
+  <NamedEntity ID="119" Type="Unknown">
+    <PrimeAlias Label="ZRP" />
+  </NamedEntity>
+  <NamedEntity ID="120" Type="Unknown">
+    <PrimeAlias Label="1" />
+  </NamedEntity>
+  <NamedEntity ID="122" Type="Unknown">
+    <PrimeAlias Label="2" />
+  </NamedEntity>
+  <NamedEntity ID="124" Type="Unknown">
+    <PrimeAlias Label="ģenerālprokuratūra" />
+  </NamedEntity>
+  <NamedEntity ID="125" Type="Unknown">
+    <PrimeAlias Label="dienests stāvoklis ļaunprātīga izmantošana" />
+  </NamedEntity>
+  <NamedEntity ID="126" Type="Unknown">
+    <PrimeAlias Label="2005. gads 29. decembris" />
+  </NamedEntity>
+  <NamedEntity ID="127" Type="Unknown">
+    <PrimeAlias Label="grinbergs" />
+  </NamedEntity>
+  <NamedEntity ID="128" Type="Unknown">
+    <PrimeAlias Label="ZAAO" />
+  </NamedEntity>
+  <NamedEntity ID="130" Type="Unknown">
+    <PrimeAlias Label="Ingrīda Gubernatorova" />
+  </NamedEntity>
+  <NamedEntity ID="150" Type="Unknown">
+    <PrimeAlias Label="Latvenergo" />
+  </NamedEntity>
+  <NamedEntity ID="135" Type="Unknown">
+    <PrimeAlias Label="Daibe" />
+  </NamedEntity>
+  <NamedEntity ID="139" Type="Unknown">
+    <PrimeAlias Label="paiet Gadis nogale" />
+  </NamedEntity>
+  <NamedEntity ID="140" Type="Unknown">
+    <PrimeAlias Label="Eiropa savienība kohēzija fonds ( es KF ) līdzfinansēt Ziemeļvidzeme reģions sadzīve atkritumi apsaimniekošana projekts" />
+  </NamedEntity>
+  <NamedEntity ID="142" Type="Unknown">
+    <PrimeAlias Label="2001. gads" />
+  </NamedEntity>
+  <NamedEntity ID="144" Type="Unknown">
+    <PrimeAlias Label="apsaimniekošana" />
+  </NamedEntity>
+  <NamedEntity ID="147" Type="Unknown">
+    <PrimeAlias Label="arī sabiedrība izglītošana" />
+  </NamedEntity>
+  <NamedEntity ID="148" Type="Unknown">
+    <PrimeAlias Label="Latvija - Igaunija - Krievija pārrobežu sadarbība programma" />
+  </NamedEntity>
+  <NamedEntity ID="151" Type="Unknown">
+    <PrimeAlias Label="pašlaik" />
+  </NamedEntity>
+  <NamedEntity ID="152" Type="Unknown">
+    <PrimeAlias Label="Ģirts Kuplais" />
+  </NamedEntity>
+  <NamedEntity ID="154" Type="Unknown">
+    <PrimeAlias Label="Eesti energia" />
+  </NamedEntity>
+  <NamedEntity ID="155" Type="Unknown">
+    <PrimeAlias Label="pašlaik" />
+  </NamedEntity>
+  <NamedEntity ID="157" Type="Unknown">
+    <PrimeAlias Label="Cata" />
+  </NamedEntity>
+  <NamedEntity ID="159" Type="Unknown">
+    <PrimeAlias Label="Ziemeļvidzeme reģions pašvaldība" />
+  </NamedEntity>
+  <NamedEntity ID="160" Type="Unknown">
+    <PrimeAlias Label="1998. gads" />
+  </NamedEntity>
+  <NamedEntity ID="161" Type="Unknown">
+    <PrimeAlias Label="atkritumi apsaimniekošana" />
+  </NamedEntity>
+  <NamedEntity ID="163" Type="Unknown">
+    <PrimeAlias Label="28 pašvaldība" />
+  </NamedEntity>
+  <NamedEntity ID="165" Type="Unknown">
+    <PrimeAlias Label="atkritumi Savākšana" />
+  </NamedEntity>
+  <NamedEntity ID="167" Type="Unknown">
+    <PrimeAlias Label="Imants Ziedonis" />
+  </NamedEntity>
+  <NamedEntity ID="170" Type="Unknown">
+    <PrimeAlias Label="trešdiena vakars" />
+  </NamedEntity>
+  <NamedEntity ID="172" Type="Unknown">
+    <PrimeAlias Label="79 gads" />
+  </NamedEntity>
+  <NamedEntity ID="175" Type="Unknown">
+    <PrimeAlias Label="Žaneta Jaunzeme-grende" />
+  </NamedEntity>
+  <NamedEntity ID="176" Type="Unknown">
+    <PrimeAlias Label="kultūra ministrija" />
+  </NamedEntity>
+  <NamedEntity ID="181" Type="Unknown">
+    <PrimeAlias Label="1933. gads 3. maijs" />
+  </NamedEntity>
+  <NamedEntity ID="182" Type="Unknown">
+    <PrimeAlias Label="Rīga apriņķis sloka pagasts Ragaciems" />
+  </NamedEntity>
+  <NamedEntity ID="183" Type="Unknown">
+    <PrimeAlias Label="zvejnieks ģimene" />
+  </NamedEntity>
+  <NamedEntity ID="185" Type="Unknown">
+    <PrimeAlias Label="Tukums 1. vidusskola" />
+  </NamedEntity>
+  <NamedEntity ID="186" Type="Unknown">
+    <PrimeAlias Label="1952. gads" />
+  </NamedEntity>
+  <NamedEntity ID="187" Type="Unknown">
+    <PrimeAlias Label="Tukums" />
+  </NamedEntity>
+  <NamedEntity ID="189" Type="Unknown">
+    <PrimeAlias Label="Latvija vēsture un filoloģija fakultāte" />
+  </NamedEntity>
+  <NamedEntity ID="190" Type="Unknown">
+    <PrimeAlias Label="vēsture un filoloģija" />
+  </NamedEntity>
+  <NamedEntity ID="191" Type="Unknown">
+    <PrimeAlias Label="1959. gads" />
+  </NamedEntity>
+  <NamedEntity ID="193" Type="Unknown">
+    <PrimeAlias Label="augsts literārs kurss" />
+  </NamedEntity>
+  <NamedEntity ID="194" Type="Unknown">
+    <PrimeAlias Label="1964. gads" />
+  </NamedEntity>
+  <NamedEntity ID="195" Type="Unknown">
+    <PrimeAlias Label="Maskava" />
+  </NamedEntity>
+  <NamedEntity ID="199" Type="Unknown">
+    <PrimeAlias Label="jūrmala 1. vidusskola" />
+  </NamedEntity>
+  <NamedEntity ID="201" Type="Unknown">
+    <PrimeAlias Label="Latvija rakstnieks savienība" />
+  </NamedEntity>
+  <NamedEntity ID="203" Type="Unknown">
+    <PrimeAlias Label="līdz 1965. gads" />
+  </NamedEntity>
+  <NamedEntity ID="205" Type="Unknown">
+    <PrimeAlias Label="izdevniecība &quot; liesma &quot;" />
+  </NamedEntity>
+  <NamedEntity ID="206" Type="Unknown">
+    <PrimeAlias Label="1965. gads" />
+  </NamedEntity>
+  <NamedEntity ID="207" Type="Unknown">
+    <PrimeAlias Label="1964. gads" />
+  </NamedEntity>
+  <NamedEntity ID="209" Type="Unknown">
+    <PrimeAlias Label="Latvija rakstnieks savienība" />
+  </NamedEntity>
+  <NamedEntity ID="211" Type="Unknown">
+    <PrimeAlias Label="nopelns bagāts kultūra darbinieks nosaukums" />
+  </NamedEntity>
+  <NamedEntity ID="212" Type="Unknown">
+    <PrimeAlias Label="1972. gads" />
+  </NamedEntity>
+  <NamedEntity ID="214" Type="Unknown">
+    <PrimeAlias Label="tauta dzejnieks gods nosaukums" />
+  </NamedEntity>
+  <NamedEntity ID="215" Type="Unknown">
+    <PrimeAlias Label="1977. gads" />
+  </NamedEntity>
+  <NamedEntity ID="217" Type="Unknown">
+    <PrimeAlias Label="&quot; tauta draudzība &quot; ordenis" />
+  </NamedEntity>
+  <NamedEntity ID="218" Type="Unknown">
+    <PrimeAlias Label="1983. gads" />
+  </NamedEntity>
+  <NamedEntity ID="220" Type="Unknown">
+    <PrimeAlias Label="Latvija kultūra fonds" />
+  </NamedEntity>
+  <NamedEntity ID="221" Type="Unknown">
+    <PrimeAlias Label="priekšsēdētājs" />
+  </NamedEntity>
+  <NamedEntity ID="222" Type="Unknown">
+    <PrimeAlias Label="1987. gads" />
+  </NamedEntity>
+  <NamedEntity ID="224" Type="Unknown">
+    <PrimeAlias Label="Latvija republika augsta padome ( AP ) deputāts" />
+  </NamedEntity>
+  <NamedEntity ID="225" Type="Unknown">
+    <PrimeAlias Label="1990. gads" />
+  </NamedEntity>
+  <NamedEntity ID="227" Type="Unknown">
+    <PrimeAlias Label="AP tauta izglītība" />
+  </NamedEntity>
+  <NamedEntity ID="228" Type="Unknown">
+    <PrimeAlias Label="būt AP tauta izglītība" />
+  </NamedEntity>
+  <NamedEntity ID="230" Type="Unknown">
+    <PrimeAlias Label="2. šķira trīs zvaigzne ordenis" />
+  </NamedEntity>
+  <NamedEntity ID="231" Type="Unknown">
+    <PrimeAlias Label="1995. gads" />
+  </NamedEntity>
+  <NamedEntity ID="233" Type="Unknown">
+    <PrimeAlias Label="arī 1991. gads barikāde dalībnieks piemiņa zīme" />
+  </NamedEntity>
+  <NamedEntity ID="235" Type="Unknown">
+    <PrimeAlias Label="1997. gads" />
+  </NamedEntity>
+  <NamedEntity ID="237" Type="Unknown">
+    <PrimeAlias Label="Guntars Krasts" />
+  </NamedEntity>
+  <NamedEntity ID="239" Type="Unknown">
+    <PrimeAlias Label="Latvija tēls veidošana institūts" />
+  </NamedEntity>
+  <NamedEntity ID="240" Type="Unknown">
+    <PrimeAlias Label="1998. gads" />
+  </NamedEntity>
+  <NamedEntity ID="242" Type="Unknown">
+    <PrimeAlias Label="Latvija nacionāla bibliotēka atbalsts fonds" />
+  </NamedEntity>
+  <NamedEntity ID="243" Type="Unknown">
+    <PrimeAlias Label="1998. gads" />
+  </NamedEntity>
+  <NamedEntity ID="245" Type="Unknown">
+    <PrimeAlias Label="ministrs kabinets balva par mūžs ieguldījums latvietis kultūra un izcils veikums latvietis literatūra" />
+  </NamedEntity>
+  <NamedEntity ID="246" Type="Unknown">
+    <PrimeAlias Label="2002. gads" />
+  </NamedEntity>
+  <NamedEntity ID="247" Type="Unknown">
+    <PrimeAlias Label="ministrs kabinets" />
+  </NamedEntity>
+  <NamedEntity ID="249" Type="Unknown">
+    <PrimeAlias Label="starptautiska atzinība Hanss Kristians Andersens vārds nosaukt pasaka meistars diploms" />
+  </NamedEntity>
+  <NamedEntity ID="250" Type="Unknown">
+    <PrimeAlias Label="pillar" />
+  </NamedEntity>
+  <NamedEntity ID="252" Type="Unknown">
+    <PrimeAlias Label="jānis bunte" />
+  </NamedEntity>
+  <NamedEntity ID="253" Type="Unknown">
+    <PrimeAlias Label="pillar managment" />
+  </NamedEntity>
+  <NamedEntity ID="256" Type="Unknown">
+    <PrimeAlias Label="15" />
+  </NamedEntity>
+  <NamedEntity ID="257" Type="Unknown">
+    <PrimeAlias Label="2012. gads" />
+  </NamedEntity>
+  <NamedEntity ID="259" Type="Unknown">
+    <PrimeAlias Label="lasis iela 1 A" />
+  </NamedEntity>
+  <NamedEntity ID="261" Type="Unknown">
+    <PrimeAlias Label="Sloka iela 59 A" />
+  </NamedEntity>
+  <NamedEntity ID="263" Type="Unknown">
+    <PrimeAlias Label="rīga" />
+  </NamedEntity>
+  <NamedEntity ID="265" Type="Unknown">
+    <PrimeAlias Label="AB.LV transform investments" />
+  </NamedEntity>
+  <NamedEntity ID="266" Type="Unknown">
+    <PrimeAlias Label="pillar" />
+  </NamedEntity>
+  <NamedEntity ID="267" Type="Unknown">
+    <PrimeAlias Label="2012. gads oktobris" />
+  </NamedEntity>
+  <NamedEntity ID="269" Type="Unknown">
+    <PrimeAlias Label="Rīga centrs" />
+  </NamedEntity>
+  <NamedEntity ID="270" Type="Unknown">
+    <PrimeAlias Label="nekustēt īpašums" />
+  </NamedEntity>
+  <NamedEntity ID="272" Type="Unknown">
+    <PrimeAlias Label="2008. gads" />
+  </NamedEntity>
+  <NamedEntity ID="274" Type="Unknown">
+    <PrimeAlias Label="ABLV Transform" />
+  </NamedEntity>
+  <NamedEntity ID="276" Type="Unknown">
+    <PrimeAlias Label="Ieva Valtere" />
+  </NamedEntity>
+  <NamedEntity ID="278" Type="Unknown">
+    <PrimeAlias Label="liela Latvija privātbanka - ABLV Bank" />
+  </NamedEntity>
+  <NamedEntity ID="281" Type="Unknown">
+    <PrimeAlias Label="ABLV grupa uzņēmums" />
+  </NamedEntity>
+  <NamedEntity ID="283" Type="Unknown">
+    <PrimeAlias Label="nekustams īpašums attīstīšana" />
+  </NamedEntity>
+  <NamedEntity ID="285" Type="Unknown">
+    <PrimeAlias Label="viens no liels nekustams īpašums portfelis Latvija : daudzdzīvokļu nams" />
+  </NamedEntity>
+  <NamedEntity ID="287" Type="Unknown">
+    <PrimeAlias Label="Evita Lune" />
+  </NamedEntity>
+  <NamedEntity ID="288" Type="Unknown">
+    <PrimeAlias Label="Pedersen &amp; Partners" />
+  </NamedEntity>
+  <NamedEntity ID="290" Type="Unknown">
+    <PrimeAlias Label="Pauls Bērziņš" />
+  </NamedEntity>
+  <NamedEntity ID="291" Type="Unknown">
+    <PrimeAlias Label="People Management" />
+  </NamedEntity>
+  <NamedEntity ID="293" Type="Unknown">
+    <PrimeAlias Label="vadītājs atlase" />
+  </NamedEntity>
+  <NamedEntity ID="295" Type="Unknown">
+    <PrimeAlias Label="A &amp; T Trade Music" />
+  </NamedEntity>
+  <NamedEntity ID="296" Type="Unknown">
+    <PrimeAlias Label="gazele tops" />
+  </NamedEntity>
+  <NamedEntity ID="298" Type="Unknown">
+    <PrimeAlias Label="diena bizness" />
+  </NamedEntity>
+  <NamedEntity ID="299" Type="Unknown">
+    <PrimeAlias Label="ka &quot; A &amp; T Trade Music &quot; iekļūšana &quot; gazele tops &quot; nodrošināt lietderīgi izmantot prezidents delegācija vizīte austrumi" />
+  </NamedEntity>
+  <NamedEntity ID="302" Type="Unknown">
+    <PrimeAlias Label="Guntars Felsbergs" />
+  </NamedEntity>
+  <NamedEntity ID="303" Type="Unknown">
+    <PrimeAlias Label="mūzika centrs" />
+  </NamedEntity>
+  <NamedEntity ID="306" Type="Unknown">
+    <PrimeAlias Label="ka &quot; A &amp; T Trade Music &quot; būt ļoti ilgi Latvija mūzika instruments mazumtirdzniecība tirgus" />
+  </NamedEntity>
+  <NamedEntity ID="309" Type="Unknown">
+    <PrimeAlias Label="&quot; LMT &quot;" />
+  </NamedEntity>
+  <NamedEntity ID="310" Type="Unknown">
+    <PrimeAlias Label="Tele2" />
+  </NamedEntity>
+  <NamedEntity ID="312" Type="Unknown">
+    <PrimeAlias Label="Elīna Lidere" />
+  </NamedEntity>
+  <NamedEntity ID="314" Type="Unknown">
+    <PrimeAlias Label="Jānis Lelis" />
+  </NamedEntity>
+  <NamedEntity ID="315" Type="Unknown">
+    <PrimeAlias Label="Latvija telekomunikācijas asociācija" />
+  </NamedEntity>
+  <NamedEntity ID="317" Type="Unknown">
+    <PrimeAlias Label="Kaspars Ozoliņš" />
+  </NamedEntity>
+  <NamedEntity ID="318" Type="Unknown">
+    <PrimeAlias Label="Latvija dzelzceļš" />
+  </NamedEntity>
+  <NamedEntity ID="319" Type="Unknown">
+    <PrimeAlias Label="viceprezidents" />
+  </NamedEntity>
+  <NamedEntity ID="322" Type="Unknown">
+    <PrimeAlias Label="starptautiska lidosta &quot; Rīga &quot;" />
+  </NamedEntity>
+  <NamedEntity ID="324" Type="Unknown">
+    <PrimeAlias Label="Uģis Magonis" />
+  </NamedEntity>
+  <NamedEntity ID="326" Type="Unknown">
+    <PrimeAlias Label="Aivis Ronis" />
+  </NamedEntity>
+  <NamedEntity ID="327" Type="Unknown">
+    <PrimeAlias Label="satiksme ministrija" />
+  </NamedEntity>
+  <NamedEntity ID="329" Type="Unknown">
+    <PrimeAlias Label="tieslietas ministrija" />
+  </NamedEntity>
+  <NamedEntity ID="330" Type="Unknown">
+    <PrimeAlias Label="Eiropa lieta departaments direktors" />
+  </NamedEntity>
+  <NamedEntity ID="332" Type="Unknown">
+    <PrimeAlias Label="Valmiera pilsēta pašvaldība" />
+  </NamedEntity>
+  <NamedEntity ID="333" Type="Unknown">
+    <PrimeAlias Label="vadītājs" />
+  </NamedEntity>
+  <NamedEntity ID="334" Type="Unknown">
+    <PrimeAlias Label="2007. gads" />
+  </NamedEntity>
+  <NamedEntity ID="336" Type="Unknown">
+    <PrimeAlias Label="arī valsts prezidents" />
+  </NamedEntity>
+  <NamedEntity ID="338" Type="Unknown">
+    <PrimeAlias Label="Valmiera siltums" />
+  </NamedEntity>
+  <NamedEntity ID="339" Type="Unknown">
+    <PrimeAlias Label="valde loceklis" />
+  </NamedEntity>
+  <NamedEntity ID="341" Type="Unknown">
+    <PrimeAlias Label="VTU Valmiera" />
+  </NamedEntity>
+  <NamedEntity ID="342" Type="Unknown">
+    <PrimeAlias Label="valde loceklis" />
+  </NamedEntity>
+  <NamedEntity ID="345" Type="Unknown">
+    <PrimeAlias Label="ministrs padomnieks" />
+  </NamedEntity>
+  <NamedEntity ID="347" Type="Unknown">
+    <PrimeAlias Label="valde loceklis" />
+  </NamedEntity>
+  <NamedEntity ID="349" Type="Unknown">
+    <PrimeAlias Label="dzelzceļš elektrifikācija projekts" />
+  </NamedEntity>
+  <NamedEntity ID="351" Type="Unknown">
+    <PrimeAlias Label="Otkritij gorod" />
+  </NamedEntity>
+  <NamedEntity ID="353" Type="Unknown">
+    <PrimeAlias Label="Vesti segodņa" />
+  </NamedEntity>
+  <NamedEntity ID="354" Type="Unknown">
+    <PrimeAlias Label="Sarmīte Ēlerte" />
+  </NamedEntity>
+  <NamedEntity ID="356" Type="Unknown">
+    <PrimeAlias Label="Aleksejs Stefanovs" />
+  </NamedEntity>
+  <NamedEntity ID="357" Type="Unknown">
+    <PrimeAlias Label="žurnāls" />
+  </NamedEntity>
+  <NamedEntity ID="358" Type="Unknown">
+    <PrimeAlias Label="slavens valsts kinematogrāfija institūts ( VGIK )" />
+  </NamedEntity>
+  <NamedEntity ID="360" Type="Unknown">
+    <PrimeAlias Label="1988. gads" />
+  </NamedEntity>
+  <NamedEntity ID="361" Type="Unknown">
+    <PrimeAlias Label="Maskava" />
+  </NamedEntity>
+  <NamedEntity ID="362" Type="Unknown">
+    <PrimeAlias Label="kinokritiķis-ķe" />
+  </NamedEntity>
+  <NamedEntity ID="364" Type="Unknown">
+    <PrimeAlias Label="ne maz slavena Maskava Lomonosovs universitāte ( MGU )" />
+  </NamedEntity>
+  <NamedEntity ID="365" Type="Unknown">
+    <PrimeAlias Label="žurnālistika" />
+  </NamedEntity>
+  <NamedEntity ID="366" Type="Unknown">
+    <PrimeAlias Label="Maskava" />
+  </NamedEntity>
+  <NamedEntity ID="367" Type="Unknown">
+    <PrimeAlias Label="1959. gads" />
+  </NamedEntity>
+  <NamedEntity ID="369" Type="Unknown">
+    <PrimeAlias Label="j. Škapars" />
+  </NamedEntity>
+  <NamedEntity ID="370" Type="Unknown">
+    <PrimeAlias Label="1983. gads" />
+  </NamedEntity>
+  <NamedEntity ID="372" Type="Unknown">
+    <PrimeAlias Label="literatūra un māksla" />
+  </NamedEntity>
+  <NamedEntity ID="374" Type="Unknown">
+    <PrimeAlias Label="e. Strods" />
+  </NamedEntity>
+  <NamedEntity ID="376" Type="Unknown">
+    <PrimeAlias Label="a. vītols" />
+  </NamedEntity>
+  <NamedEntity ID="378" Type="Unknown">
+    <PrimeAlias Label="būt" />
+  </NamedEntity>
+  <NamedEntity ID="380" Type="Unknown">
+    <PrimeAlias Label="Rīga pilsēta mērs" />
+  </NamedEntity>
+  <NamedEntity ID="381" Type="Unknown">
+    <PrimeAlias Label="liepāja metalurgs" />
+  </NamedEntity>
+  <NamedEntity ID="382" Type="Unknown">
+    <PrimeAlias Label="finanses ministrija" />
+  </NamedEntity>
+  <NamedEntity ID="383" Type="Unknown">
+    <PrimeAlias Label="iekšlietas ministrija" />
+  </NamedEntity>
+  <NamedEntity ID="384" Type="Unknown">
+    <PrimeAlias Label="Parex banka" />
+  </NamedEntity>
+  <NamedEntity ID="386" Type="Unknown">
+    <PrimeAlias Label="Andris Deniņš" />
+  </NamedEntity>
+  <NamedEntity ID="388" Type="Unknown">
+    <PrimeAlias Label="tas pats Andris Deniņš" />
+  </NamedEntity>
+  <NamedEntity ID="389" Type="Unknown">
+    <PrimeAlias Label="auditorfirma" />
+  </NamedEntity>
+  <NamedEntity ID="391" Type="Unknown">
+    <PrimeAlias Label="Kirovs Lipmans" />
+  </NamedEntity>
+  <NamedEntity ID="393" Type="Unknown">
+    <PrimeAlias Label="Rihards Kozlovskis" />
+  </NamedEntity>
+  <NamedEntity ID="395" Type="Unknown">
+    <PrimeAlias Label="Daiga Holma" />
+  </NamedEntity>
+  <NamedEntity ID="397" Type="Unknown">
+    <PrimeAlias Label="Terra" />
+  </NamedEntity>
+  <NamedEntity ID="399" Type="Unknown">
+    <PrimeAlias Label="Māra Kropa-rusoviča" />
+  </NamedEntity>
+  <NamedEntity ID="401" Type="Unknown">
+    <PrimeAlias Label="Evelin Ojamets" />
+  </NamedEntity>
+  <NamedEntity ID="402" Type="Unknown">
+    <PrimeAlias Label="Coca-Cola Baltics" />
+  </NamedEntity>
+  <NamedEntity ID="404" Type="Unknown">
+    <PrimeAlias Label="Nestea zaļa tēja dzēriens" />
+  </NamedEntity>
+  <NamedEntity ID="406" Type="Unknown">
+    <PrimeAlias Label="Imprimatur Capital Seed Fund" />
+  </NamedEntity>
+  <NamedEntity ID="408" Type="Unknown">
+    <PrimeAlias Label="Spatial Initiatives" />
+  </NamedEntity>
+  <NamedEntity ID="409" Type="Unknown">
+    <PrimeAlias Label="3 D lāzers mērierīce tehnoloģija" />
+  </NamedEntity>
+  <NamedEntity ID="412" Type="Unknown">
+    <PrimeAlias Label="Jānis Janevics" />
+  </NamedEntity>
+  <NamedEntity ID="413" Type="Unknown">
+    <PrimeAlias Label="bizness portāls &quot; Nozare.lv &quot;" />
+  </NamedEntity>
+  <NamedEntity ID="416" Type="Unknown">
+    <PrimeAlias Label="Latvija garantija aģentūra pārvaldīt Eiropa savienība struktūrfonds līdzfinansēts ieguldījums fonds" />
+  </NamedEntity>
+  <NamedEntity ID="418" Type="Unknown">
+    <PrimeAlias Label="2013. gads" />
+  </NamedEntity>
+  <NamedEntity ID="420" Type="Unknown">
+    <PrimeAlias Label="Brents Gelhars" />
+  </NamedEntity>
+  <NamedEntity ID="424" Type="Unknown">
+    <PrimeAlias Label="Tobijs Mūrs" />
+  </NamedEntity>
+  <NamedEntity ID="425" Type="Unknown">
+    <PrimeAlias Label="Latvija universitāte ar pasaule līmenis lāzers optika izgudrojums" />
+  </NamedEntity>
+  <NamedEntity ID="428" Type="Unknown">
+    <PrimeAlias Label="tāla darbība lāzers attēls veidošana sistēma" />
+  </NamedEntity>
+  <NamedEntity ID="430" Type="Unknown">
+    <PrimeAlias Label="ka pirmais &quot; Spatial Initiatives &quot; produkts" />
+  </NamedEntity>
+  <NamedEntity ID="432" Type="Unknown">
+    <PrimeAlias Label="tikai šis gads 23. janvāris" />
+  </NamedEntity>
+  <NamedEntity ID="434" Type="Unknown">
+    <PrimeAlias Label="Firmas.lv" />
+  </NamedEntity>
+  <NamedEntity ID="436" Type="Unknown">
+    <PrimeAlias Label="Nikolajs Adamovičš" />
+  </NamedEntity>
+  <NamedEntity ID="439" Type="Unknown">
+    <PrimeAlias Label="2010. gads" />
+  </NamedEntity>
+  <NamedEntity ID="441" Type="Unknown">
+    <PrimeAlias Label="SIA &quot; Imprimatur Capital Fund Management &quot; un SIA &quot; Latvija garantija aģentūra &quot;" />
+  </NamedEntity>
+  <NamedEntity ID="442" Type="Unknown">
+    <PrimeAlias Label="Latvija garantija aģentūra" />
+  </NamedEntity>
+  <NamedEntity ID="445" Type="Unknown">
+    <PrimeAlias Label="Irēna Škutāne" />
+  </NamedEntity>
+  <NamedEntity ID="446" Type="Unknown">
+    <PrimeAlias Label="Jelgava pilsēta pašvaldība" />
+  </NamedEntity>
+  <NamedEntity ID="448" Type="Unknown">
+    <PrimeAlias Label="Egita Diure" />
+  </NamedEntity>
+  <NamedEntity ID="449" Type="Unknown">
+    <PrimeAlias Label="valsts kontrole" />
+  </NamedEntity>
+  <NamedEntity ID="451" Type="Unknown">
+    <PrimeAlias Label="Pilsētsaimniecība" />
+  </NamedEntity>
+  <NamedEntity ID="452" Type="Unknown">
+    <PrimeAlias Label="kultūra" />
+  </NamedEntity>
+  <NamedEntity ID="453" Type="Unknown">
+    <PrimeAlias Label="Zemgale INFO" />
+  </NamedEntity>
+  <NamedEntity ID="454" Type="Unknown">
+    <PrimeAlias Label="Jelgava dome" />
+  </NamedEntity>
+  <NamedEntity ID="455" Type="Unknown">
+    <PrimeAlias Label="Sprūdžs" />
+  </NamedEntity>
+  <NamedEntity ID="456" Type="Unknown">
+    <PrimeAlias Label="Rāviņš" />
+  </NamedEntity>
+  <NamedEntity ID="458" Type="Unknown">
+    <PrimeAlias Label="Edmunds Sprūdžs" />
+  </NamedEntity>
+  <NamedEntity ID="461" Type="Unknown">
+    <PrimeAlias Label="Andris Rāviņš" />
+  </NamedEntity>
+  <NamedEntity ID="462" Type="Unknown">
+    <PrimeAlias Label="Jelgava" />
+  </NamedEntity>
+  <NamedEntity ID="465" Type="Unknown">
+    <PrimeAlias Label="ministrija sabiedrība informēšana nodaļa" />
+  </NamedEntity>
+  <NamedEntity ID="466" Type="Unknown">
+    <PrimeAlias Label="vide aizsardzība un reģionāla attīstība ministrs Edmunds Sprūdžs ( RP ) rīt tikties ar Jelgava mērs Andris Rāviņš ( ZZS )" />
+  </NamedEntity>
+  <NamedEntity ID="468" Type="Unknown">
+    <PrimeAlias Label="Jelgava vēstnesis" />
+  </NamedEntity>
+  <NamedEntity ID="471" Type="Unknown">
+    <PrimeAlias Label="Andris Rāviņš" />
+  </NamedEntity>
+  <NamedEntity ID="472" Type="Unknown">
+    <PrimeAlias Label="Jelgava" />
+  </NamedEntity>
+  <NamedEntity ID="475" Type="Unknown">
+    <PrimeAlias Label="Gunārs Kūtris" />
+  </NamedEntity>
+  <NamedEntity ID="476" Type="Unknown">
+    <PrimeAlias Label="satversme tiesa ( ST )" />
+  </NamedEntity>
+  <NamedEntity ID="477" Type="Unknown">
+    <PrimeAlias Label="satversme tiesa ( ST ) priekšsēdētājs" />
+  </NamedEntity>
+  <NamedEntity ID="478" Type="Unknown">
+    <PrimeAlias Label="šodien" />
+  </NamedEntity>
+  <NamedEntity ID="480" Type="Unknown">
+    <PrimeAlias Label="Uldis Ķinis" />
+  </NamedEntity>
+  <NamedEntity ID="482" Type="Unknown">
+    <PrimeAlias Label="Kaspars Balodis" />
+  </NamedEntity>
+  <NamedEntity ID="484" Type="Unknown">
+    <PrimeAlias Label="ST" />
+  </NamedEntity>
+  <NamedEntity ID="487" Type="Unknown">
+    <PrimeAlias Label="ST" />
+  </NamedEntity>
+  <NamedEntity ID="488" Type="Unknown">
+    <PrimeAlias Label="2007. gads 31. janvāris" />
+  </NamedEntity>
+  <NamedEntity ID="490" Type="Unknown">
+    <PrimeAlias Label="2010. gads" />
+  </NamedEntity>
+  <NamedEntity ID="491" Type="Unknown">
+    <PrimeAlias Label="atkārtoti" />
+  </NamedEntity>
+  <NamedEntity ID="493" Type="Unknown">
+    <PrimeAlias Label="Kūtris" />
+  </NamedEntity>
+  <NamedEntity ID="494" Type="Unknown">
+    <PrimeAlias Label="Aija Branta" />
+  </NamedEntity>
+  <NamedEntity ID="495" Type="Unknown">
+    <PrimeAlias Label="Sanita Osipova" />
+  </NamedEntity>
+  <NamedEntity ID="496" Type="Unknown">
+    <PrimeAlias Label="Kaspars Balodis" />
+  </NamedEntity>
+  <NamedEntity ID="497" Type="Unknown">
+    <PrimeAlias Label="Kristīne Krūma" />
+  </NamedEntity>
+  <NamedEntity ID="498" Type="Unknown">
+    <PrimeAlias Label="Vineta Muižniece" />
+  </NamedEntity>
+  <NamedEntity ID="500" Type="Unknown">
+    <PrimeAlias Label="ST" />
+  </NamedEntity>
+  <NamedEntity ID="501" Type="Unknown">
+    <PrimeAlias Label="ST tiesnesis" />
+  </NamedEntity>
+  <NamedEntity ID="502" Type="Unknown">
+    <PrimeAlias Label="saeima" />
+  </NamedEntity>
+  <NamedEntity ID="504" Type="Unknown">
+    <PrimeAlias Label="Kārlis Miķelsons" />
+  </NamedEntity>
+  <NamedEntity ID="505" Type="Unknown">
+    <PrimeAlias Label="ģenerālprokuratūra" />
+  </NamedEntity>
+  <NamedEntity ID="507" Type="Unknown">
+    <PrimeAlias Label="Aiga Šēnberga" />
+  </NamedEntity>
+  <NamedEntity ID="509" Type="Unknown">
+    <PrimeAlias Label="Egons Rusanovs" />
+  </NamedEntity>
+  <NamedEntity ID="512" Type="Unknown">
+    <PrimeAlias Label="būt" />
+  </NamedEntity>
+  <NamedEntity ID="515" Type="Unknown">
+    <PrimeAlias Label="Aigars Meļko" />
+  </NamedEntity>
+  <NamedEntity ID="516" Type="Unknown">
+    <PrimeAlias Label="toreizējs" />
+  </NamedEntity>
+  <NamedEntity ID="518" Type="Unknown">
+    <PrimeAlias Label="Agris Bitāns" />
+  </NamedEntity>
+  <NamedEntity ID="520" Type="Unknown">
+    <PrimeAlias Label="starp apsūdzēt gan nebūt Miķelsons toreizējs vietnieks Aigars Meļko" />
+  </NamedEntity>
+  <NamedEntity ID="523" Type="Unknown">
+    <PrimeAlias Label="vairāki noziedzīgs nodarījums izdarīšana" />
+  </NamedEntity>
+  <NamedEntity ID="524" Type="Unknown">
+    <PrimeAlias Label="KNAB" />
+  </NamedEntity>
+  <NamedEntity ID="526" Type="Unknown">
+    <PrimeAlias Label="&quot; Latvenergo &quot; rīkot konkurss &quot; Pļaviņas hidroelektrostacija hidroagregāts nr. 4" />
+  </NamedEntity>
+  <NamedEntity ID="528" Type="Unknown">
+    <PrimeAlias Label="&quot; Latvenergo &quot; realizēt Pļaviņas hidroelektrostacija ( HES ) un Rīga otrā termoelektrocentrāle ( TEC-2 ) rekonstrukcija projekts" />
+  </NamedEntity>
+  <NamedEntity ID="530" Type="Unknown">
+    <PrimeAlias Label="būt" />
+  </NamedEntity>
+  <NamedEntity ID="532" Type="Unknown">
+    <PrimeAlias Label="Aigars Meļko" />
+  </NamedEntity>
+  <NamedEntity ID="534" Type="Unknown">
+    <PrimeAlias Label="Ivars Liuziniks" />
+  </NamedEntity>
+  <NamedEntity ID="535" Type="Unknown">
+    <PrimeAlias Label="sadale tīkls" />
+  </NamedEntity>
+  <NamedEntity ID="537" Type="Unknown">
+    <PrimeAlias Label="Andrejs Stalažs" />
+  </NamedEntity>
+  <NamedEntity ID="539" Type="Unknown">
+    <PrimeAlias Label="Mihails Paladijs" />
+  </NamedEntity>
+  <NamedEntity ID="541" Type="Unknown">
+    <PrimeAlias Label="SIA &quot; būvenergoserviss &quot; kapitāldaļa" />
+  </NamedEntity>
+  <NamedEntity ID="542" Type="Unknown">
+    <PrimeAlias Label="viņš piederēt 100 % SIA &quot; būvenergoserviss &quot; kapitāldaļa" />
+  </NamedEntity>
+  <NamedEntity ID="544" Type="Unknown">
+    <PrimeAlias Label="dažāds &quot; Latvenergo &quot; pasūtījums" />
+  </NamedEntity>
+  <NamedEntity ID="546" Type="Unknown">
+    <PrimeAlias Label="Andrejs Livanovičs" />
+  </NamedEntity>
+  <NamedEntity ID="548" Type="Unknown">
+    <PrimeAlias Label="Energy Consulting" />
+  </NamedEntity>
+  <NamedEntity ID="550" Type="Unknown">
+    <PrimeAlias Label="AF Colenco" />
+  </NamedEntity>
+  <NamedEntity ID="552" Type="Unknown">
+    <PrimeAlias Label="&quot; Latvenergo &quot; īstenot vairāki simts miljons lats vērts TEC-2 rekonstrukcija projekts konsultants" />
+  </NamedEntity>
+  <NamedEntity ID="554" Type="Unknown">
+    <PrimeAlias Label="Meļko" />
+  </NamedEntity>
+  <NamedEntity ID="555" Type="Unknown">
+    <PrimeAlias Label="Rīga pilsēta Vidzeme priekšpilsēta tiesa" />
+  </NamedEntity>
+  <NamedEntity ID="559" Type="Unknown">
+    <PrimeAlias Label="Mārīte Straume" />
+  </NamedEntity>
+  <NamedEntity ID="560" Type="Unknown">
+    <PrimeAlias Label="bizness portāls &quot; nozare . lv &quot;" />
+  </NamedEntity>
+  <NamedEntity ID="562" Type="Unknown">
+    <PrimeAlias Label="bizness portāls &quot; nozare . lv &quot;" />
+  </NamedEntity>
+  <NamedEntity ID="565" Type="Unknown">
+    <PrimeAlias Label="iepriekšēja valde loceklis" />
+  </NamedEntity>
+  <NamedEntity ID="567" Type="Unknown">
+    <PrimeAlias Label="aleksandrs kalniņš" />
+  </NamedEntity>
+  <NamedEntity ID="568" Type="Unknown">
+    <PrimeAlias Label="valde loceklis ar attiecīga pilnvara sava joma" />
+  </NamedEntity>
+  <NamedEntity ID="571" Type="Unknown">
+    <PrimeAlias Label="ilze sila" />
+  </NamedEntity>
+  <NamedEntity ID="573" Type="Unknown">
+    <PrimeAlias Label="Ainārs Pauniņš" />
+  </NamedEntity>
+  <NamedEntity ID="575" Type="Unknown">
+    <PrimeAlias Label="Didzis Putniņš" />
+  </NamedEntity>
+  <NamedEntity ID="578" Type="Unknown">
+    <PrimeAlias Label="Egils Bērzups" />
+  </NamedEntity>
+  <NamedEntity ID="582" Type="Unknown">
+    <PrimeAlias Label="1993. gads" />
+  </NamedEntity>
+  <NamedEntity ID="584" Type="Unknown">
+    <PrimeAlias Label="galvens būvuzņēmējs" />
+  </NamedEntity>
+  <NamedEntity ID="585" Type="Unknown">
+    <PrimeAlias Label="galvens" />
+  </NamedEntity>
+  <NamedEntity ID="587" Type="Unknown">
+    <PrimeAlias Label="23_527_842 lats" />
+  </NamedEntity>
+  <NamedEntity ID="588" Type="Unknown">
+    <PrimeAlias Label="2011. gads" />
+  </NamedEntity>
+  <NamedEntity ID="590" Type="Unknown">
+    <PrimeAlias Label="firma . lv" />
+  </NamedEntity>
+  <NamedEntity ID="591" Type="Unknown">
+    <PrimeAlias Label="būvfirma SIA &quot; Re &amp; Re &quot; 2011. gads būt strādāt ar 23_527_842 lats apgrozījums" />
+  </NamedEntity>
+  <NamedEntity ID="593" Type="Unknown">
+    <PrimeAlias Label="26_719_450 lats" />
+  </NamedEntity>
+  <NamedEntity ID="594" Type="Unknown">
+    <PrimeAlias Label="2010. gads" />
+  </NamedEntity>
+  <NamedEntity ID="596" Type="Unknown">
+    <PrimeAlias Label="1_739_913 lats" />
+  </NamedEntity>
+  <NamedEntity ID="597" Type="Unknown">
+    <PrimeAlias Label="paiet gads" />
+  </NamedEntity>
+  <NamedEntity ID="599" Type="Unknown">
+    <PrimeAlias Label="3_250_007 lats" />
+  </NamedEntity>
+  <NamedEntity ID="600" Type="Unknown">
+    <PrimeAlias Label="2010. gads" />
+  </NamedEntity>
+  <NamedEntity ID="602" Type="Unknown">
+    <PrimeAlias Label="Carandache" />
+  </NamedEntity>
+  <NamedEntity ID="604" Type="Unknown">
+    <PrimeAlias Label="Marģers Bitmetis ( 25 % )" />
+  </NamedEntity>
+  <NamedEntity ID="605" Type="Unknown">
+    <PrimeAlias Label="25 %" />
+  </NamedEntity>
+  <NamedEntity ID="607" Type="Unknown">
+    <PrimeAlias Label="Grindeks" />
+  </NamedEntity>
+  <NamedEntity ID="610" Type="Unknown">
+    <PrimeAlias Label="Kirovs Lipmans" />
+  </NamedEntity>
+  <NamedEntity ID="612" Type="Unknown">
+    <PrimeAlias Label="grindeks Rus" />
+  </NamedEntity>
+  <NamedEntity ID="614" Type="Unknown">
+    <PrimeAlias Label="rūpnīca būvēt &quot; Grindeks &quot; meitasuzņēmums Krievija &quot; grindeks Rus &quot;" />
+  </NamedEntity>
+  <NamedEntity ID="616" Type="Unknown">
+    <PrimeAlias Label="aptuveni 13" />
+  </NamedEntity>
+  <NamedEntity ID="617" Type="Unknown">
+    <PrimeAlias Label="2013. gads" />
+  </NamedEntity>
+  <NamedEntity ID="619" Type="Unknown">
+    <PrimeAlias Label="rudens" />
+  </NamedEntity>
+  <NamedEntity ID="620" Type="Unknown">
+    <PrimeAlias Label="ka 2013. gads apgrozījums varēt pieaugt par aptuveni 13" />
+  </NamedEntity>
+  <NamedEntity ID="622" Type="Unknown">
+    <PrimeAlias Label="ka 2013. gads peļņa varēt būt ne maza par 12 miljons lats" />
+  </NamedEntity>
+  <NamedEntity ID="624" Type="Unknown">
+    <PrimeAlias Label="ne maza par 12 miljons lats" />
+  </NamedEntity>
+  <NamedEntity ID="625" Type="Unknown">
+    <PrimeAlias Label="2013. gads" />
+  </NamedEntity>
+  <NamedEntity ID="628" Type="Unknown">
+    <PrimeAlias Label="pētniecība" />
+  </NamedEntity>
+  <NamedEntity ID="630" Type="Unknown">
+    <PrimeAlias Label="Lipmans - 33" />
+  </NamedEntity>
+  <NamedEntity ID="631" Type="Unknown">
+    <PrimeAlias Label="33" />
+  </NamedEntity>
+  <NamedEntity ID="633" Type="Unknown">
+    <PrimeAlias Label="50" />
+  </NamedEntity>
+  <NamedEntity ID="634" Type="Unknown">
+    <PrimeAlias Label="2012. gads deviņi mēness" />
+  </NamedEntity>
+  <NamedEntity ID="635" Type="Unknown">
+    <PrimeAlias Label="2" />
+  </NamedEntity>
+  <NamedEntity ID="637" Type="Unknown">
+    <PrimeAlias Label="pieci miljons lats" />
+  </NamedEntity>
+  <NamedEntity ID="638" Type="Unknown">
+    <PrimeAlias Label="2012. gads deviņi mēness" />
+  </NamedEntity>
+  <NamedEntity ID="640" Type="Unknown">
+    <PrimeAlias Label="Dinaz" />
+  </NamedEntity>
+  <NamedEntity ID="641" Type="Unknown">
+    <PrimeAlias Label="RusLatNafta" />
+  </NamedEntity>
+  <NamedEntity ID="643" Type="Unknown">
+    <PrimeAlias Label="SIA &quot; Akselss &quot;" />
+  </NamedEntity>
+  <NamedEntity ID="646" Type="Unknown">
+    <PrimeAlias Label="Sergejs Semjonovs" />
+  </NamedEntity>
+  <NamedEntity ID="647" Type="Unknown">
+    <PrimeAlias Label="degviela tirgotājs un ražotājs savienība" />
+  </NamedEntity>
+  <NamedEntity ID="648" Type="Unknown">
+    <PrimeAlias Label="Aparts" />
+  </NamedEntity>
+  <NamedEntity ID="649" Type="Unknown">
+    <PrimeAlias Label="Akselss" />
+  </NamedEntity>
+  <NamedEntity ID="653" Type="Unknown">
+    <PrimeAlias Label="Neste Oil" />
+  </NamedEntity>
+  <NamedEntity ID="655" Type="Unknown">
+    <PrimeAlias Label="Ojārs Karčevskis" />
+  </NamedEntity>
+  <NamedEntity ID="656" Type="Unknown">
+    <PrimeAlias Label="Latvija degviela tirgotājs asociācija" />
+  </NamedEntity>
+  <NamedEntity ID="659" Type="Unknown">
+    <PrimeAlias Label="degviela mazumtirdzniecība pārdošana dati" />
+  </NamedEntity>
+  <NamedEntity ID="660" Type="Unknown">
+    <PrimeAlias Label="7. vieta" />
+  </NamedEntity>
+  <NamedEntity ID="661" Type="Unknown">
+    <PrimeAlias Label="valsts ieņēmums dienests akcīze pārvalde" />
+  </NamedEntity>
+  <NamedEntity ID="662" Type="Unknown">
+    <PrimeAlias Label="2012. gads pirmais ceturksnis" />
+  </NamedEntity>
+  <NamedEntity ID="666" Type="Unknown">
+    <PrimeAlias Label="14" />
+  </NamedEntity>
+  <NamedEntity ID="667" Type="Unknown">
+    <PrimeAlias Label="2011. gads" />
+  </NamedEntity>
+  <NamedEntity ID="668" Type="Unknown">
+    <PrimeAlias Label="peļņa 5945 lats" />
+  </NamedEntity>
+  <NamedEntity ID="670" Type="Unknown">
+    <PrimeAlias Label="Firmas.lv" />
+  </NamedEntity>
+  <NamedEntity ID="671" Type="Unknown">
+    <PrimeAlias Label="SIA &quot; Ruslatnafta &quot; apgrozījums 2011. gads būt 14" />
+  </NamedEntity>
+  <NamedEntity ID="674" Type="Unknown">
+    <PrimeAlias Label="Dinaz Group" />
+  </NamedEntity>
+  <NamedEntity ID="675" Type="Unknown">
+    <PrimeAlias Label="2000. gads" />
+  </NamedEntity>
+  <NamedEntity ID="678" Type="Unknown">
+    <PrimeAlias Label="ka &quot; Ruslatnafta &quot; ( iepriekšējs nosaukums &quot; Dinaz Group &quot; ) reģistrēt 2000. gads" />
+  </NamedEntity>
+  <NamedEntity ID="680" Type="Unknown">
+    <PrimeAlias Label="Doriland Investments LLC" />
+  </NamedEntity>
+  <NamedEntity ID="681" Type="Unknown">
+    <PrimeAlias Label="kapitāldaļa" />
+  </NamedEntity>
+  <NamedEntity ID="683" Type="Unknown">
+    <PrimeAlias Label="16" />
+  </NamedEntity>
+  <NamedEntity ID="684" Type="Unknown">
+    <PrimeAlias Label="2011. gads" />
+  </NamedEntity>
+  <NamedEntity ID="685" Type="Unknown">
+    <PrimeAlias Label="peļņa 12_081 lats" />
+  </NamedEntity>
+  <NamedEntity ID="687" Type="Unknown">
+    <PrimeAlias Label="2002. gads" />
+  </NamedEntity>
+  <NamedEntity ID="689" Type="Unknown">
+    <PrimeAlias Label="Blanco Line LLP" />
+  </NamedEntity>
+  <NamedEntity ID="690" Type="Unknown">
+    <PrimeAlias Label="tas kapitāldaļa" />
+  </NamedEntity>
+  <NamedEntity ID="692" Type="Unknown">
+    <PrimeAlias Label="25 DUS" />
+  </NamedEntity>
+  <NamedEntity ID="694" Type="Unknown">
+    <PrimeAlias Label="9" />
+  </NamedEntity>
+  <NamedEntity ID="695" Type="Unknown">
+    <PrimeAlias Label="peļņa 245_208 lats" />
+  </NamedEntity>
+  <NamedEntity ID="696" Type="Unknown">
+    <PrimeAlias Label="2011. gads" />
+  </NamedEntity>
+  <NamedEntity ID="698" Type="Unknown">
+    <PrimeAlias Label="1994. gads" />
+  </NamedEntity>
+  <NamedEntity ID="700" Type="Unknown">
+    <PrimeAlias Label="tas kapitāldaļa" />
+  </NamedEntity>
+  <NamedEntity ID="701" Type="Unknown">
+    <PrimeAlias Label="Luktarna" />
+  </NamedEntity>
+  <NamedEntity ID="703" Type="Unknown">
+    <PrimeAlias Label="septiņas automātiska DUS" />
+  </NamedEntity>
+  <NamedEntity ID="705" Type="Unknown">
+    <PrimeAlias Label="Latvija nafta" />
+  </NamedEntity>
+  <NamedEntity ID="706" Type="Unknown">
+    <PrimeAlias Label="&quot; ziemeļi nafta &quot; 14 stacija" />
+  </NamedEntity>
+  <NamedEntity ID="707" Type="Unknown">
+    <PrimeAlias Label="janvāris" />
+  </NamedEntity>
+  <NamedEntity ID="708" Type="Unknown">
+    <PrimeAlias Label="ziemeļi nafta" />
+  </NamedEntity>
+  <NamedEntity ID="710" Type="Unknown">
+    <PrimeAlias Label="46 DUS" />
+  </NamedEntity>
+  <NamedEntity ID="711" Type="Unknown">
+    <PrimeAlias Label="tagad" />
+  </NamedEntity>
+  <NamedEntity ID="713" Type="Unknown">
+    <PrimeAlias Label="Virši-A" />
+  </NamedEntity>
+  <NamedEntity ID="715" Type="Unknown">
+    <PrimeAlias Label="Statoil" />
+  </NamedEntity>
+  <NamedEntity ID="716" Type="Unknown">
+    <PrimeAlias Label="71 pilns serviss degviela uzpilde stacija" />
+  </NamedEntity>
+  <NamedEntity ID="719" Type="Unknown">
+    <PrimeAlias Label="Lukoil" />
+  </NamedEntity>
+  <NamedEntity ID="721" Type="Unknown">
+    <PrimeAlias Label="Brazovskis" />
+  </NamedEntity>
+  <NamedEntity ID="722" Type="Unknown">
+    <PrimeAlias Label="FKTK" />
+  </NamedEntity>
+  <NamedEntity ID="723" Type="Unknown">
+    <PrimeAlias Label="FKTK vadītājs" />
+  </NamedEntity>
+  <NamedEntity ID="724" Type="Unknown">
+    <PrimeAlias Label="būt" />
+  </NamedEntity>
+  <NamedEntity ID="725" Type="Unknown">
+    <PrimeAlias Label="null" />
+  </NamedEntity>
+  <NamedEntity ID="727" Type="Unknown">
+    <PrimeAlias Label="privatizācija aģentūra ( PA )" />
+  </NamedEntity>
+  <NamedEntity ID="728" Type="Unknown">
+    <PrimeAlias Label="atbilstoši iepriekš panākt noruna ar &quot; tilts communications AS &quot; ( &quot; tilts &quot; ) par &quot; Lattelecom &quot; padome loceklis skaits samazināšana" />
+  </NamedEntity>
+  <NamedEntity ID="729" Type="Unknown">
+    <PrimeAlias Label="tilts communications AS ( &quot; tilts &quot; )" />
+  </NamedEntity>
+  <NamedEntity ID="731" Type="Unknown">
+    <PrimeAlias Label="Gatis Kokins" />
+  </NamedEntity>
+  <NamedEntity ID="732" Type="Unknown">
+    <PrimeAlias Label="būt" />
+  </NamedEntity>
+  <NamedEntity ID="733" Type="Unknown">
+    <PrimeAlias Label="Džastins Bankrofts" />
+  </NamedEntity>
+  <NamedEntity ID="735" Type="Unknown">
+    <PrimeAlias Label="FKTK" />
+  </NamedEntity>
+  <NamedEntity ID="736" Type="Unknown">
+    <PrimeAlias Label="2000. gads" />
+  </NamedEntity>
+  <NamedEntity ID="737" Type="Unknown">
+    <PrimeAlias Label="2012. gads" />
+  </NamedEntity>
+  <NamedEntity ID="739" Type="Unknown">
+    <PrimeAlias Label="Latvija banka" />
+  </NamedEntity>
+  <NamedEntity ID="740" Type="Unknown">
+    <PrimeAlias Label="pirms tas" />
+  </NamedEntity>
+  <NamedEntity ID="743" Type="Unknown">
+    <PrimeAlias Label="Deloitte CIS" />
+  </NamedEntity>
+  <NamedEntity ID="744" Type="Unknown">
+    <PrimeAlias Label="būt &quot; Deloitte CIS &quot; un &quot; Deloitte Ukraine &quot; partneris" />
+  </NamedEntity>
+  <NamedEntity ID="746" Type="Unknown">
+    <PrimeAlias Label="Baltija korporatīva pārvaldība institūts" />
+  </NamedEntity>
+  <NamedEntity ID="747" Type="Unknown">
+    <PrimeAlias Label="Latvija" />
+  </NamedEntity>
+  <NamedEntity ID="748" Type="Unknown">
+    <PrimeAlias Label="Jānis Grēviņš" />
+  </NamedEntity>
+  <NamedEntity ID="749" Type="Unknown">
+    <PrimeAlias Label="Latvija maiznieks" />
+  </NamedEntity>
+  <NamedEntity ID="751" Type="Unknown">
+    <PrimeAlias Label="Sabīne Puķe" />
+  </NamedEntity>
+  <NamedEntity ID="753" Type="Unknown">
+    <PrimeAlias Label="Artūrs Ilziņš" />
+  </NamedEntity>
+  <NamedEntity ID="755" Type="Unknown">
+    <PrimeAlias Label="pārtika veterinārs dienests" />
+  </NamedEntity>
+  <NamedEntity ID="757" Type="Unknown">
+    <PrimeAlias Label="Allaži ķimenes maize" />
+  </NamedEntity>
+  <NamedEntity ID="758" Type="Unknown">
+    <PrimeAlias Label="maize" />
+  </NamedEntity>
+  <NamedEntity ID="760" Type="Unknown">
+    <PrimeAlias Label="ES līdzfinansēt projekts" />
+  </NamedEntity>
+  <NamedEntity ID="762" Type="Unknown">
+    <PrimeAlias Label="Daugavpils maize kombināts" />
+  </NamedEntity>
+  <NamedEntity ID="763" Type="Unknown">
+    <PrimeAlias Label="1968. gads" />
+  </NamedEntity>
+  <NamedEntity ID="765" Type="Unknown">
+    <PrimeAlias Label="kopš 2010. gads" />
+  </NamedEntity>
+  <NamedEntity ID="767" Type="Unknown">
+    <PrimeAlias Label="Gaisma pils" />
+  </NamedEntity>
+  <NamedEntity ID="769" Type="Unknown">
+    <PrimeAlias Label="Andris Vilka" />
+  </NamedEntity>
+  <NamedEntity ID="770" Type="Unknown">
+    <PrimeAlias Label="Latvija nacionāla bibliotēka" />
+  </NamedEntity>
+  <NamedEntity ID="771" Type="Unknown">
+    <PrimeAlias Label="Andrejs Panteļējevs" />
+  </NamedEntity>
+  <NamedEntity ID="772" Type="Unknown">
+    <PrimeAlias Label="Diena" />
+  </NamedEntity>
+  <NamedEntity ID="774" Type="Unknown">
+    <PrimeAlias Label="Frankfurte Vācija nacionāla bibliotēka" />
+  </NamedEntity>
+  <NamedEntity ID="775" Type="Unknown">
+    <PrimeAlias Label="Dānija karaliska bibliotēka" />
+  </NamedEntity>
+  <NamedEntity ID="776" Type="Unknown">
+    <PrimeAlias Label="Zviedrija karaliska bibliotēka" />
+  </NamedEntity>
+  <NamedEntity ID="777" Type="Unknown">
+    <PrimeAlias Label="Francija nacionāla bibliotēka" />
+  </NamedEntity>
+  <NamedEntity ID="779" Type="Unknown">
+    <PrimeAlias Label="Miterāns" />
+  </NamedEntity>
+  <NamedEntity ID="780" Type="Unknown">
+    <PrimeAlias Label="Francija" />
+  </NamedEntity>
+  <NamedEntity ID="781" Type="Unknown">
+    <PrimeAlias Label="būt" />
+  </NamedEntity>
+  <NamedEntity ID="782" Type="Unknown">
+    <PrimeAlias Label="kultūrkapitāls fonds" />
+  </NamedEntity>
+  <NamedEntity ID="784" Type="Unknown">
+    <PrimeAlias Label="Uldis Bērziņš" />
+  </NamedEntity>
+  <NamedEntity ID="785" Type="Unknown">
+    <PrimeAlias Label="diena balva" />
+  </NamedEntity>
+  <NamedEntity ID="787" Type="Unknown">
+    <PrimeAlias Label="kultūra ministrs" />
+  </NamedEntity>
+  <NamedEntity ID="789" Type="Unknown">
+    <PrimeAlias Label="Raimonds Pauls" />
+  </NamedEntity>
+  <NamedEntity ID="790" Type="Unknown">
+    <PrimeAlias Label="Juris Kaža" />
+  </NamedEntity>
+  <NamedEntity ID="793" Type="Unknown">
+    <PrimeAlias Label="savs Ipad" />
+  </NamedEntity>
+  <NamedEntity ID="794" Type="Unknown">
+    <PrimeAlias Label="Nils Ušakovs" />
+  </NamedEntity>
+  <NamedEntity ID="796" Type="Unknown">
+    <PrimeAlias Label="Latvija universitāte" />
+  </NamedEntity>
+  <NamedEntity ID="797" Type="Unknown">
+    <PrimeAlias Label="Rīga tehniska universitāte" />
+  </NamedEntity>
+  <NamedEntity ID="798" Type="Unknown">
+    <PrimeAlias Label="Rīga Stradiņš universitāte" />
+  </NamedEntity>
+  <NamedEntity ID="801" Type="Unknown">
+    <PrimeAlias Label="1957. gads" />
+  </NamedEntity>
+  <NamedEntity ID="802" Type="Unknown">
+    <PrimeAlias Label="Rīga" />
+  </NamedEntity>
+  <NamedEntity ID="804" Type="Unknown">
+    <PrimeAlias Label="Rīga 24. vidusskola" />
+  </NamedEntity>
+  <NamedEntity ID="806" Type="Unknown">
+    <PrimeAlias Label="Latvija universitāte filoloģija fakultāte" />
+  </NamedEntity>
+  <NamedEntity ID="807" Type="Unknown">
+    <PrimeAlias Label="bibliotekārs" />
+  </NamedEntity>
+  <NamedEntity ID="809" Type="Unknown">
+    <PrimeAlias Label="Rīga kinostudija" />
+  </NamedEntity>
+  <NamedEntity ID="810" Type="Unknown">
+    <PrimeAlias Label="studija laiks" />
+  </NamedEntity>
+  <NamedEntity ID="812" Type="Unknown">
+    <PrimeAlias Label="1975. gads" />
+  </NamedEntity>
+  <NamedEntity ID="814" Type="Unknown">
+    <PrimeAlias Label="1989. gads" />
+  </NamedEntity>
+  <NamedEntity ID="816" Type="Unknown">
+    <PrimeAlias Label="Raitis Puriņs" />
+  </NamedEntity>
+  <NamedEntity ID="817" Type="Unknown">
+    <PrimeAlias Label="diena medijs" />
+  </NamedEntity>
+  <FrameEntity ID="1" Type="Dzimšana">
+    <PrimeAlias Label="dzimis" />
+    <Element Name="Bērns" RefID="2" />
+    <Element Name="Laiks" RefID="3" />
+    <Element Name="Vieta" RefID="4" />
+  </FrameEntity>
+  <FrameEntity ID="5" Type="Attiecības">
+    <PrimeAlias Label="māte" />
+    <Element Name="Partneris_1" RefID="6" />
+    <Element Name="Partneris_2" RefID="7" />
+    <Element Name="Attiecības" RefID="5" />
+  </FrameEntity>
+  <FrameEntity ID="8" Type="Vecums">
+    <PrimeAlias Label="90" />
+    <Element Name="Vecums" RefID="8" />
+    <Element Name="Persona" RefID="6" />
+  </FrameEntity>
+  <FrameEntity ID="9" Type="Piedalīšanās">
+    <PrimeAlias Label="apmeklējusi" />
+    <Element Name="Notikums" RefID="10" />
+    <Element Name="Vieta" RefID="11" />
+    <Element Name="Dalībnieks" RefID="6" />
+  </FrameEntity>
+  <FrameEntity ID="12" Type="Dzīvesvieta">
+    <PrimeAlias Label="dzīvo" />
+    <Element Name="Rezidents" RefID="13" />
+    <Element Name="Vieta" RefID="14" />
+  </FrameEntity>
+  <FrameEntity ID="15" Type="Izglītība">
+    <PrimeAlias Label="pabeidzis" />
+    <Element Name="Iestāde" RefID="16" />
+    <Element Name="Nozare" RefID="17" />
+    <Element Name="Laiks" RefID="18" />
+  </FrameEntity>
+  <FrameEntity ID="19" Type="Nodarbošanās">
+    <PrimeAlias Label="kvalifikāciju" />
+    <Element Name="Nodarbošanās" RefID="20" />
+    <Element Name="Statuss" RefID="19" />
+  </FrameEntity>
+  <FrameEntity ID="21" Type="Dzīvesvieta">
+    <PrimeAlias Label="dzīvoja" />
+    <Element Name="Rezidents" RefID="22" />
+    <Element Name="Vieta" RefID="23" />
+  </FrameEntity>
+  <FrameEntity ID="24" Type="Izglītība">
+    <PrimeAlias Label="studēja" />
+    <Element Name="Students" RefID="2" />
+    <Element Name="Iestāde" RefID="25" />
+  </FrameEntity>
+  <FrameEntity ID="26" Type="Darba_sākums">
+    <PrimeAlias Label="iecēluši" />
+    <Element Name="Darba devējs" RefID="27" />
+    <Element Name="Amats" RefID="28" />
+    <Element Name="Darbinieks" RefID="2" />
+    <Element Name="Darbavieta" RefID="29" />
+  </FrameEntity>
+  <FrameEntity ID="30" Type="Nodarbošanās">
+    <PrimeAlias Label="basketbolistu" />
+    <Element Name="Persona" RefID="2" />
+    <Element Name="Nodarbošanās" RefID="30" />
+    <Element Name="Statuss" RefID="31" />
+  </FrameEntity>
+  <FrameEntity ID="32" Type="Amats">
+    <PrimeAlias Label="vadītāju" />
+    <Element Name="Darbinieks" RefID="2" />
+    <Element Name="Darbavieta" RefID="33" />
+    <Element Name="Amats" RefID="32" />
+    <Element Name="Statuss" RefID="34" />
+  </FrameEntity>
+  <FrameEntity ID="35" Type="Amats">
+    <PrimeAlias Label="vadītāju" />
+    <Element Name="Darbinieks" RefID="2" />
+    <Element Name="Darbavieta" RefID="33" />
+    <Element Name="Amats" RefID="35" />
+    <Element Name="Statuss" RefID="36" />
+  </FrameEntity>
+  <FrameEntity ID="37" Type="Nodarbošanās">
+    <PrimeAlias Label="baņķieri" />
+    <Element Name="Persona" RefID="2" />
+    <Element Name="Nodarbošanās" RefID="37" />
+    <Element Name="Statuss" RefID="36" />
+  </FrameEntity>
+  <FrameEntity ID="38" Type="Nodarbošanās">
+    <PrimeAlias Label="uzņēmēju" />
+    <Element Name="Persona" RefID="2" />
+    <Element Name="Nodarbošanās" RefID="38" />
+    <Element Name="Laiks" RefID="39" />
+  </FrameEntity>
+  <FrameEntity ID="40" Type="Amats">
+    <PrimeAlias Label="priekšsēdētājs" />
+    <Element Name="Darbinieks" RefID="2" />
+    <Element Name="Darbavieta" RefID="41" />
+    <Element Name="Amats" RefID="40" />
+  </FrameEntity>
+  <FrameEntity ID="42" Type="Attiecības">
+    <PrimeAlias Label="dzīvesbiedrs" />
+    <Element Name="Partneris_1" RefID="2" />
+    <Element Name="Partneris_2" RefID="43" />
+    <Element Name="Attiecības" RefID="42" />
+  </FrameEntity>
+  <FrameEntity ID="44" Type="Nodarbošanās">
+    <PrimeAlias Label="skaistumkaralienes" />
+    <Element Name="Persona" RefID="43" />
+    <Element Name="Nodarbošanās" RefID="44" />
+  </FrameEntity>
+  <FrameEntity ID="45" Type="Attiecības">
+    <PrimeAlias Label="vecvecmāmiņas" />
+    <Element Name="Partneris_1" RefID="2" />
+    <Element Name="Partneris_2" RefID="45" />
+  </FrameEntity>
+  <FrameEntity ID="46" Type="Amats">
+    <PrimeAlias Label="priekšsēdētājs" />
+    <Element Name="Darbinieks" RefID="2" />
+    <Element Name="Darbavieta" RefID="29" />
+    <Element Name="Amats" RefID="46" />
+    <Element Name="Statuss" RefID="47" />
+  </FrameEntity>
+  <FrameEntity ID="48" Type="Darba_beigas">
+    <PrimeAlias Label="pamest" />
+    <Element Name="Darbinieks" RefID="2" />
+    <Element Name="Darbavieta" RefID="29" />
+    <Element Name="Amats" RefID="46" />
+    <Element Name="Nākamais_darbinieks" RefID="49" />
+  </FrameEntity>
+  <FrameEntity ID="50" Type="Amats">
+    <PrimeAlias Label="loceklis" />
+    <Element Name="Darbinieks" RefID="49" />
+    <Element Name="Amats" RefID="50" />
+    <Element Name="Darbavieta" RefID="29" />
+  </FrameEntity>
+  <FrameEntity ID="51" Type="Darba_sākums">
+    <PrimeAlias Label="pildīt" />
+    <Element Name="Darbinieks" RefID="49" />
+    <Element Name="Amats" RefID="28" />
+    <Element Name="Darbavieta" RefID="29" />
+    <Element Name="Iepriekšējais_darbinieks" RefID="2" />
+    <Element Name="Laiks" RefID="52" />
+  </FrameEntity>
+  <FrameEntity ID="53" Type="Darba_beigas">
+    <PrimeAlias Label="atstājis" />
+    <Element Name="Darbavieta" RefID="54" />
+    <Element Name="Amats" RefID="55" />
+    <Element Name="Darbinieks" RefID="56" />
+  </FrameEntity>
+  <FrameEntity ID="57" Type="Dalība">
+    <PrimeAlias Label="biedrs" />
+    <Element Name="Organizācija" RefID="58" />
+    <Element Name="Biedrs" RefID="13" />
+    <Element Name="Laiks" RefID="59" />
+  </FrameEntity>
+  <FrameEntity ID="60" Type="Vēlēšanas">
+    <PrimeAlias Label="kandidējis" />
+    <Element Name="Dalībnieks" RefID="2" />
+    <Element Name="Vēlēšanas" RefID="61" />
+    <Element Name="Rezultāts" RefID="62" />
+    <Element Name="Laiks" RefID="63" />
+    <Element Name="Vieta" RefID="64" />
+  </FrameEntity>
+  <FrameEntity ID="65" Type="Amats">
+    <PrimeAlias Label="mēra" />
+    <Element Name="Darbinieks" RefID="13" />
+    <Element Name="Amats" RefID="65" />
+    <Element Name="Vieta" RefID="66" />
+  </FrameEntity>
+  <FrameEntity ID="67" Type="Attiecības">
+    <PrimeAlias Label="draugu" />
+    <Element Name="Partneris_1" RefID="68" />
+    <Element Name="Partneris_2" RefID="13" />
+    <Element Name="Attiecības" RefID="67" />
+  </FrameEntity>
+  <FrameEntity ID="69" Type="Amats">
+    <PrimeAlias Label="izpildītāja" />
+    <Element Name="Darbinieks" RefID="70" />
+    <Element Name="Amats" RefID="69" />
+  </FrameEntity>
+  <FrameEntity ID="71" Type="Attiecības">
+    <PrimeAlias Label="advokāta" />
+    <Element Name="Partneris_1" RefID="72" />
+    <Element Name="Partneris_2" RefID="13" />
+    <Element Name="Attiecības" RefID="71" />
+  </FrameEntity>
+  <FrameEntity ID="73" Type="Attiecības">
+    <PrimeAlias Label="sieva" />
+    <Element Name="Partneris_1" RefID="74" />
+    <Element Name="Partneris_2" RefID="72" />
+    <Element Name="Attiecības" RefID="73" />
+  </FrameEntity>
+  <FrameEntity ID="75" Type="Amats">
+    <PrimeAlias Label="notāre" />
+    <Element Name="Darbinieks" RefID="74" />
+    <Element Name="Amats" RefID="75" />
+    <Element Name="Vieta" RefID="76" />
+    <Element Name="Statuss" RefID="77" />
+  </FrameEntity>
+  <FrameEntity ID="78" Type="Nodarbošanās">
+    <PrimeAlias Label="būvuzņēmumiem" />
+    <Element Name="Persona" RefID="54" />
+    <Element Name="Nodarbošanās" RefID="78" />
+    <Element Name="Statuss" RefID="79" />
+  </FrameEntity>
+  <FrameEntity ID="80" Type="Dibināšana">
+    <PrimeAlias Label="dibināts" />
+    <Element Name="Organizācija" RefID="54" />
+    <Element Name="Laiks" RefID="81" />
+    <Element Name="Nozare" RefID="78" />
+  </FrameEntity>
+  <FrameEntity ID="82" Type="Piedalīšanās">
+    <PrimeAlias Label="strādā" />
+    <Element Name="Notikums" RefID="83" />
+    <Element Name="Dalībnieks" RefID="84" />
+  </FrameEntity>
+  <FrameEntity ID="85" Type="Nodarbošanās">
+    <PrimeAlias Label="būvkopmānijas" />
+    <Element Name="Persona" RefID="84" />
+    <Element Name="Nodarbošanās" RefID="85" />
+    <Element Name="Statuss" RefID="86" />
+  </FrameEntity>
+  <FrameEntity ID="90" Type="Finanses">
+    <PrimeAlias Label="peļņa" />
+    <Element Name="Organizācija" RefID="54" />
+    <Element Name="Peļņa" RefID="91" />
+    <Element Name="Laiks" RefID="92" />
+    <Element Name="Pieaugums" RefID="93" />
+  </FrameEntity>
+  <FrameEntity ID="94" Type="Finanses">
+    <PrimeAlias Label="peļņa" />
+    <Element Name="Organizācija" RefID="54" />
+    <Element Name="Ienākumi" RefID="95" />
+    <Element Name="Laiks" RefID="96" />
+  </FrameEntity>
+  <FrameEntity ID="97" Type="Finanses">
+    <PrimeAlias Label="apgrozījumu" />
+    <Element Name="Organizācija" RefID="54" />
+    <Element Name="Ienākumi" RefID="98" />
+    <Element Name="Laiks" RefID="99" />
+  </FrameEntity>
+  <FrameEntity ID="100" Type="Sasniegums">
+    <PrimeAlias Label="lielākais" />
+    <Element Name="Dalībnieks" RefID="54" />
+    <Element Name="Sasniegums" RefID="101" />
+    <Element Name="Rezultāts" RefID="97" />
+    <Element Name="Vieta" RefID="102" />
+  </FrameEntity>
+  <FrameEntity ID="103" Type="Nodarbošanās">
+    <PrimeAlias Label="būvniecības" />
+    <Element Name="Persona" RefID="54" />
+    <Element Name="Nodarbošanās" RefID="103" />
+  </FrameEntity>
+  <FrameEntity ID="104" Type="Īpašums">
+    <PrimeAlias Label="īpašnieki" />
+    <Element Name="Īpašnieks" RefID="105" />
+    <Element Name="Īpašums" RefID="54" />
+  </FrameEntity>
+  <FrameEntity ID="110" Type="Dibināšana">
+    <PrimeAlias Label="izveidojusi" />
+    <Element Name="Organizācija" RefID="111" />
+    <Element Name="Dibinātājs" RefID="54" />
+    <Element Name="Nozare" RefID="112" />
+  </FrameEntity>
+  <FrameEntity ID="113" Type="Attiecības">
+    <PrimeAlias Label="meitas" />
+    <Element Name="Partneris_1" RefID="111" />
+    <Element Name="Partneris_2" RefID="54" />
+    <Element Name="Attiecības" RefID="114" />
+  </FrameEntity>
+  <FrameEntity ID="115" Type="Nodarbošanās">
+    <PrimeAlias Label="nodarbojas" />
+    <Element Name="Persona" RefID="111" />
+    <Element Name="Nodarbošanās" RefID="116" />
+  </FrameEntity>
+  <FrameEntity ID="117" Type="Parāds">
+    <PrimeAlias Label="parādnieks" />
+    <Element Name="Parādnieks" RefID="118" />
+    <Element Name="Aizdevums" RefID="120" />
+  </FrameEntity>
+  <FrameEntity ID="121" Type="Parāds">
+    <PrimeAlias Label="aizdevis" />
+    <Element Name="Aizdevējs" RefID="118" />
+    <Element Name="Aizdevums" RefID="122" />
+  </FrameEntity>
+  <FrameEntity ID="123" Type="Tiesvedība">
+    <PrimeAlias Label="kriminālprocesu" />
+    <Element Name="Prasītājs" RefID="124" />
+    <Element Name="Apsūdzētais" RefID="13" />
+    <Element Name="Apsūdzība" RefID="125" />
+    <Element Name="Laiks" RefID="126" />
+  </FrameEntity>
+  <FrameEntity ID="129" Type="Amats">
+    <PrimeAlias Label="vadītāja" />
+    <Element Name="Darbinieks" RefID="130" />
+    <Element Name="Darbavieta" RefID="128" />
+    <Element Name="Amats" RefID="129" />
+  </FrameEntity>
+  <FrameEntity ID="131" Type="Amats">
+    <PrimeAlias Label="vadītāja" />
+    <Element Name="Darbinieks" RefID="130" />
+    <Element Name="Darbavieta" RefID="128" />
+    <Element Name="Amats" RefID="131" />
+  </FrameEntity>
+  <FrameEntity ID="132" Type="Amats">
+    <PrimeAlias Label="vadītājs" />
+    <Element Name="Darbinieks" RefID="152" />
+    <Element Name="Darbavieta" RefID="128" />
+    <Element Name="Amats" RefID="132" />
+  </FrameEntity>
+  <FrameEntity ID="134" Type="Nodarbošanās">
+    <PrimeAlias Label="apsaimniekošanas" />
+    <Element Name="Persona" RefID="128" />
+    <Element Name="Nodarbošanās" RefID="134" />
+  </FrameEntity>
+  <FrameEntity ID="136" Type="Dibināšana">
+    <PrimeAlias Label="pašvaldību" />
+    <Element Name="Dibinātājs" RefID="136" />
+    <Element Name="Organizācija" RefID="128" />
+  </FrameEntity>
+  <FrameEntity ID="137" Type="Attiecības">
+    <PrimeAlias Label="apsaimnieko" />
+    <Element Name="Partneris_1" RefID="128" />
+    <Element Name="Partneris_2" RefID="135" />
+    <Element Name="Attiecības" RefID="137" />
+  </FrameEntity>
+  <FrameEntity ID="138" Type="Piedalīšanās">
+    <PrimeAlias Label="aktivitāte" />
+    <Element Name="Notikums" RefID="138" />
+    <Element Name="Dalībnieks" RefID="128" />
+    <Element Name="Vieta" RefID="135" />
+    <Element Name="Laiks" RefID="139" />
+  </FrameEntity>
+  <FrameEntity ID="141" Type="Piedalīšanās">
+    <PrimeAlias Label="sāka" />
+    <Element Name="Dalībnieks" RefID="128" />
+    <Element Name="Notikums" RefID="140" />
+    <Element Name="Laiks" RefID="142" />
+  </FrameEntity>
+  <FrameEntity ID="143" Type="Nodarbošanās">
+    <PrimeAlias Label="jomā" />
+    <Element Name="Nodarbošanās" RefID="144" />
+  </FrameEntity>
+  <FrameEntity ID="145" Type="Nodarbošanās">
+    <PrimeAlias Label="apsaimniekošanas" />
+    <Element Name="Persona" RefID="135" />
+    <Element Name="Nodarbošanās" RefID="145" />
+  </FrameEntity>
+  <FrameEntity ID="146" Type="Nodarbošanās">
+    <PrimeAlias Label="veic" />
+    <Element Name="Persona" RefID="128" />
+    <Element Name="Nodarbošanās" RefID="147" />
+  </FrameEntity>
+  <FrameEntity ID="149" Type="Attiecības">
+    <PrimeAlias Label="tiek" />
+    <Element Name="Partneris_1" RefID="128" />
+    <Element Name="Partneris_2" RefID="150" />
+    <Element Name="Laiks" RefID="151" />
+  </FrameEntity>
+  <FrameEntity ID="153" Type="Nodarbošanās">
+    <PrimeAlias Label="ražotājs" />
+    <Element Name="Persona" RefID="154" />
+    <Element Name="Nodarbošanās" RefID="153" />
+    <Element Name="Laiks" RefID="155" />
+  </FrameEntity>
+  <FrameEntity ID="156" Type="Attiecības">
+    <PrimeAlias Label="uzrunājām" />
+    <Element Name="Partneris_1" RefID="128" />
+    <Element Name="Partneris_2" RefID="157" />
+  </FrameEntity>
+  <FrameEntity ID="158" Type="Dibināšana">
+    <PrimeAlias Label="dibināts" />
+    <Element Name="Organizācija" RefID="128" />
+    <Element Name="Dibinātājs" RefID="159" />
+    <Element Name="Laiks" RefID="160" />
+    <Element Name="Nozare" RefID="161" />
+  </FrameEntity>
+  <FrameEntity ID="162" Type="Īpašums">
+    <PrimeAlias Label="īpašnieki" />
+    <Element Name="Īpašnieks" RefID="163" />
+    <Element Name="Īpašums" RefID="128" />
+  </FrameEntity>
+  <FrameEntity ID="164" Type="Nodarbošanās">
+    <PrimeAlias Label="virziens" />
+    <Element Name="Persona" RefID="128" />
+    <Element Name="Nodarbošanās" RefID="165" />
+  </FrameEntity>
+  <FrameEntity ID="166" Type="Miršana">
+    <PrimeAlias Label="Mūžībā" />
+    <Element Name="Mirušais" RefID="167" />
+  </FrameEntity>
+  <FrameEntity ID="168" Type="Nodarbošanās">
+    <PrimeAlias Label="dzejnieks" />
+    <Element Name="Persona" RefID="167" />
+    <Element Name="Nodarbošanās" RefID="168" />
+  </FrameEntity>
+  <FrameEntity ID="169" Type="Miršana">
+    <PrimeAlias Label="mūžībā" />
+    <Element Name="Mirušais" RefID="167" />
+    <Element Name="Laiks" RefID="170" />
+  </FrameEntity>
+  <FrameEntity ID="171" Type="Vecums">
+    <PrimeAlias Label="vecumā" />
+    <Element Name="Persona" RefID="167" />
+    <Element Name="Vecums" RefID="172" />
+  </FrameEntity>
+  <FrameEntity ID="173" Type="Nodarbošanās">
+    <PrimeAlias Label="dzejnieks" />
+    <Element Name="Persona" RefID="167" />
+    <Element Name="Nodarbošanās" RefID="173" />
+  </FrameEntity>
+  <FrameEntity ID="174" Type="Amats">
+    <PrimeAlias Label="ministre" />
+    <Element Name="Darbinieks" RefID="175" />
+    <Element Name="Darbavieta" RefID="176" />
+    <Element Name="Amats" RefID="174" />
+  </FrameEntity>
+  <FrameEntity ID="177" Type="Dalība">
+    <PrimeAlias Label="/" />
+    <Element Name="Biedrs" RefID="175" />
+    <Element Name="Organizācija" RefID="177" />
+  </FrameEntity>
+  <FrameEntity ID="178" Type="Nodarbošanās">
+    <PrimeAlias Label="dzejnieks" />
+    <Element Name="Persona" RefID="167" />
+    <Element Name="Nodarbošanās" RefID="178" />
+  </FrameEntity>
+  <FrameEntity ID="179" Type="Nodarbošanās">
+    <PrimeAlias Label="darbinieks" />
+    <Element Name="Persona" RefID="167" />
+    <Element Name="Nodarbošanās" RefID="179" />
+  </FrameEntity>
+  <FrameEntity ID="180" Type="Dzimšana">
+    <PrimeAlias Label="dzimis" />
+    <Element Name="Bērns" RefID="167" />
+    <Element Name="Laiks" RefID="181" />
+    <Element Name="Vieta" RefID="182" />
+    <Element Name="Radinieki" RefID="183" />
+  </FrameEntity>
+  <FrameEntity ID="184" Type="Izglītība">
+    <PrimeAlias Label="absolvējis" />
+    <Element Name="Students" RefID="167" />
+    <Element Name="Iestāde" RefID="185" />
+    <Element Name="Laiks" RefID="186" />
+    <Element Name="Vieta" RefID="187" />
+  </FrameEntity>
+  <FrameEntity ID="188" Type="Izglītība">
+    <PrimeAlias Label="beidzis" />
+    <Element Name="Students" RefID="167" />
+    <Element Name="Iestāde" RefID="189" />
+    <Element Name="Nozare" RefID="190" />
+    <Element Name="Laiks" RefID="191" />
+  </FrameEntity>
+  <FrameEntity ID="192" Type="Izglītība">
+    <PrimeAlias Label="beidzis" />
+    <Element Name="Students" RefID="167" />
+    <Element Name="Iestāde" RefID="193" />
+    <Element Name="Laiks" RefID="194" />
+    <Element Name="Vieta" RefID="195" />
+  </FrameEntity>
+  <FrameEntity ID="196" Type="Nodarbošanās">
+    <PrimeAlias Label="strādnieks" />
+    <Element Name="Persona" RefID="167" />
+    <Element Name="Nodarbošanās" RefID="196" />
+  </FrameEntity>
+  <FrameEntity ID="197" Type="Nodarbošanās">
+    <PrimeAlias Label="skolotājs" />
+    <Element Name="Persona" RefID="167" />
+    <Element Name="Nodarbošanās" RefID="197" />
+  </FrameEntity>
+  <FrameEntity ID="198" Type="Amats">
+    <PrimeAlias Label="skolotājs" />
+    <Element Name="Darbinieks" RefID="167" />
+    <Element Name="Darbavieta" RefID="199" />
+    <Element Name="Amats" RefID="198" />
+  </FrameEntity>
+  <FrameEntity ID="200" Type="Dalība">
+    <PrimeAlias Label="biedru" />
+    <Element Name="Biedrs" RefID="167" />
+    <Element Name="Organizācija" RefID="201" />
+  </FrameEntity>
+  <FrameEntity ID="202" Type="Nodarbošanās">
+    <PrimeAlias Label="bibliotekārs" />
+    <Element Name="Persona" RefID="167" />
+    <Element Name="Nodarbošanās" RefID="202" />
+    <Element Name="Laiks" RefID="203" />
+  </FrameEntity>
+  <FrameEntity ID="204" Type="Amats">
+    <PrimeAlias Label="redaktors" />
+    <Element Name="Darbinieks" RefID="167" />
+    <Element Name="Darbavieta" RefID="205" />
+    <Element Name="Amats" RefID="204" />
+    <Element Name="Sākums" RefID="207" />
+    <Element Name="Beigas" RefID="206" />
+  </FrameEntity>
+  <FrameEntity ID="208" Type="Amats">
+    <PrimeAlias Label="sekretārs" />
+    <Element Name="Darbinieks" RefID="167" />
+    <Element Name="Darbavieta" RefID="209" />
+    <Element Name="Amats" RefID="208" />
+  </FrameEntity>
+  <FrameEntity ID="210" Type="Sasniegums">
+    <PrimeAlias Label="piešķirts" />
+    <Element Name="Dalībnieks" RefID="167" />
+    <Element Name="Sasniegums" RefID="211" />
+    <Element Name="Laiks" RefID="212" />
+  </FrameEntity>
+  <FrameEntity ID="213" Type="Sasniegums">
+    <PrimeAlias Label="piešķirts" />
+    <Element Name="Dalībnieks" RefID="167" />
+    <Element Name="Sasniegums" RefID="214" />
+    <Element Name="Laiks" RefID="215" />
+  </FrameEntity>
+  <FrameEntity ID="216" Type="Sasniegums">
+    <PrimeAlias Label="apbalvots" />
+    <Element Name="Dalībnieks" RefID="167" />
+    <Element Name="Sasniegums" RefID="217" />
+    <Element Name="Laiks" RefID="218" />
+  </FrameEntity>
+  <FrameEntity ID="219" Type="Darba_sākums">
+    <PrimeAlias Label="kļuvis" />
+    <Element Name="Darbinieks" RefID="167" />
+    <Element Name="Darbavieta" RefID="220" />
+    <Element Name="Amats" RefID="221" />
+    <Element Name="Laiks" RefID="222" />
+  </FrameEntity>
+  <FrameEntity ID="223" Type="Vēlēšanas">
+    <PrimeAlias Label="ievēlēts" />
+    <Element Name="Dalībnieks" RefID="167" />
+    <Element Name="Amats" RefID="224" />
+    <Element Name="Laiks" RefID="225" />
+  </FrameEntity>
+  <FrameEntity ID="226" Type="Amats">
+    <PrimeAlias Label="loceklis" />
+    <Element Name="Darbinieks" RefID="167" />
+    <Element Name="Darbavieta" RefID="227" />
+    <Element Name="Amats" RefID="226" />
+    <Element Name="Statuss" RefID="228" />
+  </FrameEntity>
+  <FrameEntity ID="229" Type="Sasniegums">
+    <PrimeAlias Label="saņēmis" />
+    <Element Name="Dalībnieks" RefID="167" />
+    <Element Name="Sasniegums" RefID="230" />
+    <Element Name="Laiks" RefID="231" />
+  </FrameEntity>
+  <FrameEntity ID="232" Type="Sasniegums">
+    <PrimeAlias Label="saņēmis" />
+    <Element Name="Dalībnieks" RefID="167" />
+    <Element Name="Sasniegums" RefID="233" />
+  </FrameEntity>
+  <FrameEntity ID="234" Type="Amats">
+    <PrimeAlias Label="padomnieks" />
+    <Element Name="Darbinieks" RefID="167" />
+    <Element Name="Amats" RefID="234" />
+    <Element Name="Laiks" RefID="235" />
+  </FrameEntity>
+  <FrameEntity ID="236" Type="Amats">
+    <PrimeAlias Label="prezidenta" />
+    <Element Name="Darbinieks" RefID="237" />
+    <Element Name="Amats" RefID="236" />
+    <Element Name="Laiks" RefID="235" />
+  </FrameEntity>
+  <FrameEntity ID="238" Type="Amats">
+    <PrimeAlias Label="loceklis" />
+    <Element Name="Darbinieks" RefID="167" />
+    <Element Name="Darbavieta" RefID="239" />
+    <Element Name="Amats" RefID="238" />
+    <Element Name="Laiks" RefID="240" />
+  </FrameEntity>
+  <FrameEntity ID="241" Type="Darba_sākums">
+    <PrimeAlias Label="ievēlēts" />
+    <Element Name="Darbinieks" RefID="167" />
+    <Element Name="Darbavieta" RefID="242" />
+    <Element Name="Laiks" RefID="243" />
+  </FrameEntity>
+  <FrameEntity ID="244" Type="Sasniegums">
+    <PrimeAlias Label="piešķirta" />
+    <Element Name="Dalībnieks" RefID="167" />
+    <Element Name="Sasniegums" RefID="245" />
+    <Element Name="Laiks" RefID="246" />
+    <Element Name="Organizētājs" RefID="247" />
+  </FrameEntity>
+  <FrameEntity ID="248" Type="Sasniegums">
+    <PrimeAlias Label="saņēmis" />
+    <Element Name="Dalībnieks" RefID="167" />
+    <Element Name="Sasniegums" RefID="249" />
+  </FrameEntity>
+  <FrameEntity ID="251" Type="Amats">
+    <PrimeAlias Label="speciālists" />
+    <Element Name="Darbinieks" RefID="252" />
+    <Element Name="Darbavieta" RefID="253" />
+    <Element Name="Amats" RefID="251" />
+  </FrameEntity>
+  <FrameEntity ID="254" Type="Nodarbošanās">
+    <PrimeAlias Label="un" />
+    <Element Name="Persona" RefID="250" />
+    <Element Name="Nodarbošanās" RefID="254" />
+  </FrameEntity>
+  <FrameEntity ID="255" Type="Finanses">
+    <PrimeAlias Label="realizēja" />
+    <Element Name="Organizācija" RefID="250" />
+    <Element Name="Ienākumi" RefID="256" />
+    <Element Name="Laiks" RefID="257" />
+    <Element Name="Avots" RefID="270" />
+  </FrameEntity>
+  <FrameEntity ID="258" Type="Piedalīšanās">
+    <PrimeAlias Label="projekts" />
+    <Element Name="Dalībnieks" RefID="250" />
+    <Element Name="Notikums" RefID="258" />
+    <Element Name="Vieta" RefID="259" />
+  </FrameEntity>
+  <FrameEntity ID="260" Type="Piedalīšanās">
+    <PrimeAlias Label="projekts" />
+    <Element Name="Dalībnieks" RefID="250" />
+    <Element Name="Notikums" RefID="260" />
+    <Element Name="Vieta" RefID="261" />
+  </FrameEntity>
+  <FrameEntity ID="262" Type="Piedalīšanās">
+    <PrimeAlias Label="projekts" />
+    <Element Name="Dalībnieks" RefID="250" />
+    <Element Name="Notikums" RefID="262" />
+    <Element Name="Vieta" RefID="263" />
+  </FrameEntity>
+  <FrameEntity ID="264" Type="Attiecības">
+    <PrimeAlias Label="uzņēmuma" />
+    <Element Name="Partneris_1" RefID="265" />
+    <Element Name="Partneris_2" RefID="266" />
+    <Element Name="Attiecības" RefID="264" />
+    <Element Name="Laiks" RefID="267" />
+  </FrameEntity>
+  <FrameEntity ID="268" Type="Piedalīšanās">
+    <PrimeAlias Label="projektiem" />
+    <Element Name="Dalībnieks" RefID="250" />
+    <Element Name="Notikums" RefID="268" />
+    <Element Name="Vieta" RefID="269" />
+  </FrameEntity>
+  <FrameEntity ID="271" Type="Dibināšana">
+    <PrimeAlias Label="sākuma" />
+    <Element Name="Organizācija" RefID="250" />
+    <Element Name="Laiks" RefID="272" />
+  </FrameEntity>
+  <FrameEntity ID="273" Type="Attiecības">
+    <PrimeAlias Label="pazīstams" />
+    <Element Name="Partneris_1" RefID="250" />
+    <Element Name="Partneris_2" RefID="274" />
+    <Element Name="Attiecības" RefID="273" />
+    <Element Name="Laiks" RefID="272" />
+  </FrameEntity>
+  <FrameEntity ID="275" Type="Amats">
+    <PrimeAlias Label="izpilddirektore" />
+    <Element Name="Darbinieks" RefID="276" />
+    <Element Name="Darbavieta" RefID="250" />
+    <Element Name="Amats" RefID="275" />
+  </FrameEntity>
+  <FrameEntity ID="277" Type="Īpašums">
+    <PrimeAlias Label="pieder" />
+    <Element Name="Īpašnieks" RefID="278" />
+    <Element Name="Īpašums" RefID="250" />
+  </FrameEntity>
+  <FrameEntity ID="279" Type="Nodarbošanās">
+    <PrimeAlias Label="privātbankai" />
+    <Element Name="Persona" RefID="278" />
+    <Element Name="Nodarbošanās" RefID="279" />
+  </FrameEntity>
+  <FrameEntity ID="280" Type="Attiecības">
+    <PrimeAlias Label="apvieno" />
+    <Element Name="Partneris_1" RefID="250" />
+    <Element Name="Partneris_2" RefID="281" />
+    <Element Name="Attiecības" RefID="280" />
+  </FrameEntity>
+  <FrameEntity ID="282" Type="Nodarbošanās">
+    <PrimeAlias Label="virziens" />
+    <Element Name="Persona" RefID="281" />
+    <Element Name="Nodarbošanās" RefID="283" />
+  </FrameEntity>
+  <FrameEntity ID="284" Type="Īpašums">
+    <PrimeAlias Label="pieder" />
+    <Element Name="Īpašnieks" RefID="250" />
+    <Element Name="Īpašums" RefID="285" />
+  </FrameEntity>
+  <FrameEntity ID="286" Type="Amats">
+    <PrimeAlias Label="vadītāja" />
+    <Element Name="Darbinieks" RefID="287" />
+    <Element Name="Darbavieta" RefID="288" />
+    <Element Name="Amats" RefID="286" />
+  </FrameEntity>
+  <FrameEntity ID="289" Type="Amats">
+    <PrimeAlias Label="loceklis" />
+    <Element Name="Darbinieks" RefID="290" />
+    <Element Name="Darbavieta" RefID="291" />
+    <Element Name="Amats" RefID="289" />
+  </FrameEntity>
+  <FrameEntity ID="292" Type="Nodarbošanās">
+    <PrimeAlias Label="kompānijas" />
+    <Element Name="Persona" RefID="291" />
+    <Element Name="Nodarbošanās" RefID="293" />
+  </FrameEntity>
+  <FrameEntity ID="294" Type="Sasniegums">
+    <PrimeAlias Label="iekļūšanu" />
+    <Element Name="Dalībnieks" RefID="295" />
+    <Element Name="Sasniegums" RefID="294" />
+    <Element Name="Sacensības" RefID="296" />
+  </FrameEntity>
+  <FrameEntity ID="297" Type="Ziņošana">
+    <PrimeAlias Label="vēsta" />
+    <Element Name="Avots" RefID="298" />
+    <Element Name="Ziņa" RefID="299" />
+  </FrameEntity>
+  <FrameEntity ID="300" Type="Nodarbošanās">
+    <PrimeAlias Label="izplatītāju" />
+    <Element Name="Persona" RefID="295" />
+    <Element Name="Nodarbošanās" RefID="300" />
+  </FrameEntity>
+  <FrameEntity ID="301" Type="Amats">
+    <PrimeAlias Label="direktors" />
+    <Element Name="Darbinieks" RefID="302" />
+    <Element Name="Darbavieta" RefID="303" />
+    <Element Name="Amats" RefID="301" />
+  </FrameEntity>
+  <FrameEntity ID="304" Type="Nodarbošanās">
+    <PrimeAlias Label="mazumtirdzniecības" />
+    <Element Name="Persona" RefID="295" />
+    <Element Name="Nodarbošanās" RefID="304" />
+  </FrameEntity>
+  <FrameEntity ID="305" Type="Ziņošana">
+    <PrimeAlias Label="norāda" />
+    <Element Name="Autors" RefID="302" />
+    <Element Name="Ziņa" RefID="306" />
+  </FrameEntity>
+  <FrameEntity ID="307" Type="Attiecības">
+    <PrimeAlias Label="sadarbojas" />
+    <Element Name="Partneris_1" RefID="303" />
+    <Element Name="Partneris_2" RefID="295" />
+    <Element Name="Attiecības" RefID="307" />
+  </FrameEntity>
+  <FrameEntity ID="308" Type="Attiecības">
+    <PrimeAlias Label="konkurents" />
+    <Element Name="Partneris_1" RefID="309" />
+    <Element Name="Partneris_2" RefID="310" />
+    <Element Name="Attiecības" RefID="308" />
+  </FrameEntity>
+  <FrameEntity ID="311" Type="Amats">
+    <PrimeAlias Label="sekretāre" />
+    <Element Name="Darbinieks" RefID="312" />
+    <Element Name="Darbavieta" RefID="309" />
+    <Element Name="Amats" RefID="311" />
+  </FrameEntity>
+  <FrameEntity ID="313" Type="Amats">
+    <PrimeAlias Label="izpilddirektors" />
+    <Element Name="Darbinieks" RefID="314" />
+    <Element Name="Darbavieta" RefID="315" />
+    <Element Name="Amats" RefID="313" />
+  </FrameEntity>
+  <FrameEntity ID="316" Type="Amats">
+    <PrimeAlias Label="amatā" />
+    <Element Name="Darbinieks" RefID="317" />
+    <Element Name="Darbavieta" RefID="318" />
+    <Element Name="Amats" RefID="319" />
+  </FrameEntity>
+  <FrameEntity ID="320" Type="Amats">
+    <PrimeAlias Label="padomnieks" />
+    <Element Name="Darbinieks" RefID="317" />
+    <Element Name="Amats" RefID="320" />
+  </FrameEntity>
+  <FrameEntity ID="321" Type="Amats">
+    <PrimeAlias Label="darbību" />
+    <Element Name="Darbinieks" RefID="317" />
+    <Element Name="Darbavieta" RefID="322" />
+  </FrameEntity>
+  <FrameEntity ID="323" Type="Amats">
+    <PrimeAlias Label="priekšsēdētāja" />
+    <Element Name="Darbinieks" RefID="324" />
+    <Element Name="Darbavieta" RefID="318" />
+    <Element Name="Amats" RefID="323" />
+  </FrameEntity>
+  <FrameEntity ID="325" Type="Amats">
+    <PrimeAlias Label="ministru" />
+    <Element Name="Darbinieks" RefID="326" />
+    <Element Name="Amats" RefID="325" />
+    <Element Name="Darbavieta" RefID="327" />
+  </FrameEntity>
+  <FrameEntity ID="328" Type="Amats">
+    <PrimeAlias Label="amatā" />
+    <Element Name="Darbinieks" RefID="317" />
+    <Element Name="Darbavieta" RefID="329" />
+    <Element Name="Amats" RefID="330" />
+  </FrameEntity>
+  <FrameEntity ID="331" Type="Amats">
+    <PrimeAlias Label="amatā" />
+    <Element Name="Darbinieks" RefID="317" />
+    <Element Name="Darbavieta" RefID="332" />
+    <Element Name="Amats" RefID="333" />
+    <Element Name="Laiks" RefID="334" />
+  </FrameEntity>
+  <FrameEntity ID="335" Type="Attiecības">
+    <PrimeAlias Label="aicinājis" />
+    <Element Name="Partneris_1" RefID="336" />
+    <Element Name="Partneris_2" RefID="317" />
+    <Element Name="Attiecības" RefID="335" />
+  </FrameEntity>
+  <FrameEntity ID="337" Type="Amats">
+    <PrimeAlias Label="amatu" />
+    <Element Name="Darbinieks" RefID="317" />
+    <Element Name="Darbavieta" RefID="338" />
+    <Element Name="Amats" RefID="339" />
+  </FrameEntity>
+  <FrameEntity ID="340" Type="Amats">
+    <PrimeAlias Label="darbojos" />
+    <Element Name="Darbinieks" RefID="317" />
+    <Element Name="Darbavieta" RefID="341" />
+    <Element Name="Amats" RefID="342" />
+  </FrameEntity>
+  <FrameEntity ID="343" Type="Nodarbošanās">
+    <PrimeAlias Label="uzņēmumiem" />
+    <Element Name="Persona" RefID="341" />
+    <Element Name="Nodarbošanās" RefID="343" />
+  </FrameEntity>
+  <FrameEntity ID="344" Type="Amats">
+    <PrimeAlias Label="amatā" />
+    <Element Name="Darbinieks" RefID="317" />
+    <Element Name="Darbavieta" RefID="327" />
+    <Element Name="Amats" RefID="345" />
+  </FrameEntity>
+  <FrameEntity ID="346" Type="Amats">
+    <PrimeAlias Label="amatā" />
+    <Element Name="Darbinieks" RefID="317" />
+    <Element Name="Darbavieta" RefID="322" />
+    <Element Name="Amats" RefID="347" />
+  </FrameEntity>
+  <FrameEntity ID="348" Type="Piedalīšanās">
+    <PrimeAlias Label="jārealizē" />
+    <Element Name="Dalībnieks" RefID="318" />
+    <Element Name="Notikums" RefID="349" />
+  </FrameEntity>
+  <FrameEntity ID="350" Type="Nodarbošanās">
+    <PrimeAlias Label="žurnāls" />
+    <Element Name="Persona" RefID="351" />
+    <Element Name="Nodarbošanās" RefID="350" />
+  </FrameEntity>
+  <FrameEntity ID="352" Type="Nodarbošanās">
+    <PrimeAlias Label="laikrakstam" />
+    <Element Name="Persona" RefID="353" />
+    <Element Name="Nodarbošanās" RefID="352" />
+  </FrameEntity>
+  <FrameEntity ID="355" Type="Amats">
+    <PrimeAlias Label="korespondents" />
+    <Element Name="Darbinieks" RefID="356" />
+    <Element Name="Amats" RefID="355" />
+    <Element Name="Darbavieta" RefID="357" />
+  </FrameEntity>
+  <FrameEntity ID="359" Type="Izglītība">
+    <PrimeAlias Label="diploms" />
+    <Element Name="Students" RefID="354" />
+    <Element Name="Iestāde" RefID="358" />
+    <Element Name="Laiks" RefID="360" />
+    <Element Name="Vieta" RefID="361" />
+    <Element Name="Nozare" RefID="362" />
+  </FrameEntity>
+  <FrameEntity ID="363" Type="Izglītība">
+    <PrimeAlias Label="studēju" />
+    <Element Name="Students" RefID="356" />
+    <Element Name="Iestāde" RefID="364" />
+    <Element Name="Nozare" RefID="365" />
+    <Element Name="Vieta" RefID="366" />
+    <Element Name="Laiks" RefID="367" />
+  </FrameEntity>
+  <FrameEntity ID="368" Type="Attiecības">
+    <PrimeAlias Label="deva" />
+    <Element Name="Partneris_1" RefID="354" />
+    <Element Name="Partneris_2" RefID="369" />
+    <Element Name="Laiks" RefID="370" />
+  </FrameEntity>
+  <FrameEntity ID="371" Type="Amats">
+    <PrimeAlias Label="redaktors" />
+    <Element Name="Darbinieks" RefID="369" />
+    <Element Name="Darbavieta" RefID="372" />
+    <Element Name="Amats" RefID="371" />
+  </FrameEntity>
+  <FrameEntity ID="373" Type="Amats">
+    <PrimeAlias Label="partorgs" />
+    <Element Name="Darbinieks" RefID="374" />
+    <Element Name="Darbavieta" RefID="201" />
+    <Element Name="Amats" RefID="373" />
+  </FrameEntity>
+  <FrameEntity ID="375" Type="Amats">
+    <PrimeAlias Label="proforgs" />
+    <Element Name="Darbinieks" RefID="376" />
+    <Element Name="Darbavieta" RefID="201" />
+    <Element Name="Amats" RefID="375" />
+  </FrameEntity>
+  <FrameEntity ID="377" Type="Amats">
+    <PrimeAlias Label="ministrei" />
+    <Element Name="Darbinieks" RefID="354" />
+    <Element Name="Amats" RefID="377" />
+    <Element Name="Statuss" RefID="378" />
+  </FrameEntity>
+  <FrameEntity ID="379" Type="Vēlēšanas">
+    <PrimeAlias Label="kandidātei" />
+    <Element Name="Dalībnieks" RefID="354" />
+    <Element Name="Amats" RefID="380" />
+  </FrameEntity>
+  <FrameEntity ID="385" Type="Amats">
+    <PrimeAlias Label="loceklis" />
+    <Element Name="Darbinieks" RefID="386" />
+    <Element Name="Darbavieta" RefID="381" />
+    <Element Name="Amats" RefID="385" />
+  </FrameEntity>
+  <FrameEntity ID="387" Type="Īpašums">
+    <PrimeAlias Label="pieder" />
+    <Element Name="Īpašnieks" RefID="388" />
+    <Element Name="Īpašums" RefID="389" />
+  </FrameEntity>
+  <FrameEntity ID="390" Type="Īpašums">
+    <PrimeAlias Label="līdzīpašnieka" />
+    <Element Name="Īpašnieks" RefID="391" />
+    <Element Name="Īpašums" RefID="381" />
+  </FrameEntity>
+  <FrameEntity ID="392" Type="Amats">
+    <PrimeAlias Label="ministra" />
+    <Element Name="Darbinieks" RefID="393" />
+    <Element Name="Amats" RefID="392" />
+  </FrameEntity>
+  <FrameEntity ID="394" Type="Amats">
+    <PrimeAlias Label="pārstāve" />
+    <Element Name="Darbinieks" RefID="395" />
+    <Element Name="Amats" RefID="394" />
+  </FrameEntity>
+  <FrameEntity ID="396" Type="Nodarbošanās">
+    <PrimeAlias Label="Terra" />
+    <Element Name="Persona" RefID="397" />
+    <Element Name="Nodarbošanās" RefID="396" />
+  </FrameEntity>
+  <FrameEntity ID="398" Type="Nodarbošanās">
+    <PrimeAlias Label="Mikrobiologs" />
+    <Element Name="Persona" RefID="399" />
+    <Element Name="Nodarbošanās" RefID="398" />
+  </FrameEntity>
+  <FrameEntity ID="400" Type="Amats">
+    <PrimeAlias Label="vadītāja" />
+    <Element Name="Darbinieks" RefID="401" />
+    <Element Name="Darbavieta" RefID="402" />
+    <Element Name="Amats" RefID="400" />
+  </FrameEntity>
+  <FrameEntity ID="403" Type="Zīmols">
+    <PrimeAlias Label="NESTEA" />
+    <Element Name="Produkts" RefID="404" />
+    <Element Name="Zīmols" RefID="403" />
+  </FrameEntity>
+  <FrameEntity ID="405" Type="Nodarbošanās">
+    <PrimeAlias Label="fonds" />
+    <Element Name="Persona" RefID="406" />
+    <Element Name="Nodarbošanās" RefID="405" />
+  </FrameEntity>
+  <FrameEntity ID="407" Type="Nodarbošanās">
+    <PrimeAlias Label="Initiatives" />
+    <Element Name="Persona" RefID="408" />
+    <Element Name="Nodarbošanās" RefID="409" />
+  </FrameEntity>
+  <FrameEntity ID="410" Type="Attiecības">
+    <PrimeAlias Label="investē" />
+    <Element Name="Partneris_1" RefID="406" />
+    <Element Name="Partneris_2" RefID="408" />
+    <Element Name="Attiecības" RefID="410" />
+  </FrameEntity>
+  <FrameEntity ID="411" Type="Ziņošana">
+    <PrimeAlias Label="informēja" />
+    <Element Name="Autors" RefID="412" />
+    <Element Name="Ziņa" RefID="413" />
+  </FrameEntity>
+  <FrameEntity ID="414" Type="Attiecības">
+    <PrimeAlias Label="partneris" />
+    <Element Name="Partneris_1" RefID="406" />
+    <Element Name="Partneris_2" RefID="412" />
+    <Element Name="Attiecības" RefID="414" />
+  </FrameEntity>
+  <FrameEntity ID="415" Type="Attiecības">
+    <PrimeAlias Label="saņēmis" />
+    <Element Name="Partneris_1" RefID="406" />
+    <Element Name="Partneris_2" RefID="416" />
+  </FrameEntity>
+  <FrameEntity ID="417" Type="Dibināšana">
+    <PrimeAlias Label="dibināts" />
+    <Element Name="Organizācija" RefID="408" />
+    <Element Name="Laiks" RefID="418" />
+  </FrameEntity>
+  <FrameEntity ID="419" Type="Īpašums">
+    <PrimeAlias Label="līdzīpašnieki" />
+    <Element Name="Īpašnieks" RefID="420" />
+    <Element Name="Īpašums" RefID="408" />
+  </FrameEntity>
+  <FrameEntity ID="421" Type="Nodarbošanās">
+    <PrimeAlias Label="uzņēmējs" />
+    <Element Name="Persona" RefID="420" />
+    <Element Name="Nodarbošanās" RefID="421" />
+  </FrameEntity>
+  <FrameEntity ID="422" Type="Nodarbošanās">
+    <PrimeAlias Label="eksperts" />
+    <Element Name="Persona" RefID="420" />
+    <Element Name="Nodarbošanās" RefID="422" />
+  </FrameEntity>
+  <FrameEntity ID="423" Type="Attiecības">
+    <PrimeAlias Label="partneris" />
+    <Element Name="Partneris_1" RefID="406" />
+    <Element Name="Partneris_2" RefID="424" />
+    <Element Name="Attiecības" RefID="423" />
+  </FrameEntity>
+  <FrameEntity ID="426" Type="Attiecības">
+    <PrimeAlias Label="apvieno" />
+    <Element Name="Partneris_1" RefID="408" />
+    <Element Name="Partneris_2" RefID="425" />
+  </FrameEntity>
+  <FrameEntity ID="427" Type="Zīmols">
+    <PrimeAlias Label="produkts" />
+    <Element Name="Organizācija" RefID="408" />
+    <Element Name="Produkts" RefID="428" />
+  </FrameEntity>
+  <FrameEntity ID="429" Type="Ziņošana">
+    <PrimeAlias Label="teica" />
+    <Element Name="Autors" RefID="424" />
+    <Element Name="Ziņa" RefID="430" />
+  </FrameEntity>
+  <FrameEntity ID="431" Type="Dibināšana">
+    <PrimeAlias Label="dibināts" />
+    <Element Name="Organizācija" RefID="408" />
+    <Element Name="Laiks" RefID="432" />
+  </FrameEntity>
+  <FrameEntity ID="433" Type="Ziņošana">
+    <PrimeAlias Label="Firmas.lv" />
+    <Element Name="Avots" RefID="434" />
+    <Element Name="Ziņa" RefID="431" />
+  </FrameEntity>
+  <FrameEntity ID="435" Type="Amats">
+    <PrimeAlias Label="loceklis" />
+    <Element Name="Darbinieks" RefID="436" />
+    <Element Name="Darbavieta" RefID="408" />
+    <Element Name="Amats" RefID="435" />
+  </FrameEntity>
+  <FrameEntity ID="437" Type="Nodarbošanās">
+    <PrimeAlias Label="uzņēmējs" />
+    <Element Name="Persona" RefID="436" />
+    <Element Name="Nodarbošanās" RefID="437" />
+  </FrameEntity>
+  <FrameEntity ID="438" Type="Dibināšana">
+    <PrimeAlias Label="dibināta" />
+    <Element Name="Organizācija" RefID="406" />
+    <Element Name="Laiks" RefID="439" />
+  </FrameEntity>
+  <FrameEntity ID="440" Type="Īpašums">
+    <PrimeAlias Label="īpašnieki" />
+    <Element Name="Īpašnieks" RefID="441" />
+    <Element Name="Īpašums" RefID="406" />
+  </FrameEntity>
+  <FrameEntity ID="443" Type="Nodarbošanās">
+    <PrimeAlias Label="fonds" />
+    <Element Name="Persona" RefID="406" />
+    <Element Name="Nodarbošanās" RefID="443" />
+  </FrameEntity>
+  <FrameEntity ID="444" Type="Amats">
+    <PrimeAlias Label="izpilddirektore" />
+    <Element Name="Darbinieks" RefID="445" />
+    <Element Name="Darbavieta" RefID="446" />
+    <Element Name="Amats" RefID="444" />
+  </FrameEntity>
+  <FrameEntity ID="447" Type="Amats">
+    <PrimeAlias Label="pārstāve" />
+    <Element Name="Darbinieks" RefID="448" />
+    <Element Name="Darbavieta" RefID="449" />
+  </FrameEntity>
+  <FrameEntity ID="450" Type="Nodarbošanās">
+    <PrimeAlias Label="aģentūrās" />
+    <Element Name="Persona" RefID="451" />
+    <Element Name="Nodarbošanās" RefID="450" />
+  </FrameEntity>
+  <FrameEntity ID="457" Type="Amats">
+    <PrimeAlias Label="ministrs" />
+    <Element Name="Darbinieks" RefID="458" />
+    <Element Name="Amats" RefID="457" />
+  </FrameEntity>
+  <FrameEntity ID="459" Type="Dalība">
+    <PrimeAlias Label="RP" />
+    <Element Name="Biedrs" RefID="458" />
+    <Element Name="Organizācija" RefID="459" />
+  </FrameEntity>
+  <FrameEntity ID="460" Type="Amats">
+    <PrimeAlias Label="mēru" />
+    <Element Name="Darbinieks" RefID="461" />
+    <Element Name="Vieta" RefID="462" />
+    <Element Name="Amats" RefID="460" />
+  </FrameEntity>
+  <FrameEntity ID="463" Type="Dalība">
+    <PrimeAlias Label="ZZS" />
+    <Element Name="Biedrs" RefID="461" />
+    <Element Name="Organizācija" RefID="463" />
+  </FrameEntity>
+  <FrameEntity ID="464" Type="Ziņošana">
+    <PrimeAlias Label="informēja" />
+    <Element Name="Avots" RefID="465" />
+    <Element Name="Ziņa" RefID="466" />
+  </FrameEntity>
+  <FrameEntity ID="467" Type="Nodarbošanās">
+    <PrimeAlias Label="izdevumā" />
+    <Element Name="Persona" RefID="468" />
+    <Element Name="Nodarbošanās" RefID="467" />
+  </FrameEntity>
+  <FrameEntity ID="469" Type="Nodarbošanās">
+    <PrimeAlias Label="aģentūrā" />
+    <Element Name="Persona" RefID="452" />
+    <Element Name="Nodarbošanās" RefID="469" />
+  </FrameEntity>
+  <FrameEntity ID="470" Type="Amats">
+    <PrimeAlias Label="mērs" />
+    <Element Name="Darbinieks" RefID="471" />
+    <Element Name="Amats" RefID="470" />
+    <Element Name="Vieta" RefID="472" />
+  </FrameEntity>
+  <FrameEntity ID="473" Type="Amats">
+    <PrimeAlias Label="ministru" />
+    <Element Name="Darbinieks" RefID="458" />
+    <Element Name="Amats" RefID="473" />
+  </FrameEntity>
+  <FrameEntity ID="474" Type="Darba_sākums">
+    <PrimeAlias Label="ievēlēts" />
+    <Element Name="Darbinieks" RefID="475" />
+    <Element Name="Darbavieta" RefID="476" />
+    <Element Name="Amats" RefID="477" />
+    <Element Name="Laiks" RefID="478" />
+  </FrameEntity>
+  <FrameEntity ID="479" Type="Amats">
+    <PrimeAlias Label="tiesnesis" />
+    <Element Name="Darbinieks" RefID="480" />
+    <Element Name="Amats" RefID="479" />
+  </FrameEntity>
+  <FrameEntity ID="481" Type="Piedalīšanās">
+    <PrimeAlias Label="komisijā" />
+    <Element Name="Dalībnieks" RefID="482" />
+    <Element Name="Notikums" RefID="481" />
+  </FrameEntity>
+  <FrameEntity ID="483" Type="Amats">
+    <PrimeAlias Label="tiesneši" />
+    <Element Name="Darbinieks" RefID="482" />
+    <Element Name="Amats" RefID="483" />
+    <Element Name="Darbavieta" RefID="484" />
+  </FrameEntity>
+  <FrameEntity ID="485" Type="Amats">
+    <PrimeAlias Label="tiesneša" />
+    <Element Name="Darbinieks" RefID="475" />
+    <Element Name="Darbavieta" RefID="476" />
+    <Element Name="Amats" RefID="485" />
+  </FrameEntity>
+  <FrameEntity ID="486" Type="Darba_sākums">
+    <PrimeAlias Label="stājās" />
+    <Element Name="Darbinieks" RefID="475" />
+    <Element Name="Darbavieta" RefID="487" />
+    <Element Name="Amats" RefID="477" />
+    <Element Name="Laiks" RefID="488" />
+  </FrameEntity>
+  <FrameEntity ID="489" Type="Darba_sākums">
+    <PrimeAlias Label="ievēlēts" />
+    <Element Name="Darbinieks" RefID="475" />
+    <Element Name="Darbavieta" RefID="487" />
+    <Element Name="Amats" RefID="477" />
+    <Element Name="Laiks" RefID="490" />
+    <Element Name="Veids" RefID="491" />
+  </FrameEntity>
+  <FrameEntity ID="492" Type="Amats">
+    <PrimeAlias Label="tiesneši" />
+    <Element Name="Darbinieks" RefID="493" />
+    <Element Name="Darbavieta" RefID="476" />
+    <Element Name="Amats" RefID="492" />
+  </FrameEntity>
+  <FrameEntity ID="499" Type="Darba_sākums">
+    <PrimeAlias Label="ievēl" />
+    <Element Name="Darbavieta" RefID="500" />
+    <Element Name="Amats" RefID="501" />
+    <Element Name="Darba devējs" RefID="502" />
+  </FrameEntity>
+  <FrameEntity ID="503" Type="Tiesvedība">
+    <PrimeAlias Label="apsūdzības" />
+    <Element Name="Apsūdzētais" RefID="504" />
+    <Element Name="Prasītājs" RefID="505" />
+  </FrameEntity>
+  <FrameEntity ID="506" Type="Amats">
+    <PrimeAlias Label="sekretāre" />
+    <Element Name="Darbinieks" RefID="507" />
+    <Element Name="Darbavieta" RefID="505" />
+    <Element Name="Amats" RefID="506" />
+  </FrameEntity>
+  <FrameEntity ID="508" Type="Amats">
+    <PrimeAlias Label="advokāts" />
+    <Element Name="Darbinieks" RefID="509" />
+    <Element Name="Amats" RefID="508" />
+  </FrameEntity>
+  <FrameEntity ID="510" Type="Tiesvedība">
+    <PrimeAlias Label="apsūdzība" />
+    <Element Name="Apsūdzētais" RefID="504" />
+    <Element Name="Prasītājs" RefID="505" />
+    <Element Name="Advokāts" RefID="509" />
+  </FrameEntity>
+  <FrameEntity ID="511" Type="Amats">
+    <PrimeAlias Label="prezidentam" />
+    <Element Name="Darbinieks" RefID="504" />
+    <Element Name="Statuss" RefID="512" />
+  </FrameEntity>
+  <FrameEntity ID="513" Type="Attiecības">
+    <PrimeAlias Label="klientam" />
+    <Element Name="Partneris_1" RefID="509" />
+    <Element Name="Partneris_2" RefID="504" />
+    <Element Name="Attiecības" RefID="513" />
+  </FrameEntity>
+  <FrameEntity ID="514" Type="Amats">
+    <PrimeAlias Label="vietnieka" />
+    <Element Name="Darbinieks" RefID="515" />
+    <Element Name="Statuss" RefID="516" />
+    <Element Name="Amats" RefID="514" />
+    <Element Name="Darbavieta" RefID="150" />
+  </FrameEntity>
+  <FrameEntity ID="517" Type="Attiecības">
+    <PrimeAlias Label="advokāts" />
+    <Element Name="Partneris_1" RefID="515" />
+    <Element Name="Partneris_2" RefID="518" />
+    <Element Name="Attiecības" RefID="517" />
+  </FrameEntity>
+  <FrameEntity ID="519" Type="Ziņošana">
+    <PrimeAlias Label="apgalvoja" />
+    <Element Name="Autors" RefID="518" />
+    <Element Name="Ziņa" RefID="520" />
+  </FrameEntity>
+  <FrameEntity ID="521" Type="Piedalīšanās">
+    <PrimeAlias Label="konkursu" />
+    <Element Name="Notikums" RefID="521" />
+    <Element Name="Organizētājs" RefID="150" />
+  </FrameEntity>
+  <FrameEntity ID="522" Type="Tiesvedība">
+    <PrimeAlias Label="sauktas" />
+    <Element Name="Apsūdzība" RefID="523" />
+    <Element Name="Prasītājs" RefID="505" />
+  </FrameEntity>
+  <FrameEntity ID="525" Type="Piedalīšanās">
+    <PrimeAlias Label="konkursu" />
+    <Element Name="Notikums" RefID="526" />
+    <Element Name="Organizētājs" RefID="150" />
+  </FrameEntity>
+  <FrameEntity ID="527" Type="Piedalīšanās">
+    <PrimeAlias Label="realizētajos" />
+    <Element Name="Dalībnieks" RefID="150" />
+    <Element Name="Notikums" RefID="528" />
+  </FrameEntity>
+  <FrameEntity ID="529" Type="Amats">
+    <PrimeAlias Label="prezidentu" />
+    <Element Name="Darbinieks" RefID="504" />
+    <Element Name="Darbavieta" RefID="150" />
+    <Element Name="Amats" RefID="529" />
+    <Element Name="Statuss" RefID="530" />
+  </FrameEntity>
+  <FrameEntity ID="531" Type="Attiecības">
+    <PrimeAlias Label="vietnieku" />
+    <Element Name="Partneris_1" RefID="504" />
+    <Element Name="Partneris_2" RefID="532" />
+    <Element Name="Attiecības" RefID="531" />
+  </FrameEntity>
+  <FrameEntity ID="533" Type="Amats">
+    <PrimeAlias Label="priekšsēdētāju" />
+    <Element Name="Darbinieks" RefID="534" />
+    <Element Name="Darbavieta" RefID="535" />
+    <Element Name="Amats" RefID="533" />
+  </FrameEntity>
+  <FrameEntity ID="536" Type="Attiecības">
+    <PrimeAlias Label="vietnieku" />
+    <Element Name="Partneris_1" RefID="534" />
+    <Element Name="Partneris_2" RefID="537" />
+    <Element Name="Attiecības" RefID="536" />
+  </FrameEntity>
+  <FrameEntity ID="538" Type="Nodarbošanās">
+    <PrimeAlias Label="uzņēmēju" />
+    <Element Name="Persona" RefID="539" />
+    <Element Name="Nodarbošanās" RefID="538" />
+  </FrameEntity>
+  <FrameEntity ID="540" Type="Īpašums">
+    <PrimeAlias Label="piederošajiem" />
+    <Element Name="Īpašnieks" RefID="539" />
+    <Element Name="Īpašums" RefID="541" />
+    <Element Name="Daļa" RefID="542" />
+  </FrameEntity>
+  <FrameEntity ID="543" Type="Attiecības">
+    <PrimeAlias Label="saņēmis" />
+    <Element Name="Partneris_1" RefID="541" />
+    <Element Name="Partneris_2" RefID="150" />
+    <Element Name="Attiecības" RefID="544" />
+  </FrameEntity>
+  <FrameEntity ID="545" Type="Nodarbošanās">
+    <PrimeAlias Label="konsultants" />
+    <Element Name="Persona" RefID="546" />
+    <Element Name="Nodarbošanās" RefID="545" />
+  </FrameEntity>
+  <FrameEntity ID="547" Type="Īpašums">
+    <PrimeAlias Label="piederošā" />
+    <Element Name="Īpašnieks" RefID="546" />
+    <Element Name="Īpašums" RefID="548" />
+  </FrameEntity>
+  <FrameEntity ID="549" Type="Attiecības">
+    <PrimeAlias Label="aģents" />
+    <Element Name="Partneris_1" RefID="548" />
+    <Element Name="Partneris_2" RefID="550" />
+    <Element Name="Attiecības" RefID="549" />
+  </FrameEntity>
+  <FrameEntity ID="551" Type="Piedalīšanās">
+    <PrimeAlias Label="projekta" />
+    <Element Name="Dalībnieks" RefID="550" />
+    <Element Name="Notikums" RefID="551" />
+    <Element Name="Veids" RefID="552" />
+    <Element Name="Organizētājs" RefID="150" />
+  </FrameEntity>
+  <FrameEntity ID="553" Type="Tiesvedība">
+    <PrimeAlias Label="lietā" />
+    <Element Name="Apsūdzētais" RefID="554" />
+  </FrameEntity>
+  <FrameEntity ID="556" Type="Nodarbošanās">
+    <PrimeAlias Label="būvfirmas" />
+    <Element Name="Persona" RefID="54" />
+    <Element Name="Nodarbošanās" RefID="556" />
+  </FrameEntity>
+  <FrameEntity ID="557" Type="Nodarbošanās">
+    <PrimeAlias Label="būvfirmas" />
+    <Element Name="Persona" RefID="54" />
+    <Element Name="Nodarbošanās" RefID="557" />
+  </FrameEntity>
+  <FrameEntity ID="558" Type="Ziņošana">
+    <PrimeAlias Label="informēja" />
+    <Element Name="Avots" RefID="54" />
+    <Element Name="Autors" RefID="559" />
+    <Element Name="Ziņa" RefID="560" />
+  </FrameEntity>
+  <FrameEntity ID="561" Type="Nodarbošanās">
+    <PrimeAlias Label="lv" />
+    <Element Name="Persona" RefID="561" />
+    <Element Name="Nodarbošanās" RefID="562" />
+  </FrameEntity>
+  <FrameEntity ID="563" Type="Amats">
+    <PrimeAlias Label="pārstāve" />
+    <Element Name="Darbinieks" RefID="559" />
+    <Element Name="Darbavieta" RefID="54" />
+  </FrameEntity>
+  <FrameEntity ID="564" Type="Darba_beigas">
+    <PrimeAlias Label="aizgājis" />
+    <Element Name="Darbinieks" RefID="56" />
+    <Element Name="Darbavieta" RefID="54" />
+    <Element Name="Amats" RefID="565" />
+  </FrameEntity>
+  <FrameEntity ID="566" Type="Darba_sākums">
+    <PrimeAlias Label="iecelti" />
+    <Element Name="Darbinieks" RefID="567" />
+    <Element Name="Darbavieta" RefID="54" />
+    <Element Name="Amats" RefID="568" />
+  </FrameEntity>
+  <FrameEntity ID="569" Type="Amats">
+    <PrimeAlias Label="direktors" />
+    <Element Name="Darbinieks" RefID="567" />
+    <Element Name="Darbavieta" RefID="54" />
+    <Element Name="Amats" RefID="569" />
+  </FrameEntity>
+  <FrameEntity ID="570" Type="Amats">
+    <PrimeAlias Label="direktore" />
+    <Element Name="Darbinieks" RefID="571" />
+    <Element Name="Darbavieta" RefID="54" />
+    <Element Name="Amats" RefID="570" />
+  </FrameEntity>
+  <FrameEntity ID="572" Type="Amats">
+    <PrimeAlias Label="priekšsēdētājs" />
+    <Element Name="Darbinieks" RefID="573" />
+    <Element Name="Darbavieta" RefID="54" />
+    <Element Name="Amats" RefID="572" />
+  </FrameEntity>
+  <FrameEntity ID="574" Type="Amats">
+    <PrimeAlias Label="loceklis" />
+    <Element Name="Darbinieks" RefID="575" />
+    <Element Name="Darbavieta" RefID="54" />
+    <Element Name="Amats" RefID="574" />
+  </FrameEntity>
+  <FrameEntity ID="576" Type="Amats">
+    <PrimeAlias Label="ģenerāldirektors" />
+    <Element Name="Darbinieks" RefID="575" />
+    <Element Name="Darbavieta" RefID="54" />
+    <Element Name="Amats" RefID="576" />
+  </FrameEntity>
+  <FrameEntity ID="577" Type="Amats">
+    <PrimeAlias Label="loceklis" />
+    <Element Name="Darbinieks" RefID="578" />
+    <Element Name="Darbavieta" RefID="54" />
+    <Element Name="Amats" RefID="577" />
+  </FrameEntity>
+  <FrameEntity ID="579" Type="Amats">
+    <PrimeAlias Label="direktors" />
+    <Element Name="Darbinieks" RefID="578" />
+    <Element Name="Darbavieta" RefID="54" />
+    <Element Name="Amats" RefID="579" />
+  </FrameEntity>
+  <FrameEntity ID="580" Type="Nodarbošanās">
+    <PrimeAlias Label="būvuzņēmumiem" />
+    <Element Name="Persona" RefID="54" />
+    <Element Name="Nodarbošanās" RefID="580" />
+  </FrameEntity>
+  <FrameEntity ID="581" Type="Dibināšana">
+    <PrimeAlias Label="dibināts" />
+    <Element Name="Organizācija" RefID="54" />
+    <Element Name="Nozare" RefID="580" />
+    <Element Name="Laiks" RefID="582" />
+  </FrameEntity>
+  <FrameEntity ID="583" Type="Nodarbošanās">
+    <PrimeAlias Label="darbojas" />
+    <Element Name="Persona" RefID="54" />
+    <Element Name="Nodarbošanās" RefID="584" />
+    <Element Name="Statuss" RefID="585" />
+  </FrameEntity>
+  <FrameEntity ID="586" Type="Finanses">
+    <PrimeAlias Label="apgrozījumu" />
+    <Element Name="Organizācija" RefID="54" />
+    <Element Name="Ienākumi" RefID="587" />
+    <Element Name="Laiks" RefID="588" />
+  </FrameEntity>
+  <FrameEntity ID="589" Type="Ziņošana">
+    <PrimeAlias Label="liecina" />
+    <Element Name="Avots" RefID="590" />
+    <Element Name="Ziņa" RefID="591" />
+  </FrameEntity>
+  <FrameEntity ID="592" Type="Finanses">
+    <PrimeAlias Label="apgrozījums" />
+    <Element Name="Organizācija" RefID="54" />
+    <Element Name="Ienākumi" RefID="593" />
+    <Element Name="Laiks" RefID="594" />
+  </FrameEntity>
+  <FrameEntity ID="595" Type="Finanses">
+    <PrimeAlias Label="peļņa" />
+    <Element Name="Organizācija" RefID="54" />
+    <Element Name="Peļņa" RefID="596" />
+    <Element Name="Laiks" RefID="597" />
+  </FrameEntity>
+  <FrameEntity ID="598" Type="Finanses">
+    <PrimeAlias Label="peļņa" />
+    <Element Name="Organizācija" RefID="54" />
+    <Element Name="Peļņa" RefID="599" />
+    <Element Name="Laiks" RefID="600" />
+  </FrameEntity>
+  <FrameEntity ID="601" Type="Nodarbošanās">
+    <PrimeAlias Label="centra" />
+    <Element Name="Persona" RefID="602" />
+    <Element Name="Nodarbošanās" RefID="601" />
+  </FrameEntity>
+  <FrameEntity ID="603" Type="Īpašums">
+    <PrimeAlias Label="īpašnieki" />
+    <Element Name="Īpašnieks" RefID="604" />
+    <Element Name="Īpašums" RefID="54" />
+    <Element Name="Daļa" RefID="605" />
+  </FrameEntity>
+  <FrameEntity ID="606" Type="Nodarbošanās">
+    <PrimeAlias Label="uzņēmumam" />
+    <Element Name="Persona" RefID="607" />
+    <Element Name="Nodarbošanās" RefID="606" />
+  </FrameEntity>
+  <FrameEntity ID="608" Type="Nodarbošanās">
+    <PrimeAlias Label="portālam" />
+    <Element Name="Persona" RefID="562" />
+    <Element Name="Nodarbošanās" RefID="608" />
+  </FrameEntity>
+  <FrameEntity ID="609" Type="Īpašums">
+    <PrimeAlias Label="akcionārs" />
+    <Element Name="Īpašnieks" RefID="610" />
+    <Element Name="Īpašums" RefID="607" />
+  </FrameEntity>
+  <FrameEntity ID="611" Type="Attiecības">
+    <PrimeAlias Label="meitasuzņēmums" />
+    <Element Name="Partneris_1" RefID="607" />
+    <Element Name="Partneris_2" RefID="612" />
+    <Element Name="Attiecības" RefID="611" />
+  </FrameEntity>
+  <FrameEntity ID="613" Type="Ziņošana">
+    <PrimeAlias Label="sacīja" />
+    <Element Name="Autors" RefID="610" />
+    <Element Name="Ziņa" RefID="614" />
+  </FrameEntity>
+  <FrameEntity ID="615" Type="Finanses">
+    <PrimeAlias Label="apgrozījums" />
+    <Element Name="Organizācija" RefID="607" />
+    <Element Name="Pieaugums" RefID="616" />
+    <Element Name="Laiks" RefID="617" />
+  </FrameEntity>
+  <FrameEntity ID="618" Type="Ziņošana">
+    <PrimeAlias Label="prognozēja" />
+    <Element Name="Autors" RefID="610" />
+    <Element Name="Laiks" RefID="619" />
+    <Element Name="Ziņa" RefID="620" />
+  </FrameEntity>
+  <FrameEntity ID="621" Type="Ziņošana">
+    <PrimeAlias Label="norādīja" />
+    <Element Name="Autors" RefID="610" />
+    <Element Name="Ziņa" RefID="622" />
+  </FrameEntity>
+  <FrameEntity ID="623" Type="Finanses">
+    <PrimeAlias Label="peļņa" />
+    <Element Name="Organizācija" RefID="607" />
+    <Element Name="Peļņa" RefID="624" />
+    <Element Name="Laiks" RefID="625" />
+  </FrameEntity>
+  <FrameEntity ID="626" Type="Nodarbošanās">
+    <PrimeAlias Label="uzņēmumiem" />
+    <Element Name="Persona" RefID="607" />
+    <Element Name="Nodarbošanās" RefID="626" />
+  </FrameEntity>
+  <FrameEntity ID="627" Type="Nodarbošanās">
+    <PrimeAlias Label="virzieni" />
+    <Element Name="Persona" RefID="607" />
+    <Element Name="Nodarbošanās" RefID="628" />
+  </FrameEntity>
+  <FrameEntity ID="629" Type="Īpašums">
+    <PrimeAlias Label="akcionāri" />
+    <Element Name="Īpašnieks" RefID="630" />
+    <Element Name="Īpašums" RefID="607" />
+    <Element Name="Daļa" RefID="631" />
+  </FrameEntity>
+  <FrameEntity ID="632" Type="Finanses">
+    <PrimeAlias Label="apgrozījums" />
+    <Element Name="Organizācija" RefID="607" />
+    <Element Name="Ienākumi" RefID="633" />
+    <Element Name="Laiks" RefID="634" />
+    <Element Name="Pieaugums" RefID="635" />
+  </FrameEntity>
+  <FrameEntity ID="636" Type="Finanses">
+    <PrimeAlias Label="peļņa" />
+    <Element Name="Organizācija" RefID="607" />
+    <Element Name="Peļņa" RefID="637" />
+    <Element Name="Laiks" RefID="638" />
+  </FrameEntity>
+  <FrameEntity ID="639" Type="Zīmols">
+    <PrimeAlias Label="zīmola" />
+    <Element Name="Zīmols" RefID="640" />
+    <Element Name="Organizācija" RefID="641" />
+  </FrameEntity>
+  <FrameEntity ID="642" Type="Attiecības">
+    <PrimeAlias Label="Apvienojoties" />
+    <Element Name="Attiecības" RefID="642" />
+    <Element Name="Partneri" RefID="643" />
+  </FrameEntity>
+  <FrameEntity ID="644" Type="Nodarbošanās">
+    <PrimeAlias Label="mazumtirgotājiem" />
+    <Element Name="Nodarbošanās" RefID="644" />
+    <Element Name="Persona" RefID="643" />
+  </FrameEntity>
+  <FrameEntity ID="645" Type="Amats">
+    <PrimeAlias Label="prezidents" />
+    <Element Name="Darbinieks" RefID="646" />
+    <Element Name="Darbavieta" RefID="647" />
+    <Element Name="Amats" RefID="645" />
+  </FrameEntity>
+  <FrameEntity ID="650" Type="Zīmols">
+    <PrimeAlias Label="zīmola" />
+    <Element Name="Zīmols" RefID="640" />
+    <Element Name="Organizācija" RefID="641" />
+  </FrameEntity>
+  <FrameEntity ID="651" Type="Īpašums">
+    <PrimeAlias Label="īpašnieka" />
+    <Element Name="Īpašnieks" RefID="641" />
+    <Element Name="Īpašums" RefID="650" />
+  </FrameEntity>
+  <FrameEntity ID="652" Type="Nodarbošanās">
+    <PrimeAlias Label="mazumtirgotāju" />
+    <Element Name="Persona" RefID="649" />
+    <Element Name="Nodarbošanās" RefID="652" />
+  </FrameEntity>
+  <FrameEntity ID="654" Type="Amats">
+    <PrimeAlias Label="priekšsēdētājs" />
+    <Element Name="Darbinieks" RefID="655" />
+    <Element Name="Darbavieta" RefID="656" />
+    <Element Name="Amats" RefID="654" />
+  </FrameEntity>
+  <FrameEntity ID="657" Type="Nodarbošanās">
+    <PrimeAlias Label="portālam" />
+    <Element Name="Persona" RefID="562" />
+    <Element Name="Nodarbošanās" RefID="657" />
+  </FrameEntity>
+  <FrameEntity ID="658" Type="Sasniegums">
+    <PrimeAlias Label="ierindota" />
+    <Element Name="Dalībnieks" RefID="648" />
+    <Element Name="Sacensības" RefID="659" />
+    <Element Name="Rangs" RefID="660" />
+    <Element Name="Organizētājs" RefID="661" />
+    <Element Name="Laiks" RefID="662" />
+  </FrameEntity>
+  <FrameEntity ID="663" Type="Sasniegums">
+    <PrimeAlias Label="vietā" />
+    <Element Name="Dalībnieks" RefID="641" />
+    <Element Name="Sacensības" RefID="659" />
+    <Element Name="Rangs" RefID="663" />
+    <Element Name="Laiks" RefID="662" />
+    <Element Name="Organizētājs" RefID="661" />
+  </FrameEntity>
+  <FrameEntity ID="664" Type="Sasniegums">
+    <PrimeAlias Label="vietā" />
+    <Element Name="Dalībnieks" RefID="649" />
+    <Element Name="Rangs" RefID="664" />
+    <Element Name="Sacensības" RefID="659" />
+    <Element Name="Laiks" RefID="662" />
+    <Element Name="Organizētājs" RefID="661" />
+  </FrameEntity>
+  <FrameEntity ID="665" Type="Finanses">
+    <PrimeAlias Label="apgrozījums" />
+    <Element Name="Organizācija" RefID="641" />
+    <Element Name="Ienākumi" RefID="666" />
+    <Element Name="Laiks" RefID="667" />
+    <Element Name="Peļņa" RefID="668" />
+  </FrameEntity>
+  <FrameEntity ID="669" Type="Ziņošana">
+    <PrimeAlias Label="liecina" />
+    <Element Name="Avots" RefID="670" />
+    <Element Name="Ziņa" RefID="671" />
+  </FrameEntity>
+  <FrameEntity ID="672" Type="Nodarbošanās">
+    <PrimeAlias Label="mazumtirgotājs" />
+    <Element Name="Persona" RefID="641" />
+    <Element Name="Nodarbošanās" RefID="672" />
+  </FrameEntity>
+  <FrameEntity ID="673" Type="Dibināšana">
+    <PrimeAlias Label="reģistrēta" />
+    <Element Name="Organizācija" RefID="674" />
+    <Element Name="Laiks" RefID="675" />
+  </FrameEntity>
+  <FrameEntity ID="676" Type="Attiecības">
+    <PrimeAlias Label="nosaukums" />
+    <Element Name="Partneris_1" RefID="641" />
+    <Element Name="Partneris_2" RefID="674" />
+  </FrameEntity>
+  <FrameEntity ID="677" Type="Ziņošana">
+    <PrimeAlias Label="liecina" />
+    <Element Name="Avots" RefID="670" />
+    <Element Name="Ziņa" RefID="678" />
+  </FrameEntity>
+  <FrameEntity ID="679" Type="Īpašums">
+    <PrimeAlias Label="pieder" />
+    <Element Name="Īpašnieks" RefID="680" />
+    <Element Name="Īpašums" RefID="681" />
+  </FrameEntity>
+  <FrameEntity ID="682" Type="Finanses">
+    <PrimeAlias Label="apgrozījums" />
+    <Element Name="Organizācija" RefID="648" />
+    <Element Name="Ienākumi" RefID="683" />
+    <Element Name="Laiks" RefID="684" />
+    <Element Name="Peļņa" RefID="685" />
+  </FrameEntity>
+  <FrameEntity ID="686" Type="Dibināšana">
+    <PrimeAlias Label="dibināts" />
+    <Element Name="Organizācija" RefID="648" />
+    <Element Name="Laiks" RefID="687" />
+  </FrameEntity>
+  <FrameEntity ID="688" Type="Īpašums">
+    <PrimeAlias Label="pieder" />
+    <Element Name="Īpašnieks" RefID="689" />
+    <Element Name="Īpašums" RefID="690" />
+  </FrameEntity>
+  <FrameEntity ID="691" Type="Īpašums">
+    <PrimeAlias Label="pieder" />
+    <Element Name="Īpašnieks" RefID="648" />
+    <Element Name="Īpašums" RefID="692" />
+  </FrameEntity>
+  <FrameEntity ID="693" Type="Finanses">
+    <PrimeAlias Label="apgrozījums" />
+    <Element Name="Organizācija" RefID="649" />
+    <Element Name="Ienākumi" RefID="694" />
+    <Element Name="Peļņa" RefID="695" />
+    <Element Name="Laiks" RefID="696" />
+  </FrameEntity>
+  <FrameEntity ID="697" Type="Dibināšana">
+    <PrimeAlias Label="dibināts" />
+    <Element Name="Organizācija" RefID="649" />
+    <Element Name="Laiks" RefID="698" />
+  </FrameEntity>
+  <FrameEntity ID="699" Type="Īpašums">
+    <PrimeAlias Label="pieder" />
+    <Element Name="Īpašums" RefID="700" />
+    <Element Name="Īpašnieks" RefID="701" />
+  </FrameEntity>
+  <FrameEntity ID="702" Type="Īpašums">
+    <PrimeAlias Label="pieder" />
+    <Element Name="Īpašnieks" RefID="649" />
+    <Element Name="Īpašums" RefID="703" />
+  </FrameEntity>
+  <FrameEntity ID="704" Type="Īpašums">
+    <PrimeAlias Label="pārņemot" />
+    <Element Name="Īpašnieks" RefID="705" />
+    <Element Name="Īpašums" RefID="706" />
+    <Element Name="Laiks" RefID="707" />
+  </FrameEntity>
+  <FrameEntity ID="709" Type="Īpašums">
+    <PrimeAlias Label="ir" />
+    <Element Name="Īpašnieks" RefID="705" />
+    <Element Name="Īpašums" RefID="710" />
+    <Element Name="Laiks" RefID="711" />
+  </FrameEntity>
+  <FrameEntity ID="712" Type="Nodarbošanās">
+    <PrimeAlias Label="tirgotāja" />
+    <Element Name="Persona" RefID="713" />
+    <Element Name="Nodarbošanās" RefID="712" />
+  </FrameEntity>
+  <FrameEntity ID="714" Type="Īpašums">
+    <PrimeAlias Label="ir" />
+    <Element Name="Īpašnieks" RefID="715" />
+    <Element Name="Īpašums" RefID="716" />
+  </FrameEntity>
+  <FrameEntity ID="717" Type="Īpašums">
+    <PrimeAlias Label="stacijas" />
+    <Element Name="Īpašnieks" RefID="713" />
+    <Element Name="Īpašums" RefID="717" />
+  </FrameEntity>
+  <FrameEntity ID="718" Type="Īpašums">
+    <PrimeAlias Label="stacijas" />
+    <Element Name="Īpašnieks" RefID="719" />
+    <Element Name="Īpašums" RefID="718" />
+  </FrameEntity>
+  <FrameEntity ID="720" Type="Amats">
+    <PrimeAlias Label="vietnieku" />
+    <Element Name="Darbinieks" RefID="721" />
+    <Element Name="Darbavieta" RefID="722" />
+    <Element Name="Amats" RefID="723" />
+    <Element Name="Statuss" RefID="724" />
+  </FrameEntity>
+  <FrameEntity ID="726" Type="Ziņošana">
+    <PrimeAlias Label="informēja" />
+    <Element Name="Avots" RefID="727" />
+    <Element Name="Ziņa" RefID="728" />
+  </FrameEntity>
+  <FrameEntity ID="730" Type="Amats">
+    <PrimeAlias Label="locekļu" />
+    <Element Name="Darbinieks" RefID="731" />
+    <Element Name="Darbavieta" RefID="725" />
+    <Element Name="Amats" RefID="730" />
+    <Element Name="Statuss" RefID="732" />
+  </FrameEntity>
+  <FrameEntity ID="734" Type="Amats">
+    <PrimeAlias Label="priekšsēdētāja" />
+    <Element Name="Darbinieks" RefID="721" />
+    <Element Name="Darbavieta" RefID="735" />
+    <Element Name="Amats" RefID="734" />
+    <Element Name="Sākums" RefID="736" />
+    <Element Name="Beigas" RefID="737" />
+  </FrameEntity>
+  <FrameEntity ID="738" Type="Amats">
+    <PrimeAlias Label="strādāja" />
+    <Element Name="Darbinieks" RefID="721" />
+    <Element Name="Darbavieta" RefID="739" />
+    <Element Name="Laiks" RefID="740" />
+  </FrameEntity>
+  <FrameEntity ID="741" Type="Nodarbošanās">
+    <PrimeAlias Label="auditoram" />
+    <Element Name="Persona" RefID="733" />
+    <Element Name="Nodarbošanās" RefID="741" />
+  </FrameEntity>
+  <FrameEntity ID="742" Type="Amats">
+    <PrimeAlias Label="partneris" />
+    <Element Name="Darbinieks" RefID="733" />
+    <Element Name="Darbavieta" RefID="743" />
+    <Element Name="Amats" RefID="742" />
+    <Element Name="Statuss" RefID="744" />
+  </FrameEntity>
+  <FrameEntity ID="745" Type="Amats">
+    <PrimeAlias Label="pārstāvis" />
+    <Element Name="Darbinieks" RefID="733" />
+    <Element Name="Darbavieta" RefID="746" />
+    <Element Name="Amats" RefID="745" />
+    <Element Name="Vieta" RefID="747" />
+  </FrameEntity>
+  <FrameEntity ID="750" Type="Amats">
+    <PrimeAlias Label="konsultante" />
+    <Element Name="Darbinieks" RefID="751" />
+    <Element Name="Darbavieta" RefID="749" />
+    <Element Name="Amats" RefID="750" />
+  </FrameEntity>
+  <FrameEntity ID="752" Type="Amats">
+    <PrimeAlias Label="vadītājs" />
+    <Element Name="Darbinieks" RefID="753" />
+    <Element Name="Darbavieta" RefID="749" />
+    <Element Name="Amats" RefID="752" />
+  </FrameEntity>
+  <FrameEntity ID="754" Type="Nodarbošanās">
+    <PrimeAlias Label="ražošanas" />
+    <Element Name="Persona" RefID="749" />
+    <Element Name="Nodarbošanās" RefID="754" />
+  </FrameEntity>
+  <FrameEntity ID="756" Type="Zīmols">
+    <PrimeAlias Label="šķirnes" />
+    <Element Name="Zīmols" RefID="757" />
+    <Element Name="Organizācija" RefID="749" />
+    <Element Name="Produkts" RefID="758" />
+  </FrameEntity>
+  <FrameEntity ID="759" Type="Piedalīšanās">
+    <PrimeAlias Label="Noslēdzot" />
+    <Element Name="Dalībnieks" RefID="749" />
+    <Element Name="Notikums" RefID="760" />
+  </FrameEntity>
+  <FrameEntity ID="761" Type="Dibināšana">
+    <PrimeAlias Label="nodibināts" />
+    <Element Name="Organizācija" RefID="762" />
+    <Element Name="Laiks" RefID="763" />
+  </FrameEntity>
+  <FrameEntity ID="764" Type="Attiecības">
+    <PrimeAlias Label="pazīstams" />
+    <Element Name="Partneris_1" RefID="762" />
+    <Element Name="Partneris_2" RefID="749" />
+    <Element Name="Attiecības" RefID="764" />
+    <Element Name="Laiks" RefID="765" />
+  </FrameEntity>
+  <FrameEntity ID="766" Type="Amats">
+    <PrimeAlias Label="konsultante" />
+    <Element Name="Darbinieks" RefID="751" />
+    <Element Name="Darbavieta" RefID="749" />
+    <Element Name="Amats" RefID="766" />
+  </FrameEntity>
+  <FrameEntity ID="768" Type="Amats">
+    <PrimeAlias Label="direktoru" />
+    <Element Name="Darbinieks" RefID="769" />
+    <Element Name="Darbavieta" RefID="770" />
+    <Element Name="Amats" RefID="768" />
+  </FrameEntity>
+  <FrameEntity ID="773" Type="Nodarbošanās">
+    <PrimeAlias Label="laikrakstā" />
+    <Element Name="Persona" RefID="772" />
+    <Element Name="Nodarbošanās" RefID="773" />
+  </FrameEntity>
+  <FrameEntity ID="778" Type="Amats">
+    <PrimeAlias Label="prezidents" />
+    <Element Name="Darbinieks" RefID="779" />
+    <Element Name="Darbavieta" RefID="780" />
+    <Element Name="Amats" RefID="778" />
+    <Element Name="Statuss" RefID="781" />
+  </FrameEntity>
+  <FrameEntity ID="783" Type="Sasniegums">
+    <PrimeAlias Label="saņem" />
+    <Element Name="Dalībnieks" RefID="784" />
+    <Element Name="Sasniegums" RefID="785" />
+  </FrameEntity>
+  <FrameEntity ID="786" Type="Attiecības">
+    <PrimeAlias Label="sadarboties" />
+    <Element Name="Partneris_1" RefID="769" />
+    <Element Name="Partneris_2" RefID="787" />
+    <Element Name="Attiecības" RefID="786" />
+  </FrameEntity>
+  <FrameEntity ID="788" Type="Amats">
+    <PrimeAlias Label="ministrs" />
+    <Element Name="Darbinieks" RefID="789" />
+    <Element Name="Amats" RefID="788" />
+  </FrameEntity>
+  <FrameEntity ID="791" Type="Nodarbošanās">
+    <PrimeAlias Label="ŽURNĀLISTS" />
+    <Element Name="Persona" RefID="790" />
+    <Element Name="Nodarbošanās" RefID="791" />
+  </FrameEntity>
+  <FrameEntity ID="792" Type="Īpašums">
+    <PrimeAlias Label="savu" />
+    <Element Name="Īpašnieks" RefID="790" />
+    <Element Name="Īpašums" RefID="793" />
+  </FrameEntity>
+  <FrameEntity ID="795" Type="Amats">
+    <PrimeAlias Label="MĒRS" />
+    <Element Name="Darbinieks" RefID="794" />
+    <Element Name="Amats" RefID="795" />
+  </FrameEntity>
+  <FrameEntity ID="799" Type="Nodarbošanās">
+    <PrimeAlias Label="augstskolām" />
+    <Element Name="Persona" RefID="796" />
+    <Element Name="Nodarbošanās" RefID="799" />
+  </FrameEntity>
+  <FrameEntity ID="800" Type="Dzimšana">
+    <PrimeAlias Label="Dzimis" />
+    <Element Name="Bērns" RefID="769" />
+    <Element Name="Laiks" RefID="801" />
+    <Element Name="Vieta" RefID="802" />
+  </FrameEntity>
+  <FrameEntity ID="803" Type="Izglītība">
+    <PrimeAlias Label="Beidzis" />
+    <Element Name="Students" RefID="769" />
+    <Element Name="Iestāde" RefID="804" />
+  </FrameEntity>
+  <FrameEntity ID="805" Type="Izglītība">
+    <PrimeAlias Label="Beidzis" />
+    <Element Name="Students" RefID="769" />
+    <Element Name="Iestāde" RefID="806" />
+    <Element Name="Nozare" RefID="807" />
+  </FrameEntity>
+  <FrameEntity ID="808" Type="Amats">
+    <PrimeAlias Label="strādājis" />
+    <Element Name="Darbinieks" RefID="769" />
+    <Element Name="Darbavieta" RefID="809" />
+    <Element Name="Laiks" RefID="810" />
+  </FrameEntity>
+  <FrameEntity ID="811" Type="Amats">
+    <PrimeAlias Label="strādā" />
+    <Element Name="Darbinieks" RefID="769" />
+    <Element Name="Darbavieta" RefID="770" />
+    <Element Name="Sākums" RefID="812" />
+  </FrameEntity>
+  <FrameEntity ID="813" Type="Amats">
+    <PrimeAlias Label="direktors" />
+    <Element Name="Darbinieks" RefID="769" />
+    <Element Name="Darbavieta" RefID="770" />
+    <Element Name="Amats" RefID="813" />
+    <Element Name="Sākums" RefID="814" />
+  </FrameEntity>
+  <FrameEntity ID="815" Type="Amats">
+    <PrimeAlias Label="FOTO" />
+    <Element Name="Darbinieks" RefID="816" />
+    <Element Name="Darbavieta" RefID="817" />
+  </FrameEntity>
+</SemanticDB>

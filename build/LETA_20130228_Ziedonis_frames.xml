@@ -1,0 +1,623 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Sentences>
+  <Sentence ID="LETA_20130228_Ziedonis-dep-unlabeled1" Text="Mūžībā aizgājis dzejnieks Imants Ziedonis">
+    <Words>
+      <Word Index="0" Original="Mūžībā" Morph1="n" Morph2="ncfsl4" Lemma="mūžība" Parent="1"/>
+      <Word Index="1" Original="aizgājis" Morph1="v" Morph2="vmnpdmsnasn" Lemma="aiziet" Parent="-1"/>
+      <Word Index="2" Original="dzejnieks" Morph1="n" Morph2="ncmsn1" Lemma="dzejnieks" Parent="1"/>
+      <Word Index="3" Original="Imants" Morph1="n" Morph2="npmsn1" Lemma="Imants" Parent="4"/>
+      <Word Index="4" Original="Ziedonis" Morph1="n" Morph2="npmsn2" Lemma="Ziedonis" Parent="2"/>
+    </Words>
+    <NamedEntities>
+      <NamedEntity ID="548" WordIndex="0"/>
+      <NamedEntity ID="99" WordIndex="4"/>
+      <NamedEntity ID="549" WordIndex="2"/>
+    </NamedEntities>
+    <Markers/>
+  </Sentence>
+  <Sentence ID="LETA_20130228_Ziedonis-dep-unlabeled2" Text="Rīga , 27. febr. , LETA .">
+    <Words>
+      <Word Index="0" Original="Rīga" Morph1="n" Morph2="npfsn4" Lemma="Rīga" Parent="6"/>
+      <Word Index="1" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="6"/>
+      <Word Index="2" Original="27." Morph1="x" Morph2="xo" Lemma="27." Parent="3"/>
+      <Word Index="3" Original="febr." Morph1="y" Morph2="y" Lemma="febr." Parent="6"/>
+      <Word Index="4" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="6"/>
+      <Word Index="5" Original="LETA" Morph1="n" Morph2="npfsn4" Lemma="Leta" Parent="6"/>
+      <Word Index="6" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1"/>
+    </Words>
+    <NamedEntities/>
+    <Markers/>
+  </Sentence>
+  <Sentence ID="LETA_20130228_Ziedonis-dep-unlabeled3" Text="Trešdienas vakarā 79 gadu vecumā mūžībā aizgājis tautā mīlētais dzejnieks Imants Ziedonis , aģentūrai LETA apstiprināja Kultūras ministrijā .">
+    <Words>
+      <Word Index="0" Original="Trešdienas" Morph1="n" Morph2="ncfsg4" Lemma="trešdiena" Parent="1"/>
+      <Word Index="1" Original="vakarā" Morph1="n" Morph2="ncmsl1" Lemma="vakars" Parent="6"/>
+      <Word Index="2" Original="79" Morph1="x" Morph2="xn" Lemma="79" Parent="3"/>
+      <Word Index="3" Original="gadu" Morph1="n" Morph2="ncmpg1" Lemma="gads" Parent="4"/>
+      <Word Index="4" Original="vecumā" Morph1="n" Morph2="ncmsl1" Lemma="vecums" Parent="6"/>
+      <Word Index="5" Original="mūžībā" Morph1="n" Morph2="ncfsl4" Lemma="mūžība" Parent="6"/>
+      <Word Index="6" Original="aizgājis" Morph1="v" Morph2="vmnpdmsnasn" Lemma="aiziet" Parent="12"/>
+      <Word Index="7" Original="tautā" Morph1="n" Morph2="ncfsl4" Lemma="tauta" Parent="8"/>
+      <Word Index="8" Original="mīlētais" Morph1="v" Morph2="vmnpdmsnpsy" Lemma="mīlēt" Parent="9"/>
+      <Word Index="9" Original="dzejnieks" Morph1="n" Morph2="ncmsn1" Lemma="dzejnieks" Parent="6"/>
+      <Word Index="10" Original="Imants" Morph1="n" Morph2="npmsn1" Lemma="Imants" Parent="11"/>
+      <Word Index="11" Original="Ziedonis" Morph1="n" Morph2="npmsn2" Lemma="Ziedonis" Parent="9"/>
+      <Word Index="12" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="15"/>
+      <Word Index="13" Original="aģentūrai" Morph1="n" Morph2="ncfsd4" Lemma="aģentūra" Parent="15"/>
+      <Word Index="14" Original="LETA" Morph1="n" Morph2="npfsn4" Lemma="Leta" Parent="13"/>
+      <Word Index="15" Original="apstiprināja" Morph1="v" Morph2="vmnist330an" Lemma="apstiprināt" Parent="18"/>
+      <Word Index="16" Original="Kultūras" Morph1="n" Morph2="ncfsg4" Lemma="kultūra" Parent="17"/>
+      <Word Index="17" Original="ministrijā" Morph1="n" Morph2="ncfsl4" Lemma="ministrija" Parent="15"/>
+      <Word Index="18" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1"/>
+    </Words>
+    <NamedEntities>
+      <NamedEntity ID="550" WordIndex="5"/>
+      <NamedEntity ID="103" WordIndex="17"/>
+      <NamedEntity ID="99" WordIndex="11"/>
+      <NamedEntity ID="552" WordIndex="9"/>
+      <NamedEntity ID="101" WordIndex="3"/>
+      <NamedEntity ID="551" WordIndex="4"/>
+      <NamedEntity ID="100" WordIndex="1"/>
+    </NamedEntities>
+    <Markers/>
+  </Sentence>
+  <Sentence ID="LETA_20130228_Ziedonis-dep-unlabeled4" Text="Kultūras ministre Žaneta Jaunzeme-Grende ( VL-TB / LNNK ) izsaka visdziļāko līdzjūtību izcilā dzejnieka tuviniekiem un visai latviešu tautai .">
+    <Words>
+      <Word Index="0" Original="Kultūras" Morph1="n" Morph2="ncfsg4" Lemma="kultūra" Parent="1"/>
+      <Word Index="1" Original="ministre" Morph1="n" Morph2="ncfsn5" Lemma="ministre" Parent="9"/>
+      <Word Index="2" Original="Žaneta" Morph1="n" Morph2="npfsn4" Lemma="Žaneta" Parent="3"/>
+      <Word Index="3" Original="Jaunzeme-Grende" Morph1="n" Morph2="npfsn5" Lemma="Jaunzeme-grende" Parent="1"/>
+      <Word Index="4" Original="(" Morph1="z" Morph2="zb" Lemma="(" Parent="1"/>
+      <Word Index="5" Original="VL-TB" Morph1="y" Morph2="y" Lemma="VL-TB" Parent="6"/>
+      <Word Index="6" Original="/" Morph1="z" Morph2="zx" Lemma="/" Parent="4"/>
+      <Word Index="7" Original="LNNK" Morph1="y" Morph2="y" Lemma="LNNK" Parent="6"/>
+      <Word Index="8" Original=")" Morph1="z" Morph2="zb" Lemma=")" Parent="4"/>
+      <Word Index="9" Original="izsaka" Morph1="v" Morph2="vmnipt330an" Lemma="izsacīt" Parent="19"/>
+      <Word Index="10" Original="visdziļāko" Morph1="a" Morph2="affsays" Lemma="dziļa" Parent="11"/>
+      <Word Index="11" Original="līdzjūtību" Morph1="n" Morph2="ncfsa4" Lemma="līdzjūtība" Parent="9"/>
+      <Word Index="12" Original="izcilā" Morph1="a" Morph2="afmsgyp" Lemma="izcils" Parent="13"/>
+      <Word Index="13" Original="dzejnieka" Morph1="n" Morph2="ncmsg1" Lemma="dzejnieks" Parent="14"/>
+      <Word Index="14" Original="tuviniekiem" Morph1="n" Morph2="ncmpd1" Lemma="tuvinieks" Parent="15"/>
+      <Word Index="15" Original="un" Morph1="c" Morph2="ccs" Lemma="un" Parent="9"/>
+      <Word Index="16" Original="visai" Morph1="p" Morph2="pg0fsdn" Lemma="visa" Parent="18"/>
+      <Word Index="17" Original="latviešu" Morph1="n" Morph2="ncmpg2" Lemma="latvietis" Parent="18"/>
+      <Word Index="18" Original="tautai" Morph1="n" Morph2="ncfsd4" Lemma="tauta" Parent="15"/>
+      <Word Index="19" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1"/>
+    </Words>
+    <NamedEntities>
+      <NamedEntity ID="554" WordIndex="6"/>
+      <NamedEntity ID="102" WordIndex="3"/>
+      <NamedEntity ID="553" WordIndex="1"/>
+      <NamedEntity ID="99" WordIndex="13"/>
+    </NamedEntities>
+    <Markers>
+      <NamedEntityMarker ID="103" X="331" Y="606"/>
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_20130228_Ziedonis-dep-unlabeled5" Text="Ziedonis bija latviešu dzejnieks , publicists , īsās prozas ( epifāniju ) autors , tulkotājs , scenārists , politiķis un viens no populārākajiem latviešu literāro pasaku autoriem .">
+    <Words>
+      <Word Index="0" Original="Ziedonis" Morph1="n" Morph2="npmsn2" Lemma="Ziedonis" Parent="1"/>
+      <Word Index="1" Original="bija" Morph1="v" Morph2="vcnisii30an" Lemma="būt" Parent="27"/>
+      <Word Index="2" Original="latviešu" Morph1="n" Morph2="ncmpg2" Lemma="latvietis" Parent="3"/>
+      <Word Index="3" Original="dzejnieks" Morph1="n" Morph2="ncmsn1" Lemma="dzejnieks" Parent="4"/>
+      <Word Index="4" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="1"/>
+      <Word Index="5" Original="publicists" Morph1="n" Morph2="ncmsn1" Lemma="publicists" Parent="6"/>
+      <Word Index="6" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="4"/>
+      <Word Index="7" Original="īsās" Morph1="a" Morph2="affsgyp" Lemma="īsa" Parent="8"/>
+      <Word Index="8" Original="prozas" Morph1="n" Morph2="ncfsg4" Lemma="proza" Parent="12"/>
+      <Word Index="9" Original="(" Morph1="z" Morph2="zb" Lemma="(" Parent="8"/>
+      <Word Index="10" Original="epifāniju" Morph1="n" Morph2="ncfpg4" Lemma="epifānija" Parent="9"/>
+      <Word Index="11" Original=")" Morph1="z" Morph2="zb" Lemma=")" Parent="9"/>
+      <Word Index="12" Original="autors" Morph1="n" Morph2="ncmsn1" Lemma="autors" Parent="13"/>
+      <Word Index="13" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="6"/>
+      <Word Index="14" Original="tulkotājs" Morph1="n" Morph2="ncmsn1" Lemma="tulkotājs" Parent="15"/>
+      <Word Index="15" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="13"/>
+      <Word Index="16" Original="scenārists" Morph1="n" Morph2="ncmsn1" Lemma="scenārists" Parent="17"/>
+      <Word Index="17" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="15"/>
+      <Word Index="18" Original="politiķis" Morph1="n" Morph2="ncmsn2" Lemma="politiķis" Parent="19"/>
+      <Word Index="19" Original="un" Morph1="c" Morph2="ccs" Lemma="un" Parent="17"/>
+      <Word Index="20" Original="viens" Morph1="m" Morph2="mcsmsnv" Lemma="viens" Parent="21"/>
+      <Word Index="21" Original="no" Morph1="s" Morph2="sppdy" Lemma="no" Parent="19"/>
+      <Word Index="22" Original="populārākajiem" Morph1="a" Morph2="afmpdyc" Lemma="populārs" Parent="26"/>
+      <Word Index="23" Original="latviešu" Morph1="n" Morph2="ncmpg2" Lemma="latvietis" Parent="25"/>
+      <Word Index="24" Original="literāro" Morph1="a" Morph2="arfpgyp" Lemma="literāra" Parent="25"/>
+      <Word Index="25" Original="pasaku" Morph1="n" Morph2="ncfpg4" Lemma="pasaka" Parent="26"/>
+      <Word Index="26" Original="autoriem" Morph1="n" Morph2="ncmpd1" Lemma="autors" Parent="21"/>
+      <Word Index="27" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1"/>
+    </Words>
+    <NamedEntities>
+      <NamedEntity ID="99" WordIndex="0"/>
+      <NamedEntity ID="555" WordIndex="3"/>
+    </NamedEntities>
+    <Markers/>
+  </Sentence>
+  <Sentence ID="LETA_20130228_Ziedonis-dep-unlabeled6" Text="Viņš bija spilgts atmodas laika politiskais darbinieks .">
+    <Words>
+      <Word Index="0" Original="Viņš" Morph1="p" Morph2="pp3msnn" Lemma="viņš" Parent="1"/>
+      <Word Index="1" Original="bija" Morph1="v" Morph2="vcnisii30an" Lemma="būt" Parent="7"/>
+      <Word Index="2" Original="spilgts" Morph1="a" Morph2="afmsnnp" Lemma="spilgts" Parent="6"/>
+      <Word Index="3" Original="atmodas" Morph1="n" Morph2="ncfsg4" Lemma="atmoda" Parent="4"/>
+      <Word Index="4" Original="laika" Morph1="n" Morph2="ncmsg1" Lemma="laiks" Parent="6"/>
+      <Word Index="5" Original="politiskais" Morph1="a" Morph2="armsnyp" Lemma="politisks" Parent="6"/>
+      <Word Index="6" Original="darbinieks" Morph1="n" Morph2="ncmsn1" Lemma="darbinieks" Parent="1"/>
+      <Word Index="7" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1"/>
+    </Words>
+    <NamedEntities>
+      <NamedEntity ID="99" WordIndex="0"/>
+      <NamedEntity ID="556" WordIndex="6"/>
+    </NamedEntities>
+    <Markers/>
+  </Sentence>
+  <Sentence ID="LETA_20130228_Ziedonis-dep-unlabeled7" Text="Kā liecina aģentūras LETA arhīvs , Ziedonis dzimis 1933. gada 3. maijā Rīgas apriņķa Slokas pagasta Ragaciemā zvejnieku ģimenē .">
+    <Words>
+      <Word Index="0" Original="Kā" Morph1="r" Morph2="r0m" Lemma="kā" Parent="1"/>
+      <Word Index="1" Original="liecina" Morph1="v" Morph2="vmnipt330an" Lemma="liecināt" Parent="5"/>
+      <Word Index="2" Original="aģentūras" Morph1="n" Morph2="ncfsg4" Lemma="aģentūra" Parent="4"/>
+      <Word Index="3" Original="LETA" Morph1="n" Morph2="npfsn4" Lemma="Leta" Parent="2"/>
+      <Word Index="4" Original="arhīvs" Morph1="n" Morph2="ncmsn1" Lemma="arhīvs" Parent="1"/>
+      <Word Index="5" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="19"/>
+      <Word Index="6" Original="Ziedonis" Morph1="n" Morph2="npmsn2" Lemma="Ziedonis" Parent="7"/>
+      <Word Index="7" Original="dzimis" Morph1="v" Morph2="vmnpdmsnasn" Lemma="dzimt" Parent="19"/>
+      <Word Index="8" Original="1933." Morph1="x" Morph2="xo" Lemma="1933." Parent="9"/>
+      <Word Index="9" Original="gada" Morph1="n" Morph2="ncmsg1" Lemma="gads" Parent="11"/>
+      <Word Index="10" Original="3." Morph1="x" Morph2="xo" Lemma="3." Parent="11"/>
+      <Word Index="11" Original="maijā" Morph1="n" Morph2="ncmsl1" Lemma="maijs" Parent="7"/>
+      <Word Index="12" Original="Rīgas" Morph1="n" Morph2="npfsg4" Lemma="Rīga" Parent="13"/>
+      <Word Index="13" Original="apriņķa" Morph1="n" Morph2="ncmsg2" Lemma="apriņķis" Parent="15"/>
+      <Word Index="14" Original="Slokas" Morph1="n" Morph2="ncfsg4" Lemma="sloka" Parent="15"/>
+      <Word Index="15" Original="pagasta" Morph1="n" Morph2="ncmsg1" Lemma="pagasts" Parent="16"/>
+      <Word Index="16" Original="Ragaciemā" Morph1="n" Morph2="npmsl1" Lemma="Ragaciems" Parent="7"/>
+      <Word Index="17" Original="zvejnieku" Morph1="n" Morph2="ncmpg1" Lemma="zvejnieks" Parent="18"/>
+      <Word Index="18" Original="ģimenē" Morph1="n" Morph2="ncfsl5" Lemma="ģimene" Parent="7"/>
+      <Word Index="19" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1"/>
+    </Words>
+    <NamedEntities>
+      <NamedEntity ID="105" WordIndex="16"/>
+      <NamedEntity ID="104" WordIndex="11"/>
+      <NamedEntity ID="557" WordIndex="7"/>
+      <NamedEntity ID="99" WordIndex="6"/>
+      <NamedEntity ID="106" WordIndex="18"/>
+    </NamedEntities>
+    <Markers/>
+  </Sentence>
+  <Sentence ID="LETA_20130228_Ziedonis-dep-unlabeled8" Text="Dzejnieks 1952. gadā absolvējis Tukuma 1. vidusskolu , 1959. gadā beidzis Latvijas Vēstures un filoloģijas fakultāti , 1964. gadā beidzis Augstākos literāros kursus Maskavā .">
+    <Words>
+      <Word Index="0" Original="Dzejnieks" Morph1="n" Morph2="ncmsn1" Lemma="dzejnieks" Parent="7"/>
+      <Word Index="1" Original="1952." Morph1="x" Morph2="xo" Lemma="1952." Parent="2"/>
+      <Word Index="2" Original="gadā" Morph1="n" Morph2="ncmsl1" Lemma="gads" Parent="3"/>
+      <Word Index="3" Original="absolvējis" Morph1="v" Morph2="vmnpdmsnasn" Lemma="absolvēt" Parent="7"/>
+      <Word Index="4" Original="Tukuma" Morph1="n" Morph2="npmsg1" Lemma="Tukums" Parent="6"/>
+      <Word Index="5" Original="1." Morph1="x" Morph2="xo" Lemma="1." Parent="6"/>
+      <Word Index="6" Original="vidusskolu" Morph1="n" Morph2="ncfsa4" Lemma="vidusskola" Parent="3"/>
+      <Word Index="7" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="24"/>
+      <Word Index="8" Original="1959." Morph1="x" Morph2="xo" Lemma="1959." Parent="9"/>
+      <Word Index="9" Original="gadā" Morph1="n" Morph2="ncmsl1" Lemma="gads" Parent="10"/>
+      <Word Index="10" Original="beidzis" Morph1="v" Morph2="vmnpdmsnasn" Lemma="beigt" Parent="16"/>
+      <Word Index="11" Original="Latvijas" Morph1="n" Morph2="npfsg4" Lemma="Latvija" Parent="15"/>
+      <Word Index="12" Original="Vēstures" Morph1="n" Morph2="ncfsg5" Lemma="vēsture" Parent="13"/>
+      <Word Index="13" Original="un" Morph1="c" Morph2="ccs" Lemma="un" Parent="15"/>
+      <Word Index="14" Original="filoloģijas" Morph1="n" Morph2="ncfsg4" Lemma="filoloģija" Parent="13"/>
+      <Word Index="15" Original="fakultāti" Morph1="n" Morph2="ncfsa5" Lemma="fakultāte" Parent="10"/>
+      <Word Index="16" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="7"/>
+      <Word Index="17" Original="1964." Morph1="x" Morph2="xo" Lemma="1964." Parent="18"/>
+      <Word Index="18" Original="gadā" Morph1="n" Morph2="ncmsl1" Lemma="gads" Parent="19"/>
+      <Word Index="19" Original="beidzis" Morph1="v" Morph2="vmnpdmsnasn" Lemma="beigt" Parent="16"/>
+      <Word Index="20" Original="Augstākos" Morph1="a" Morph2="afmpayc" Lemma="augsts" Parent="22"/>
+      <Word Index="21" Original="literāros" Morph1="a" Morph2="armpayp" Lemma="literārs" Parent="22"/>
+      <Word Index="22" Original="kursus" Morph1="n" Morph2="ncmpa1" Lemma="kurss" Parent="19"/>
+      <Word Index="23" Original="Maskavā" Morph1="n" Morph2="npfsl4" Lemma="Maskava" Parent="19"/>
+      <Word Index="24" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1"/>
+    </Words>
+    <NamedEntities>
+      <NamedEntity ID="110" WordIndex="15"/>
+      <NamedEntity ID="115" WordIndex="23"/>
+      <NamedEntity ID="114" WordIndex="18"/>
+      <NamedEntity ID="112" WordIndex="9"/>
+      <NamedEntity ID="111" WordIndex="13"/>
+      <NamedEntity ID="113" WordIndex="22"/>
+      <NamedEntity ID="560" WordIndex="19"/>
+      <NamedEntity ID="108" WordIndex="2"/>
+      <NamedEntity ID="109" WordIndex="4"/>
+      <NamedEntity ID="558" WordIndex="3"/>
+      <NamedEntity ID="107" WordIndex="6"/>
+      <NamedEntity ID="559" WordIndex="10"/>
+      <NamedEntity ID="99" WordIndex="0"/>
+    </NamedEntities>
+    <Markers/>
+  </Sentence>
+  <Sentence ID="LETA_20130228_Ziedonis-dep-unlabeled9" Text="Ziedonis darba gaitas sācis kā ceļa strādnieks , skolotājs Olainē un Ķemeros , bijis skolotājs Jūrmalas 1. vidusskolā .">
+    <Words>
+      <Word Index="0" Original="Ziedonis" Morph1="n" Morph2="npmsn2" Lemma="Ziedonis" Parent="7"/>
+      <Word Index="1" Original="darba" Morph1="n" Morph2="ncmsg1" Lemma="darbs" Parent="2"/>
+      <Word Index="2" Original="gaitas" Morph1="n" Morph2="ncfpa4" Lemma="gaita" Parent="3"/>
+      <Word Index="3" Original="sācis" Morph1="v" Morph2="vmnpdmsnasn" Lemma="sākt" Parent="7"/>
+      <Word Index="4" Original="kā" Morph1="c" Morph2="css" Lemma="kā" Parent="3"/>
+      <Word Index="5" Original="ceļa" Morph1="n" Morph2="ncmsg2" Lemma="celis" Parent="6"/>
+      <Word Index="6" Original="strādnieks" Morph1="n" Morph2="ncmsn1" Lemma="strādnieks" Parent="4"/>
+      <Word Index="7" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="18"/>
+      <Word Index="8" Original="skolotājs" Morph1="n" Morph2="ncmsn1" Lemma="skolotājs" Parent="12"/>
+      <Word Index="9" Original="Olainē" Morph1="n" Morph2="ncfsl5" Lemma="olaine" Parent="10"/>
+      <Word Index="10" Original="un" Morph1="c" Morph2="ccs" Lemma="un" Parent="8"/>
+      <Word Index="11" Original="Ķemeros" Morph1="n" Morph2="npmdl1" Lemma="Ķemeri" Parent="10"/>
+      <Word Index="12" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="7"/>
+      <Word Index="13" Original="bijis" Morph1="v" Morph2="vcnpdmsnasn" Lemma="būt" Parent="12"/>
+      <Word Index="14" Original="skolotājs" Morph1="n" Morph2="ncmsn1" Lemma="skolotājs" Parent="13"/>
+      <Word Index="15" Original="Jūrmalas" Morph1="n" Morph2="ncfsg4" Lemma="jūrmala" Parent="17"/>
+      <Word Index="16" Original="1." Morph1="x" Morph2="xo" Lemma="1." Parent="17"/>
+      <Word Index="17" Original="vidusskolā" Morph1="n" Morph2="ncfsl4" Lemma="vidusskola" Parent="13"/>
+      <Word Index="18" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1"/>
+    </Words>
+    <NamedEntities>
+      <NamedEntity ID="116" WordIndex="17"/>
+      <NamedEntity ID="562" WordIndex="8"/>
+      <NamedEntity ID="561" WordIndex="6"/>
+      <NamedEntity ID="99" WordIndex="0"/>
+      <NamedEntity ID="563" WordIndex="14"/>
+    </NamedEntities>
+    <Markers/>
+  </Sentence>
+  <Sentence ID="LETA_20130228_Ziedonis-dep-unlabeled10" Text="Savu pirmo dzejoļu krājumu Ziedonis izdevis 1961. gadā , kļuvis par Latvijas Rakstnieku savienības biedru .">
+    <Words>
+      <Word Index="0" Original="Savu" Morph1="p" Morph2="ps0msan" Lemma="savs" Parent="3"/>
+      <Word Index="1" Original="pirmo" Morph1="m" Morph2="mosmsav" Lemma="pirmais" Parent="3"/>
+      <Word Index="2" Original="dzejoļu" Morph1="n" Morph2="ncmpg2" Lemma="dzejolis" Parent="3"/>
+      <Word Index="3" Original="krājumu" Morph1="n" Morph2="ncmsa1" Lemma="krājums" Parent="5"/>
+      <Word Index="4" Original="Ziedonis" Morph1="n" Morph2="npmsn2" Lemma="Ziedonis" Parent="8"/>
+      <Word Index="5" Original="izdevis" Morph1="v" Morph2="vmnpdmsnasn" Lemma="izdot" Parent="8"/>
+      <Word Index="6" Original="1961." Morph1="x" Morph2="xo" Lemma="1961." Parent="7"/>
+      <Word Index="7" Original="gadā" Morph1="n" Morph2="ncmsl1" Lemma="gads" Parent="5"/>
+      <Word Index="8" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="15"/>
+      <Word Index="9" Original="kļuvis" Morph1="v" Morph2="vtnpdmsnasn" Lemma="kļūt" Parent="8"/>
+      <Word Index="10" Original="par" Morph1="s" Morph2="spsan" Lemma="par" Parent="9"/>
+      <Word Index="11" Original="Latvijas" Morph1="n" Morph2="npfsg4" Lemma="Latvija" Parent="13"/>
+      <Word Index="12" Original="Rakstnieku" Morph1="n" Morph2="ncmpg1" Lemma="rakstnieks" Parent="13"/>
+      <Word Index="13" Original="savienības" Morph1="n" Morph2="ncfsg4" Lemma="savienība" Parent="14"/>
+      <Word Index="14" Original="biedru" Morph1="n" Morph2="ncmsa1" Lemma="biedrs" Parent="10"/>
+      <Word Index="15" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1"/>
+    </Words>
+    <NamedEntities>
+      <NamedEntity ID="117" WordIndex="13"/>
+      <NamedEntity ID="564" WordIndex="14"/>
+      <NamedEntity ID="99" WordIndex="4"/>
+    </NamedEntities>
+    <Markers/>
+  </Sentence>
+  <Sentence ID="LETA_20130228_Ziedonis-dep-unlabeled11" Text="No 1964. gada līdz 1965. gadam viņš bija bibliotekārs Ķemeros , dzejas redaktors izdevniecībā &quot; Liesma &quot; , vēlāk valdes sekretārs Latvijas Rakstnieku savienībā .">
+    <Words>
+      <Word Index="0" Original="No" Morph1="s" Morph2="spsgy" Lemma="no" Parent="10"/>
+      <Word Index="1" Original="1964." Morph1="x" Morph2="xo" Lemma="1964." Parent="2"/>
+      <Word Index="2" Original="gada" Morph1="n" Morph2="ncmsg1" Lemma="gads" Parent="0"/>
+      <Word Index="3" Original="līdz" Morph1="s" Morph2="spsdy" Lemma="līdz" Parent="10"/>
+      <Word Index="4" Original="1965." Morph1="x" Morph2="xo" Lemma="1965." Parent="5"/>
+      <Word Index="5" Original="gadam" Morph1="n" Morph2="ncmsd1" Lemma="gads" Parent="3"/>
+      <Word Index="6" Original="viņš" Morph1="p" Morph2="pp3msnn" Lemma="viņš" Parent="10"/>
+      <Word Index="7" Original="bija" Morph1="v" Morph2="vcnisii30an" Lemma="būt" Parent="10"/>
+      <Word Index="8" Original="bibliotekārs" Morph1="n" Morph2="ncmsn1" Lemma="bibliotekārs" Parent="7"/>
+      <Word Index="9" Original="Ķemeros" Morph1="n" Morph2="npmdl1" Lemma="Ķemeri" Parent="7"/>
+      <Word Index="10" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="24"/>
+      <Word Index="11" Original="dzejas" Morph1="n" Morph2="ncfsg4" Lemma="dzeja" Parent="12"/>
+      <Word Index="12" Original="redaktors" Morph1="n" Morph2="ncmsn1" Lemma="redaktors" Parent="17"/>
+      <Word Index="13" Original="izdevniecībā" Morph1="n" Morph2="ncfsl4" Lemma="izdevniecība" Parent="12"/>
+      <Word Index="14" Original="&quot;" Morph1="z" Morph2="zq" Lemma="&quot;" Parent="13"/>
+      <Word Index="15" Original="Liesma" Morph1="n" Morph2="ncfsn4" Lemma="liesma" Parent="14"/>
+      <Word Index="16" Original="&quot;" Morph1="z" Morph2="zq" Lemma="&quot;" Parent="14"/>
+      <Word Index="17" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="10"/>
+      <Word Index="18" Original="vēlāk" Morph1="r" Morph2="rct" Lemma="vēlu" Parent="20"/>
+      <Word Index="19" Original="valdes" Morph1="n" Morph2="ncfsg5" Lemma="valde" Parent="20"/>
+      <Word Index="20" Original="sekretārs" Morph1="n" Morph2="ncmsn1" Lemma="sekretārs" Parent="17"/>
+      <Word Index="21" Original="Latvijas" Morph1="n" Morph2="npfsg4" Lemma="Latvija" Parent="23"/>
+      <Word Index="22" Original="Rakstnieku" Morph1="n" Morph2="ncmpg1" Lemma="rakstnieks" Parent="23"/>
+      <Word Index="23" Original="savienībā" Morph1="n" Morph2="ncfsl4" Lemma="savienība" Parent="20"/>
+      <Word Index="24" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1"/>
+    </Words>
+    <NamedEntities>
+      <NamedEntity ID="118" WordIndex="3"/>
+      <NamedEntity ID="565" WordIndex="8"/>
+      <NamedEntity ID="119" WordIndex="15"/>
+      <NamedEntity ID="566" WordIndex="12"/>
+      <NamedEntity ID="121" WordIndex="2"/>
+      <NamedEntity ID="120" WordIndex="5"/>
+      <NamedEntity ID="122" WordIndex="23"/>
+      <NamedEntity ID="567" WordIndex="20"/>
+      <NamedEntity ID="99" WordIndex="6"/>
+    </NamedEntities>
+    <Markers/>
+  </Sentence>
+  <Sentence ID="LETA_20130228_Ziedonis-dep-unlabeled12" Text="1972. gadā Ziedonim piešķirts nopelniem bagātā kultūras darbinieka nosaukums , 1977. gadā piešķirts Tautas dzejnieka goda nosaukums , 1983. gadā viņš apbalvots ar &quot; Tautu draudzības &quot; ordeni .">
+    <Words>
+      <Word Index="0" Original="1972." Morph1="x" Morph2="xo" Lemma="1972." Parent="1"/>
+      <Word Index="1" Original="gadā" Morph1="n" Morph2="ncmsl1" Lemma="gads" Parent="3"/>
+      <Word Index="2" Original="Ziedonim" Morph1="n" Morph2="npmsd2" Lemma="Ziedonis" Parent="3"/>
+      <Word Index="3" Original="piešķirts" Morph1="v" Morph2="vmnpdmsnpsn" Lemma="piešķirt" Parent="9"/>
+      <Word Index="4" Original="nopelniem" Morph1="n" Morph2="ncmpd1" Lemma="nopelns" Parent="5"/>
+      <Word Index="5" Original="bagātā" Morph1="a" Morph2="afmsgyp" Lemma="bagāts" Parent="7"/>
+      <Word Index="6" Original="kultūras" Morph1="n" Morph2="ncfsg4" Lemma="kultūra" Parent="7"/>
+      <Word Index="7" Original="darbinieka" Morph1="n" Morph2="ncmsg1" Lemma="darbinieks" Parent="8"/>
+      <Word Index="8" Original="nosaukums" Morph1="n" Morph2="ncmsn1" Lemma="nosaukums" Parent="3"/>
+      <Word Index="9" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="28"/>
+      <Word Index="10" Original="1977." Morph1="x" Morph2="xo" Lemma="1977." Parent="11"/>
+      <Word Index="11" Original="gadā" Morph1="n" Morph2="ncmsl1" Lemma="gads" Parent="12"/>
+      <Word Index="12" Original="piešķirts" Morph1="v" Morph2="vmnpdmsnpsn" Lemma="piešķirt" Parent="17"/>
+      <Word Index="13" Original="Tautas" Morph1="n" Morph2="ncfsg4" Lemma="tauta" Parent="14"/>
+      <Word Index="14" Original="dzejnieka" Morph1="n" Morph2="ncmsg1" Lemma="dzejnieks" Parent="16"/>
+      <Word Index="15" Original="goda" Morph1="n" Morph2="ncmsg1" Lemma="gods" Parent="16"/>
+      <Word Index="16" Original="nosaukums" Morph1="n" Morph2="ncmsn1" Lemma="nosaukums" Parent="12"/>
+      <Word Index="17" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="9"/>
+      <Word Index="18" Original="1983." Morph1="x" Morph2="xo" Lemma="1983." Parent="19"/>
+      <Word Index="19" Original="gadā" Morph1="n" Morph2="ncmsl1" Lemma="gads" Parent="21"/>
+      <Word Index="20" Original="viņš" Morph1="p" Morph2="pp3msnn" Lemma="viņš" Parent="21"/>
+      <Word Index="21" Original="apbalvots" Morph1="v" Morph2="vmnpdmsnpsn" Lemma="apbalvot" Parent="17"/>
+      <Word Index="22" Original="ar" Morph1="s" Morph2="spsan" Lemma="ar" Parent="21"/>
+      <Word Index="23" Original="&quot;" Morph1="z" Morph2="zq" Lemma="&quot;" Parent="27"/>
+      <Word Index="24" Original="Tautu" Morph1="n" Morph2="ncfpg4" Lemma="tauta" Parent="25"/>
+      <Word Index="25" Original="draudzības" Morph1="n" Morph2="ncfsg4" Lemma="draudzība" Parent="23"/>
+      <Word Index="26" Original="&quot;" Morph1="z" Morph2="zq" Lemma="&quot;" Parent="23"/>
+      <Word Index="27" Original="ordeni" Morph1="n" Morph2="ncmsa2" Lemma="ordenis" Parent="22"/>
+      <Word Index="28" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1"/>
+    </Words>
+    <NamedEntities>
+      <NamedEntity ID="570" WordIndex="21"/>
+      <NamedEntity ID="127" WordIndex="27"/>
+      <NamedEntity ID="125" WordIndex="16"/>
+      <NamedEntity ID="126" WordIndex="11"/>
+      <NamedEntity ID="124" WordIndex="1"/>
+      <NamedEntity ID="569" WordIndex="12"/>
+      <NamedEntity ID="568" WordIndex="3"/>
+      <NamedEntity ID="123" WordIndex="8"/>
+      <NamedEntity ID="128" WordIndex="19"/>
+      <NamedEntity ID="99" WordIndex="2"/>
+    </NamedEntities>
+    <Markers/>
+  </Sentence>
+  <Sentence ID="LETA_20130228_Ziedonis-dep-unlabeled13" Text="1987. gadā Ziedonis kļuvis par priekšsēdētāju Latvijas Kultūras fondā , bet 1990. gadā ievēlēts par Latvijas Republikas Augstākās Padomes ( AP ) deputātu kā neatkarīgais kandidāts 180. Stučkas vēlēšanu apgabalā .">
+    <Words>
+      <Word Index="0" Original="1987." Morph1="x" Morph2="xo" Lemma="1987." Parent="1"/>
+      <Word Index="1" Original="gadā" Morph1="n" Morph2="ncmsl1" Lemma="gads" Parent="3"/>
+      <Word Index="2" Original="Ziedonis" Morph1="n" Morph2="npmsn2" Lemma="Ziedonis" Parent="10"/>
+      <Word Index="3" Original="kļuvis" Morph1="v" Morph2="vtnpdmsnasn" Lemma="kļūt" Parent="10"/>
+      <Word Index="4" Original="par" Morph1="s" Morph2="spsan" Lemma="par" Parent="3"/>
+      <Word Index="5" Original="priekšsēdētāju" Morph1="n" Morph2="ncmsa1" Lemma="priekšsēdētājs" Parent="4"/>
+      <Word Index="6" Original="Latvijas" Morph1="n" Morph2="npfsg4" Lemma="Latvija" Parent="8"/>
+      <Word Index="7" Original="Kultūras" Morph1="n" Morph2="ncfsg4" Lemma="kultūra" Parent="8"/>
+      <Word Index="8" Original="fondā" Morph1="n" Morph2="ncmsl1" Lemma="fonds" Parent="3"/>
+      <Word Index="9" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="10"/>
+      <Word Index="10" Original="bet" Morph1="c" Morph2="ccs" Lemma="bet" Parent="30"/>
+      <Word Index="11" Original="1990." Morph1="x" Morph2="xo" Lemma="1990." Parent="12"/>
+      <Word Index="12" Original="gadā" Morph1="n" Morph2="ncmsl1" Lemma="gads" Parent="13"/>
+      <Word Index="13" Original="ievēlēts" Morph1="v" Morph2="vmnpdmsnpsn" Lemma="ievēlēt" Parent="10"/>
+      <Word Index="14" Original="par" Morph1="s" Morph2="spsan" Lemma="par" Parent="13"/>
+      <Word Index="15" Original="Latvijas" Morph1="n" Morph2="npfsg4" Lemma="Latvija" Parent="16"/>
+      <Word Index="16" Original="Republikas" Morph1="n" Morph2="ncfsg4" Lemma="republika" Parent="18"/>
+      <Word Index="17" Original="Augstākās" Morph1="a" Morph2="affsgyc" Lemma="augsta" Parent="18"/>
+      <Word Index="18" Original="Padomes" Morph1="n" Morph2="ncfsg5" Lemma="padome" Parent="22"/>
+      <Word Index="19" Original="(" Morph1="z" Morph2="zb" Lemma="(" Parent="18"/>
+      <Word Index="20" Original="AP" Morph1="y" Morph2="y" Lemma="AP" Parent="19"/>
+      <Word Index="21" Original=")" Morph1="z" Morph2="zb" Lemma=")" Parent="19"/>
+      <Word Index="22" Original="deputātu" Morph1="n" Morph2="ncmsa1" Lemma="deputāts" Parent="14"/>
+      <Word Index="23" Original="kā" Morph1="c" Morph2="css" Lemma="kā" Parent="13"/>
+      <Word Index="24" Original="neatkarīgais" Morph1="a" Morph2="afmsnyp" Lemma="neatkarīgs" Parent="25"/>
+      <Word Index="25" Original="kandidāts" Morph1="n" Morph2="ncmsn1" Lemma="kandidāts" Parent="23"/>
+      <Word Index="26" Original="180." Morph1="x" Morph2="xo" Lemma="180." Parent="29"/>
+      <Word Index="27" Original="Stučkas" Morph1="n" Morph2="npmsg4" Lemma="Stučka" Parent="29"/>
+      <Word Index="28" Original="vēlēšanu" Morph1="n" Morph2="ncfdg4" Lemma="vēlēšanas" Parent="29"/>
+      <Word Index="29" Original="apgabalā" Morph1="n" Morph2="ncmsl1" Lemma="apgabals" Parent="25"/>
+      <Word Index="30" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1"/>
+    </Words>
+    <NamedEntities>
+      <NamedEntity ID="132" WordIndex="22"/>
+      <NamedEntity ID="571" WordIndex="3"/>
+      <NamedEntity ID="133" WordIndex="12"/>
+      <NamedEntity ID="99" WordIndex="2"/>
+      <NamedEntity ID="572" WordIndex="13"/>
+      <NamedEntity ID="131" WordIndex="1"/>
+      <NamedEntity ID="130" WordIndex="5"/>
+      <NamedEntity ID="129" WordIndex="8"/>
+    </NamedEntities>
+    <Markers/>
+  </Sentence>
+  <Sentence ID="LETA_20130228_Ziedonis-dep-unlabeled14" Text="Bijis AP Tautas izglītības , zinātnes un kultūras komisijas loceklis , balsojis par Latvijas Padomju Sociālistiskās Republikas Augstākās padomes Deklarāciju par Latvijas Republikas neatkarības atjaunošanu .">
+    <Words>
+      <Word Index="0" Original="Bijis" Morph1="v" Morph2="vcnpdmsnasn" Lemma="būt" Parent="10"/>
+      <Word Index="1" Original="AP" Morph1="y" Morph2="y" Lemma="AP" Parent="8"/>
+      <Word Index="2" Original="Tautas" Morph1="n" Morph2="ncfsg4" Lemma="tauta" Parent="4"/>
+      <Word Index="3" Original="izglītības" Morph1="n" Morph2="ncfsg4" Lemma="izglītība" Parent="4"/>
+      <Word Index="4" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="8"/>
+      <Word Index="5" Original="zinātnes" Morph1="n" Morph2="ncfsg5" Lemma="zinātne" Parent="6"/>
+      <Word Index="6" Original="un" Morph1="c" Morph2="ccs" Lemma="un" Parent="4"/>
+      <Word Index="7" Original="kultūras" Morph1="n" Morph2="ncfsg4" Lemma="kultūra" Parent="6"/>
+      <Word Index="8" Original="komisijas" Morph1="n" Morph2="ncfsg4" Lemma="komisija" Parent="9"/>
+      <Word Index="9" Original="loceklis" Morph1="n" Morph2="ncmsn2" Lemma="loceklis" Parent="0"/>
+      <Word Index="10" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="25"/>
+      <Word Index="11" Original="balsojis" Morph1="v" Morph2="vmnpdmsnasn" Lemma="balsot" Parent="10"/>
+      <Word Index="12" Original="par" Morph1="s" Morph2="spsan" Lemma="par" Parent="11"/>
+      <Word Index="13" Original="Latvijas" Morph1="n" Morph2="npfsg4" Lemma="Latvija" Parent="16"/>
+      <Word Index="14" Original="Padomju" Morph1="n" Morph2="ncfds5" Lemma="padomju" Parent="16"/>
+      <Word Index="15" Original="Sociālistiskās" Morph1="a" Morph2="arfsgyp" Lemma="sociālistiska" Parent="16"/>
+      <Word Index="16" Original="Republikas" Morph1="n" Morph2="ncfsg4" Lemma="republika" Parent="18"/>
+      <Word Index="17" Original="Augstākās" Morph1="a" Morph2="affsgyc" Lemma="augsta" Parent="18"/>
+      <Word Index="18" Original="padomes" Morph1="n" Morph2="ncfsg5" Lemma="padome" Parent="19"/>
+      <Word Index="19" Original="Deklarāciju" Morph1="n" Morph2="ncfsa4" Lemma="deklarācija" Parent="12"/>
+      <Word Index="20" Original="par" Morph1="s" Morph2="spsan" Lemma="par" Parent="19"/>
+      <Word Index="21" Original="Latvijas" Morph1="n" Morph2="npfsg4" Lemma="Latvija" Parent="22"/>
+      <Word Index="22" Original="Republikas" Morph1="n" Morph2="ncfsg4" Lemma="republika" Parent="23"/>
+      <Word Index="23" Original="neatkarības" Morph1="n" Morph2="ncfsg4" Lemma="neatkarība" Parent="24"/>
+      <Word Index="24" Original="atjaunošanu" Morph1="n" Morph2="ncfsa4" Lemma="atjaunošana" Parent="20"/>
+      <Word Index="25" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1"/>
+    </Words>
+    <NamedEntities>
+      <NamedEntity ID="134" WordIndex="8"/>
+      <NamedEntity ID="573" WordIndex="9"/>
+      <NamedEntity ID="135" WordIndex="0"/>
+    </NamedEntities>
+    <Markers>
+      <NamedEntityMarker ID="99" X="449" Y="639"/>
+    </Markers>
+  </Sentence>
+  <Sentence ID="LETA_20130228_Ziedonis-dep-unlabeled15" Text="1995. gadā Ziedonis saņēmis 2. šķiras Triju Zvaigžņu ordeni , saņēmis arī 1991. gada barikāžu dalībnieka piemiņas zīmi .">
+    <Words>
+      <Word Index="0" Original="1995." Morph1="x" Morph2="xo" Lemma="1995." Parent="1"/>
+      <Word Index="1" Original="gadā" Morph1="n" Morph2="ncmsl1" Lemma="gads" Parent="3"/>
+      <Word Index="2" Original="Ziedonis" Morph1="n" Morph2="npmsn2" Lemma="Ziedonis" Parent="9"/>
+      <Word Index="3" Original="saņēmis" Morph1="v" Morph2="vmnpdmsnasn" Lemma="saņemt" Parent="9"/>
+      <Word Index="4" Original="2." Morph1="x" Morph2="xo" Lemma="2." Parent="5"/>
+      <Word Index="5" Original="šķiras" Morph1="n" Morph2="ncfsg4" Lemma="šķira" Parent="8"/>
+      <Word Index="6" Original="Triju" Morph1="m" Morph2="mcsfpgv" Lemma="trīs" Parent="7"/>
+      <Word Index="7" Original="Zvaigžņu" Morph1="n" Morph2="ncfpg5" Lemma="zvaigzne" Parent="8"/>
+      <Word Index="8" Original="ordeni" Morph1="n" Morph2="ncmsa2" Lemma="ordenis" Parent="3"/>
+      <Word Index="9" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="18"/>
+      <Word Index="10" Original="saņēmis" Morph1="v" Morph2="vmnpdmsnasn" Lemma="saņemt" Parent="9"/>
+      <Word Index="11" Original="arī" Morph1="q" Morph2="qs" Lemma="arī" Parent="17"/>
+      <Word Index="12" Original="1991." Morph1="x" Morph2="xo" Lemma="1991." Parent="13"/>
+      <Word Index="13" Original="gada" Morph1="n" Morph2="ncmsg1" Lemma="gads" Parent="14"/>
+      <Word Index="14" Original="barikāžu" Morph1="n" Morph2="ncfpg5" Lemma="barikāde" Parent="15"/>
+      <Word Index="15" Original="dalībnieka" Morph1="n" Morph2="ncmsg1" Lemma="dalībnieks" Parent="17"/>
+      <Word Index="16" Original="piemiņas" Morph1="n" Morph2="ncfsg4" Lemma="piemiņa" Parent="17"/>
+      <Word Index="17" Original="zīmi" Morph1="n" Morph2="ncfsa5" Lemma="zīme" Parent="10"/>
+      <Word Index="18" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1"/>
+    </Words>
+    <NamedEntities>
+      <NamedEntity ID="574" WordIndex="3"/>
+      <NamedEntity ID="99" WordIndex="2"/>
+      <NamedEntity ID="136" WordIndex="8"/>
+      <NamedEntity ID="137" WordIndex="1"/>
+      <NamedEntity ID="575" WordIndex="10"/>
+      <NamedEntity ID="138" WordIndex="17"/>
+    </NamedEntities>
+    <Markers/>
+  </Sentence>
+  <Sentence ID="LETA_20130228_Ziedonis-dep-unlabeled16" Text="1997. gadā Ziedonis bija Ministru prezidenta Guntara Krasta padomnieks kultūras , Latvijas tēla , nacionālās identitātes un citos jautājumos , bet 1998. gadā Latvijas tēla veidošanas institūta darba grupas loceklis .">
+    <Words>
+      <Word Index="0" Original="1997." Morph1="x" Morph2="xo" Lemma="1997." Parent="1"/>
+      <Word Index="1" Original="gadā" Morph1="n" Morph2="ncmsl1" Lemma="gads" Parent="3"/>
+      <Word Index="2" Original="Ziedonis" Morph1="n" Morph2="npmsn2" Lemma="Ziedonis" Parent="3"/>
+      <Word Index="3" Original="bija" Morph1="v" Morph2="vcnisii30an" Lemma="būt" Parent="20"/>
+      <Word Index="4" Original="Ministru" Morph1="n" Morph2="ncmpg1" Lemma="ministrs" Parent="5"/>
+      <Word Index="5" Original="prezidenta" Morph1="n" Morph2="ncmsg1" Lemma="prezidents" Parent="8"/>
+      <Word Index="6" Original="Guntara" Morph1="n" Morph2="npmsg1" Lemma="Guntars" Parent="7"/>
+      <Word Index="7" Original="Krasta" Morph1="n" Morph2="npmsg1" Lemma="Krasts" Parent="5"/>
+      <Word Index="8" Original="padomnieks" Morph1="n" Morph2="ncmsn1" Lemma="padomnieks" Parent="3"/>
+      <Word Index="9" Original="kultūras" Morph1="n" Morph2="ncfsg4" Lemma="kultūra" Parent="10"/>
+      <Word Index="10" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="18"/>
+      <Word Index="11" Original="Latvijas" Morph1="n" Morph2="npfsg4" Lemma="Latvija" Parent="12"/>
+      <Word Index="12" Original="tēla" Morph1="n" Morph2="ncmsg1" Lemma="tēls" Parent="13"/>
+      <Word Index="13" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="10"/>
+      <Word Index="14" Original="nacionālās" Morph1="a" Morph2="arfsgyp" Lemma="nacionāla" Parent="15"/>
+      <Word Index="15" Original="identitātes" Morph1="n" Morph2="ncfsg5" Lemma="identitāte" Parent="16"/>
+      <Word Index="16" Original="un" Morph1="c" Morph2="ccs" Lemma="un" Parent="13"/>
+      <Word Index="17" Original="citos" Morph1="p" Morph2="pi0mpln" Lemma="cits" Parent="16"/>
+      <Word Index="18" Original="jautājumos" Morph1="n" Morph2="ncmpl1" Lemma="jautājums" Parent="8"/>
+      <Word Index="19" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="20"/>
+      <Word Index="20" Original="bet" Morph1="c" Morph2="ccs" Lemma="bet" Parent="30"/>
+      <Word Index="21" Original="1998." Morph1="x" Morph2="xo" Lemma="1998." Parent="22"/>
+      <Word Index="22" Original="gadā" Morph1="n" Morph2="ncmsl1" Lemma="gads" Parent="29"/>
+      <Word Index="23" Original="Latvijas" Morph1="n" Morph2="npfsg4" Lemma="Latvija" Parent="24"/>
+      <Word Index="24" Original="tēla" Morph1="n" Morph2="ncmsg1" Lemma="tēls" Parent="25"/>
+      <Word Index="25" Original="veidošanas" Morph1="n" Morph2="ncfsg4" Lemma="veidošana" Parent="26"/>
+      <Word Index="26" Original="institūta" Morph1="n" Morph2="ncmsg1" Lemma="institūts" Parent="29"/>
+      <Word Index="27" Original="darba" Morph1="n" Morph2="ncmsg1" Lemma="darbs" Parent="28"/>
+      <Word Index="28" Original="grupas" Morph1="n" Morph2="ncfsg4" Lemma="grupa" Parent="29"/>
+      <Word Index="29" Original="loceklis" Morph1="n" Morph2="ncmsn2" Lemma="loceklis" Parent="20"/>
+      <Word Index="30" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1"/>
+    </Words>
+    <NamedEntities>
+      <NamedEntity ID="140" WordIndex="7"/>
+      <NamedEntity ID="578" WordIndex="29"/>
+      <NamedEntity ID="141" WordIndex="26"/>
+      <NamedEntity ID="576" WordIndex="8"/>
+      <NamedEntity ID="139" WordIndex="1"/>
+      <NamedEntity ID="577" WordIndex="5"/>
+      <NamedEntity ID="99" WordIndex="2"/>
+      <NamedEntity ID="142" WordIndex="22"/>
+    </NamedEntities>
+    <Markers/>
+  </Sentence>
+  <Sentence ID="LETA_20130228_Ziedonis-dep-unlabeled17" Text="1998. gadā dzejnieks ievēlēts Latvijas Nacionālās bibliotēkas atbalsta fonda uzticības padomē">
+    <Words>
+      <Word Index="0" Original="1998." Morph1="x" Morph2="xo" Lemma="1998." Parent="1"/>
+      <Word Index="1" Original="gadā" Morph1="n" Morph2="ncmsl1" Lemma="gads" Parent="3"/>
+      <Word Index="2" Original="dzejnieks" Morph1="n" Morph2="ncmsn1" Lemma="dzejnieks" Parent="3"/>
+      <Word Index="3" Original="ievēlēts" Morph1="v" Morph2="vmnpdmsnpsn" Lemma="ievēlēt" Parent="-1"/>
+      <Word Index="4" Original="Latvijas" Morph1="n" Morph2="npfsg4" Lemma="Latvija" Parent="6"/>
+      <Word Index="5" Original="Nacionālās" Morph1="a" Morph2="arfsgyp" Lemma="nacionāla" Parent="6"/>
+      <Word Index="6" Original="bibliotēkas" Morph1="n" Morph2="ncfsg4" Lemma="bibliotēka" Parent="7"/>
+      <Word Index="7" Original="atbalsta" Morph1="n" Morph2="ncmsg1" Lemma="atbalsts" Parent="8"/>
+      <Word Index="8" Original="fonda" Morph1="n" Morph2="ncmsg1" Lemma="fonds" Parent="10"/>
+      <Word Index="9" Original="uzticības" Morph1="n" Morph2="ncfsg4" Lemma="uzticība" Parent="10"/>
+      <Word Index="10" Original="padomē" Morph1="n" Morph2="ncfsl5" Lemma="padome" Parent="3"/>
+    </Words>
+    <NamedEntities>
+      <NamedEntity ID="99" WordIndex="2"/>
+      <NamedEntity ID="579" WordIndex="3"/>
+      <NamedEntity ID="144" WordIndex="1"/>
+      <NamedEntity ID="143" WordIndex="10"/>
+    </NamedEntities>
+    <Markers/>
+  </Sentence>
+  <Sentence ID="LETA_20130228_Ziedonis-dep-unlabeled18" Text="2002. gadā Ziedonim piešķirta Ministru kabineta balva par mūža ieguldījumu latviešu kultūrā un izcilu veikumu latviešu literatūrā .">
+    <Words>
+      <Word Index="0" Original="2002." Morph1="x" Morph2="xo" Lemma="2002." Parent="1"/>
+      <Word Index="1" Original="gadā" Morph1="n" Morph2="ncmsl1" Lemma="gads" Parent="3"/>
+      <Word Index="2" Original="Ziedonim" Morph1="n" Morph2="npmsd2" Lemma="Ziedonis" Parent="3"/>
+      <Word Index="3" Original="piešķirta" Morph1="v" Morph2="vmnpdfsnpsn" Lemma="piešķirt" Parent="17"/>
+      <Word Index="4" Original="Ministru" Morph1="n" Morph2="ncmpg1" Lemma="ministrs" Parent="5"/>
+      <Word Index="5" Original="kabineta" Morph1="n" Morph2="ncmsg1" Lemma="kabinets" Parent="6"/>
+      <Word Index="6" Original="balva" Morph1="n" Morph2="ncfsn4" Lemma="balva" Parent="3"/>
+      <Word Index="7" Original="par" Morph1="s" Morph2="spsan" Lemma="par" Parent="6"/>
+      <Word Index="8" Original="mūža" Morph1="n" Morph2="ncmsg1" Lemma="mūžs" Parent="9"/>
+      <Word Index="9" Original="ieguldījumu" Morph1="n" Morph2="ncmsa1" Lemma="ieguldījums" Parent="12"/>
+      <Word Index="10" Original="latviešu" Morph1="n" Morph2="ncmpg2" Lemma="latvietis" Parent="11"/>
+      <Word Index="11" Original="kultūrā" Morph1="n" Morph2="ncfsl4" Lemma="kultūra" Parent="9"/>
+      <Word Index="12" Original="un" Morph1="c" Morph2="ccs" Lemma="un" Parent="7"/>
+      <Word Index="13" Original="izcilu" Morph1="a" Morph2="afmsanp" Lemma="izcils" Parent="14"/>
+      <Word Index="14" Original="veikumu" Morph1="n" Morph2="ncmsa1" Lemma="veikums" Parent="12"/>
+      <Word Index="15" Original="latviešu" Morph1="n" Morph2="ncmpg2" Lemma="latvietis" Parent="16"/>
+      <Word Index="16" Original="literatūrā" Morph1="n" Morph2="ncfsl4" Lemma="literatūra" Parent="14"/>
+      <Word Index="17" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1"/>
+    </Words>
+    <NamedEntities>
+      <NamedEntity ID="145" WordIndex="6"/>
+      <NamedEntity ID="580" WordIndex="3"/>
+      <NamedEntity ID="147" WordIndex="5"/>
+      <NamedEntity ID="99" WordIndex="2"/>
+      <NamedEntity ID="146" WordIndex="1"/>
+    </NamedEntities>
+    <Markers/>
+  </Sentence>
+  <Sentence ID="LETA_20130228_Ziedonis-dep-unlabeled19" Text="Ziedonis saņēmis starptautiskas atzinības Hansa Kristiana Andersena vārdā nosaukto pasaku meistara diplomu , internacionālo Januša Korčaka medaļu un Goda diplomu par aktīvu darbību bērnu kultūras attīstībā .">
+    <Words>
+      <Word Index="0" Original="Ziedonis" Morph1="n" Morph2="npmsn2" Lemma="Ziedonis" Parent="1"/>
+      <Word Index="1" Original="saņēmis" Morph1="v" Morph2="vmnpdmsnasn" Lemma="saņemt" Parent="26"/>
+      <Word Index="2" Original="starptautiskas" Morph1="a" Morph2="arfsgnp" Lemma="starptautiska" Parent="3"/>
+      <Word Index="3" Original="atzinības" Morph1="n" Morph2="ncfsg4" Lemma="atzinība" Parent="11"/>
+      <Word Index="4" Original="Hansa" Morph1="n" Morph2="npmsg1" Lemma="Hanss" Parent="6"/>
+      <Word Index="5" Original="Kristiana" Morph1="n" Morph2="npmsg1" Lemma="Kristians" Parent="6"/>
+      <Word Index="6" Original="Andersena" Morph1="n" Morph2="npmsg1" Lemma="Andersens" Parent="7"/>
+      <Word Index="7" Original="vārdā" Morph1="n" Morph2="ncmsl1" Lemma="vārds" Parent="8"/>
+      <Word Index="8" Original="nosaukto" Morph1="v" Morph2="vmnpdmsapsy" Lemma="nosaukt" Parent="11"/>
+      <Word Index="9" Original="pasaku" Morph1="n" Morph2="ncfpg4" Lemma="pasaka" Parent="10"/>
+      <Word Index="10" Original="meistara" Morph1="n" Morph2="ncmsg1" Lemma="meistars" Parent="11"/>
+      <Word Index="11" Original="diplomu" Morph1="n" Morph2="ncmsa1" Lemma="diploms" Parent="12"/>
+      <Word Index="12" Original="," Morph1="z" Morph2="zc" Lemma="," Parent="1"/>
+      <Word Index="13" Original="internacionālo" Morph1="a" Morph2="arfsayp" Lemma="internacionāla" Parent="16"/>
+      <Word Index="14" Original="Januša" Morph1="n" Morph2="npmsg1" Lemma="Janušs" Parent="15"/>
+      <Word Index="15" Original="Korčaka" Morph1="n" Morph2="npmsg1" Lemma="Korčaks" Parent="16"/>
+      <Word Index="16" Original="medaļu" Morph1="n" Morph2="ncfsa4" Lemma="medaļa" Parent="17"/>
+      <Word Index="17" Original="un" Morph1="c" Morph2="ccs" Lemma="un" Parent="12"/>
+      <Word Index="18" Original="Goda" Morph1="n" Morph2="ncmsg1" Lemma="gods" Parent="19"/>
+      <Word Index="19" Original="diplomu" Morph1="n" Morph2="ncmsa1" Lemma="diploms" Parent="17"/>
+      <Word Index="20" Original="par" Morph1="s" Morph2="spsan" Lemma="par" Parent="19"/>
+      <Word Index="21" Original="aktīvu" Morph1="a" Morph2="affsanp" Lemma="aktīva" Parent="22"/>
+      <Word Index="22" Original="darbību" Morph1="n" Morph2="ncfsa4" Lemma="darbība" Parent="20"/>
+      <Word Index="23" Original="bērnu" Morph1="n" Morph2="ncmpg1" Lemma="bērns" Parent="24"/>
+      <Word Index="24" Original="kultūras" Morph1="n" Morph2="ncfsg4" Lemma="kultūra" Parent="25"/>
+      <Word Index="25" Original="attīstībā" Morph1="n" Morph2="ncfsl4" Lemma="attīstība" Parent="22"/>
+      <Word Index="26" Original="." Morph1="z" Morph2="zs" Lemma="." Parent="-1"/>
+    </Words>
+    <NamedEntities>
+      <NamedEntity ID="99" WordIndex="0"/>
+      <NamedEntity ID="148" WordIndex="11"/>
+      <NamedEntity ID="581" WordIndex="1"/>
+    </NamedEntities>
+    <Markers/>
+  </Sentence>
+</Sentences>
