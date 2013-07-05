@@ -12,7 +12,7 @@ namespace FrameMarker
     public partial class frmNamedEntities : Form
     {
         public Dictionary<int, NamedEntity> NamedEntities; 
-        public frmNamedEntities(SemanticDatabase db, NamedEntity selected)
+        public frmNamedEntities(/*SemanticDatabase*/Document db, NamedEntity selected)
         {
             InitializeComponent();
 

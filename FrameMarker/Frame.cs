@@ -12,9 +12,10 @@ namespace FrameMarker
 
         public List<FrameElement> Elements = new List<FrameElement>();
 
-        public Frame(string name, FrameElement[] frameElements)
+        public Frame(string name, string nameLV, FrameElement[] frameElements)
         {
             Name = name;
+            NameLV = nameLV;
             Elements.AddRange(frameElements);
         }
 

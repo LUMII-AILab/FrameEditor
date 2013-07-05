@@ -13,6 +13,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Linq;
+using System.Resources;
 
 namespace FrameMarker
 {
@@ -38,7 +39,7 @@ namespace FrameMarker
         {
             InitializeComponent();                                                
             panelSentences.SetDoubleBuffered();
-            
+
             Ed = CreateEditor();
             CreateMissingFrameMarkers();            
             RefreshUI();
@@ -107,7 +108,7 @@ namespace FrameMarker
                         
             // Attēlo visas grafiskos elementus - tainsstūru kastes - teikuma koku
             foreach(var node in nodes.OfType<ScreenTreeBox>())
-            {                
+            {
                 if(!node.IsMainWord)
                 {
                     var selNode = selectedNode as ScreenTreeBox;
@@ -167,7 +168,7 @@ namespace FrameMarker
                     g.DrawLine(new Pen(Brushes.DarkCyan, 3), node.Center, marker.Location);    
                 }                                            
             }
-            
+
             // Attēlo visas saites
             var links = GetLinks(nodes);
                         
@@ -238,7 +239,7 @@ namespace FrameMarker
                 fmt.Alignment = StringAlignment.Center;
                 fmt.LineAlignment = StringAlignment.Center;
 
-                bool isFrameRef = Ed.DB.NamedEntities[ElementReference.Value.ID].Frames.Count > 0;
+                bool isFrameRef = Ed.Doc.NamedEntities[ElementReference.Value.ID].Frames.Count > 0;
                 var brush = isFrameRef ? Brushes.DarkCyan : Brushes.BlueViolet;
                 g.DrawLine(new Pen(brush, selected?4:2), DestBox.Center, FrameInstanceMarker.Location);
 
@@ -282,7 +283,7 @@ namespace FrameMarker
                 foreach (var reference in marker.FrameInstance.ElementReferences)
                 {
                     var width = TextRenderer.MeasureText(reference.Key.Name, text_font).Width;
-                                                            
+
                     var namedNodes = nodes.OfType<ScreenNamedEntityBox>()
                         .Where(o => o.NamedEntity.ID == reference.Value.ID && o.Word.Index == reference.Value.WordIndex);
 
@@ -290,7 +291,6 @@ namespace FrameMarker
                     {
                         links.Add(new Link(marker, namedNode, reference, width));
                     }
-                    
 
                     var frameMovableNodes = nodes.OfType<MovableEntity>()
                         .Where(o => o.Marker is FrameInstanceMarker
@@ -332,7 +332,8 @@ namespace FrameMarker
 
         List<ScreenBox> GetScreenNodes(Sentence sent)
         {
-            var rootWord = sent.Words.First(o => o.ParentIndex == -1);
+            var rootWord = sent.Words.First(o => o.ParentIndex <= 0); // *** pagaidām nav viennozīmīgas skaidrības, conll paredz 0
+            //var rootWord = sent.Words.First(o => o.ParentIndex == -1);
             var rootNode = new TreeNode(rootWord, sent.Words);
             var nodes = new List<ScreenBox>();
             GetScreenNodes(rootNode, rootNode.GetSize(GetEmptyBoxHeight()).Height, XSpacing, YSpacing, nodes, 0);
@@ -894,7 +895,7 @@ namespace FrameMarker
                 else if (selectedMarker is FrameInstanceMarker)
                 {
                     var ent = selectedMarker as FrameInstanceMarker;
-                    Act_DeleteFrameInstance(Ed.DB.NamedEntities[ent.FrameInstance.TargetID], ent.FrameInstance);
+                    Act_DeleteFrameInstance(Ed./*DB*/Doc.NamedEntities[ent.FrameInstance.TargetID], ent.FrameInstance);
                 }
                 else
                 {
@@ -952,7 +953,7 @@ namespace FrameMarker
         void RefreshNamedEntityList()
         {
             lvEntities.Items.Clear();
-            foreach (var entity in Ed.DB.NamedEntities.Values.Where(o => o.Name.ToLowerInvariant().Contains(txtNamedEntitySearch.Text.ToLowerInvariant())))
+            foreach (var entity in Ed./*DB*/Doc.NamedEntities.Values.Where(o => o.Name.ToLowerInvariant().Contains(txtNamedEntitySearch.Text.ToLowerInvariant())))
             {
                 var aliasStr = string.Join(", ", entity.AliasSet);
                 if (entity.AliasSet.Count == 0)
@@ -968,7 +969,7 @@ namespace FrameMarker
         void RefreshFrameEntityList()
         {
             lbFrameEntities.Items.Clear();
-            lbFrameEntities.Items.AddRange(Ed.DB.GetAllFrameInstances().ToArray());
+            lbFrameEntities.Items.AddRange(Ed./*DB*/Doc.GetAllFrameInstances().ToArray());
         }
         void RefreshUI()
         {
@@ -1000,15 +1001,26 @@ namespace FrameMarker
 
             try
             {                
-                ed.LoadFramesCSV("frames-new.csv");            
+                ed.LoadFramesCSV(File.ReadAllText("frames.csv"));            
             }
             catch (Exception ex)
             {
+                // Ja neeksistē ārējs freimu definīciju fails, tad izmanto noklusēto resursu
+                ed.LoadFramesCSV(DataResource.Frames);
+                /*
+                Debug.WriteLine(@"Resources:");
+                string[] names = System.Reflection.Assembly.GetEntryAssembly().GetManifestResourceNames();
+                foreach (string name in names)
+                    Debug.WriteLine(name);
+                */
+                /*
                 MessageBox.Show(this, "Couldn't open frames-new.csv.", "Frame Marker", MessageBoxButtons.OK,
                                 MessageBoxIcon.Error);
                 Close();
+                */
             }
                         
+            /*
             try
             {
                 ed.DB.Open("SemanticDB.xml", ed.Frames);    
@@ -1018,19 +1030,14 @@ namespace FrameMarker
                 MessageBox.Show(this, "Couldn't open SemanticDB.xml, some sentences might not load.", "Frame Marker", MessageBoxButtons.OK,
                                 MessageBoxIcon.Warning);
             }
+            */
             
             if (openDefaultFile)
             {
                 var lastOpened = GetLastOpenedFile();
-                string defaultFile = "nteikums.xml";
                 
-                if (lastOpened != null)
-                    defaultFile = lastOpened;
-
-                if(!ed.Open(defaultFile))
-                {
+                if (lastOpened == null || !ed.Open(lastOpened))
                     ed.CreateDefaultSentence();
-                }                                
             }
             else
             {
@@ -1093,7 +1100,8 @@ namespace FrameMarker
         {
             SaveFileDialog saveDialog = new SaveFileDialog();
             saveDialog.Filter =
-               "Marked Sentence (*.xml)|*.xml";
+               "Marked Sentence (*.json)|*.json";
+               //"Marked Sentence (*.xml)|*.xml";
 
             saveDialog.Title = "Save As";
             saveDialog.InitialDirectory = Directory.GetCurrentDirectory();
@@ -1130,7 +1138,8 @@ namespace FrameMarker
         {
             OpenFileDialog opend = new OpenFileDialog();
             opend.Filter =
-               "Marked Sentence (*.xml)|*.xml";
+               "Marked Sentence (*.json)|*.json";
+               //"Marked Sentence (*.xml)|*.xml";
 
             opend.Title = "Open";
             opend.InitialDirectory = Directory.GetCurrentDirectory();
@@ -1298,6 +1307,7 @@ namespace FrameMarker
                     Marker = new LayoutMarker { X = pos.X, Y = pos.Y },
                     TargetID = namedEntity.ID,
                     SentenceID = GetSelectedSentence().ID,
+                    sentenceIndex = GetSelectedSentence().index,    /* *** lai varētu atbrīvoties no SentenceID */
                     WordIndex = node.Node.Word.Index
                 });
 
@@ -1313,6 +1323,7 @@ namespace FrameMarker
                     Marker = new LayoutMarker {X = pos.X, Y = pos.Y + namedEntity.Frames.Count * 50},
                     TargetID = namedEntity.ID,
                     SentenceID = GetSelectedSentence().ID,
+                    sentenceIndex = GetSelectedSentence().index,    /* *** lai varētu atbrīvoties no SentenceID */
                     WordIndex = node.Node.Word.Index
                 };
 
@@ -1343,9 +1354,12 @@ namespace FrameMarker
             var newWord = node.Node.Word;
             if (!sent.WordToNamedEntityMap.ContainsKey(newWord))
             {                
-                var movedFrames = entity.Frames.Where(o => o.WordIndex == oldWord.Index && o.SentenceID == sent.ID).ToList();
-                var movedElReferences = Ed.DB.GetAllElementReferences(entity.ID)
-                    .Where(o => o.Key.SentenceID == sent.ID)
+                // *** lai atbrīvotos no SentenceID */
+                //var movedFrames = entity.Frames.Where(o => o.WordIndex == oldWord.Index && o.SentenceID == sent.ID).ToList();
+                var movedFrames = entity.Frames.Where(o => o.WordIndex == oldWord.Index && o.sentenceIndex == sent.index).ToList();
+                var movedElReferences = Ed./*DB*/Doc.GetAllElementReferences(entity.ID)
+                    .Where(o => o.Key.sentenceIndex == sent.index)
+                    /*.Where(o => o.Key.SentenceID == sent.ID)*/ /* *** lai atbrīvotos no SentenceID */
                     .ToDictionary(p => p.Key, p => p.Value.Where(o => o.Value.WordIndex == oldWord.Index).ToList());
                 
                 Ed.Undo.PerformSimpleAction
@@ -1674,7 +1688,7 @@ namespace FrameMarker
             }
             var entity = new NamedEntity
             {
-                ID = Ed.DB.GetNewEntityID(),
+                ID = Ed./*DB*/Doc.GetNewEntityID(),
                 Name = namedEntityName,
                 Type = type
             };
@@ -1697,7 +1711,7 @@ namespace FrameMarker
                 (
                     () =>
                     {
-                        Ed.DB.NamedEntities.Add(entity.ID, entity);
+                        Ed./*DB*/Doc.NamedEntities.Add(entity.ID, entity);
                         sent.WordToNamedEntityMap.Add(word, entity);
                         markerControl.Invalidate();
                         panelSentences.Invalidate();
@@ -1706,7 +1720,7 @@ namespace FrameMarker
                     },
                     () =>
                     {
-                        Ed.DB.NamedEntities.Remove(entity.ID);
+                        Ed./*DB*/Doc.NamedEntities.Remove(entity.ID);
                         sent.WordToNamedEntityMap.Remove(word);
 
                         selectedNode = null;
@@ -1751,7 +1765,7 @@ namespace FrameMarker
             }
 
             
-            var mergedReferences = Ed.DB.GetAllElementReferences(oldEntity.ID);
+            var mergedReferences = Ed./*DB*/Doc.GetAllElementReferences(oldEntity.ID);
 
             
             var newAliasSet = new HashSet<string>();
@@ -1765,7 +1779,7 @@ namespace FrameMarker
             Ed.Undo.PerformSimpleAction(
                 () =>
                 {
-                    Ed.DB.NamedEntities.Remove(oldEntity.ID);                                        
+                    Ed./*DB*/Doc.NamedEntities.Remove(oldEntity.ID);                                        
                     ent.AliasSet = newAliasSet;
                                         
                     foreach (var sentEnt in mergedEntities)
@@ -1797,7 +1811,7 @@ namespace FrameMarker
                 },
                 () =>
                 {
-                    Ed.DB.NamedEntities.Add(oldEntity.ID, oldEntity);
+                    Ed./*DB*/Doc.NamedEntities.Add(oldEntity.ID, oldEntity);
                     ent.AliasSet = oldAliasSet;
 
                     foreach (var sentEnt in mergedEntities)
@@ -1834,7 +1848,7 @@ namespace FrameMarker
         public void Act_RelinkFrameInstance(ScreenTreeBox node, FrameInstance frameInst)
         {            
             var sent = GetSelectedSentence();
-            var oldNamedEntity = Ed.DB.NamedEntities[frameInst.TargetID];
+            var oldNamedEntity = Ed./*DB*/Doc.NamedEntities[frameInst.TargetID];
 
             NamedEntity newNamedEntity = null;
             bool merge = false;
@@ -2156,10 +2170,10 @@ namespace FrameMarker
         {
             if(lvEntities.SelectedItems.Count > 0)
             {
-                var diag = new frmNamedEntities(Ed.DB, lvEntities.SelectedItems[0].Tag as NamedEntity);
+                var diag = new frmNamedEntities(Ed./*DB*/Doc, lvEntities.SelectedItems[0].Tag as NamedEntity);
                 var res = diag.ShowDialog(this);
 
-                var oldValues = Ed.DB.NamedEntities.SerializeClone();
+                var oldValues = Ed./*DB*/Doc.NamedEntities.SerializeClone();
                 var newValues = diag.NamedEntities;
 
                 if (res == DialogResult.OK)
@@ -2170,7 +2184,7 @@ namespace FrameMarker
                         {
                             foreach (var pair in newValues)
                             {
-                                var ne = Ed.DB.NamedEntities[pair.Key];
+                                var ne = Ed./*DB*/Doc.NamedEntities[pair.Key];
                                 ne.Name = pair.Value.Name;
                                 ne.Type = pair.Value.Type;
                                 ne.AliasSet = pair.Value.AliasSet;
@@ -2181,7 +2195,7 @@ namespace FrameMarker
                         {
                             foreach (var pair in oldValues)
                             {
-                                var ne = Ed.DB.NamedEntities[pair.Key];
+                                var ne = Ed./*DB*/Doc.NamedEntities[pair.Key];
                                 ne.Name = pair.Value.Name;
                                 ne.Type = pair.Value.Type;
                                 ne.AliasSet = pair.Value.AliasSet;
@@ -2372,7 +2386,7 @@ namespace FrameMarker
                 if(lbFrameEntities.SelectedItem != null)
                 {                    
                     var frameInst = lbFrameEntities.SelectedItem as FrameInstance;
-                    Act_DeleteFrameInstance(Ed.DB.NamedEntities[frameInst.TargetID], frameInst);                    
+                    Act_DeleteFrameInstance(Ed./*DB*/Doc.NamedEntities[frameInst.TargetID], frameInst);                    
                 }                
             }
         }
@@ -2425,12 +2439,12 @@ namespace FrameMarker
                 removedEntities.Add(sent, entities);                
             }
 
-            var removedFrameElementReferences = Ed.DB.GetAllElementReferences(ent.ID);
+            var removedFrameElementReferences = Ed./*DB*/Doc.GetAllElementReferences(ent.ID);
             
             Ed.Undo.PerformSimpleAction(
                () =>
                {
-                    Ed.DB.NamedEntities.Remove(ent.ID);
+                    Ed./*DB*/Doc.NamedEntities.Remove(ent.ID);
                                                             
                     foreach (var sentEnt in removedEntities)
                     {
@@ -2456,7 +2470,7 @@ namespace FrameMarker
                 () =>
                 {
 
-                    Ed.DB.NamedEntities.Add(ent.ID, ent);
+                    Ed./*DB*/Doc.NamedEntities.Add(ent.ID, ent);
 
                     foreach (var sentEnt in removedEntities)
                     {
@@ -2630,13 +2644,13 @@ namespace FrameMarker
                                     NamedEntity namedEntity = null;
                                     if(namedEntityMap.ContainsKey(localID))
                                     {
-                                        namedEntity = Ed.DB.NamedEntities[namedEntityMap[localID]];
+                                        namedEntity = Ed./*DB*/Doc.NamedEntities[namedEntityMap[localID]];
                                     }
                                     else
                                     {
                                         namedEntity = GetNewNamedEntity(new TreeNode(wordMap[word_index], sent.Words));
                                         namedEntityMap.Add(localID, namedEntity.ID);
-                                        Ed.DB.NamedEntities.Add(namedEntity.ID, namedEntity);
+                                        Ed./*DB*/Doc.NamedEntities.Add(namedEntity.ID, namedEntity);
                                     }
                                     
                                     if(wordFields[11] != "_")
@@ -2729,7 +2743,10 @@ namespace FrameMarker
         // FIXME: this ain't working yet
         // Imports no pirmās semantic DB versijas uz otro
         private void tsmImportLegacy_Click(object sender, EventArgs e)
-        {            
+        {
+            MessageBox.Show("Feature disabled.");
+            return;
+
             OpenFileDialog opend = new OpenFileDialog();
             opend.Filter =
                "XML (*.xml)|*.xml";
@@ -2782,6 +2799,9 @@ namespace FrameMarker
 
         private void tsmImportFrames_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Feature disabled.");
+            return;
+
             OpenFileDialog opend = new OpenFileDialog();
             opend.Filter =
                "XML (*.xml)|*.xml";
@@ -2836,7 +2856,9 @@ namespace FrameMarker
 
                         foreach(var frameInstance in frameInstances)
                         {
-                            var sent = Ed.Doc.Sentences.FirstOrDefault(o => o.ID == frameInstance.SentenceID);
+                            // *** vajag atbrīvoties no SentenceID
+                            //var sent = Ed.Doc.Sentences.FirstOrDefault(o => o.ID == frameInstance.SentenceID);
+                            var sent = Ed.Doc.Sentences.FirstOrDefault(o => o.index == frameInstance.sentenceIndex);
                             if(sent != null)
                             {                                
                                 NamedEntity namedEntity = CreateNamedEntityOrUseExisting(sent, frameInstance.WordIndex);
@@ -2876,7 +2898,7 @@ namespace FrameMarker
             {
                 namedEntity = GetNewNamedEntity(new TreeNode(word, sent.Words));
                 sent.WordToNamedEntityMap.Add(word, namedEntity);
-                Ed.DB.NamedEntities.Add(namedEntity.ID, namedEntity);
+                Ed./*DB*/Doc.NamedEntities.Add(namedEntity.ID, namedEntity);
             }
 
             return namedEntity;
