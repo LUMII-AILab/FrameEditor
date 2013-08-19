@@ -192,9 +192,12 @@ namespace FrameMarker
 
             FrameInstance frame = jObject.ToObject<FrameInstance>(jsonSerializer);
 
-            NamedEntities[frame.TargetID].Frames.Add(frame);
-
             frame.Frame = Frame;
+
+            // ja namedEntities: {}, tad nav pie kā pievienoties: šis solis ir jāizlaiž
+            if (frame.TargetID != -1)
+                NamedEntities[frame.TargetID].Frames.Add(frame);
+
             return frame;
         }
 
@@ -495,6 +498,27 @@ namespace FrameMarker
             */
         }
 
+        public NamedEntity CreateNamedEntityOrUseExisting(Sentence sentence, int wordIndex)
+        {
+            Word word = sentence.Words[wordIndex-1];
+
+            if (sentence.WordToNamedEntityMap.ContainsKey(word))
+                return sentence.WordToNamedEntityMap[word];
+
+            NamedEntity namedEntity = new NamedEntity
+            {
+                ID = GetNewEntityID(),
+                Name = word.Lemma,
+                Type = "Unknown"
+            };
+
+            NamedEntities.Add(namedEntity.ID, namedEntity);
+            word.namedEntityID = namedEntity.ID;
+            sentence.WordToNamedEntityMap.Add(word, namedEntity);
+
+            return namedEntity;
+        }
+
         public static Document Open(string filename/*, SemanticDatabase DB*/)
         {
             if (!File.Exists(filename))
@@ -609,6 +633,38 @@ namespace FrameMarker
                 }
 
                 sentenceIndex++;
+            }
+
+
+            // Self Healing
+
+            foreach (Sentence sentence in doc.Sentences)
+            {
+                // Ir jāizveido trūkstošie NamedEntity objekti
+
+                foreach (FrameInstance frame in sentence.Frames)
+                {
+                    // izveido frame target named entities
+                    if (frame.TargetID == -1 && frame.WordIndex > 0)
+                    {
+                        NamedEntity namedEntity = doc.CreateNamedEntityOrUseExisting(sentence, frame.WordIndex);
+
+                        frame.TargetID = namedEntity.ID;
+                        doc.NamedEntities[frame.TargetID].Frames.Add(frame);
+                    }
+
+                    foreach (var pair in frame.ElementReferences)
+                    {
+                        Reference reference = pair.Value;
+
+                        if (reference.ID == -1 && reference.WordIndex > 0)
+                        {
+                            NamedEntity namedEntity = doc.CreateNamedEntityOrUseExisting(sentence, reference.WordIndex);
+
+                            reference.ID = namedEntity.ID;
+                        }
+                    }
+                }
             }
 
             return doc;
@@ -804,7 +860,7 @@ namespace FrameMarker
         [JsonProperty("lemma")] 
         public string Lemma = "";
 
-        [JsonProperty("parentIndex")] 
+        [JsonProperty("parentIndex"), DefaultValue(-1)] 
         public int ParentIndex;
 
         [NonSerialized]
@@ -891,16 +947,16 @@ namespace FrameMarker
         [JsonProperty("elements"), JsonConverter(typeof(FrameElementsJsonConverter))]
         public Dictionary<FrameElement, Reference> ElementReferences = new Dictionary<FrameElement, Reference>();        
 
-        [JsonProperty("namedEntityID")] 
-        public int TargetID;
+        [JsonProperty("namedEntityID"), DefaultValue(-1)] 
+        public int TargetID = -1;
                 
         // šis nav vajadzīgs
         //[JsonIgnore]
         public string SentenceID;
         public int sentenceIndex;       // jaunais teikumu identifikācijas veids
 
-        [JsonProperty("tokenIndex")] 
-        public int WordIndex;
+        [JsonProperty("tokenIndex"), DefaultValue(-1)] 
+        public int WordIndex = -1;
 
         [JsonProperty("marker")] 
         public LayoutMarker Marker;

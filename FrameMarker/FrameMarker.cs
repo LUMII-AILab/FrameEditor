@@ -1300,16 +1300,32 @@ namespace FrameMarker
             if (!sent.WordToNamedEntityMap.ContainsKey(node.Node.Word))
             {
                 var namedEntity = GetNewNamedEntity(node.Node);
-                
-                namedEntity.Frames.Add(new FrameInstance
+
+                // ***
+
+                // TODO: vajag pievienot struktūru arī teikuma frames struktūrai !!!
+                FrameInstance frameInstance = new FrameInstance
                 {
                     Frame = frame,
                     Marker = new LayoutMarker { X = pos.X, Y = pos.Y },
                     TargetID = namedEntity.ID,
-                    SentenceID = GetSelectedSentence().ID,
-                    sentenceIndex = GetSelectedSentence().index,    /* *** lai varētu atbrīvoties no SentenceID */
+                    SentenceID = sent.ID,
+                    sentenceIndex = sent.index,    /* *** lai varētu atbrīvoties no SentenceID */
                     WordIndex = node.Node.Word.Index
-                });
+                };
+
+                sent.Frames.Add(frameInstance);
+                namedEntity.Frames.Add(frameInstance);
+
+                //namedEntity.Frames.Add(new FrameInstance
+                //{
+                //    Frame = frame,
+                //    Marker = new LayoutMarker { X = pos.X, Y = pos.Y },
+                //    TargetID = namedEntity.ID,
+                //    SentenceID = GetSelectedSentence().ID,
+                //    sentenceIndex = GetSelectedSentence().index,    /* *** lai varētu atbrīvoties no SentenceID */
+                //    WordIndex = node.Node.Word.Index
+                //});
 
                 Act_CreateNamedEntity(sent, node.Node.Word, namedEntity);                
             }
@@ -1322,8 +1338,8 @@ namespace FrameMarker
                     Frame = frame,
                     Marker = new LayoutMarker {X = pos.X, Y = pos.Y + namedEntity.Frames.Count * 50},
                     TargetID = namedEntity.ID,
-                    SentenceID = GetSelectedSentence().ID,
-                    sentenceIndex = GetSelectedSentence().index,    /* *** lai varētu atbrīvoties no SentenceID */
+                    SentenceID = sent.ID,
+                    sentenceIndex = sent.index,    /* *** lai varētu atbrīvoties no SentenceID */
                     WordIndex = node.Node.Word.Index
                 };
 
@@ -1331,12 +1347,14 @@ namespace FrameMarker
                 (                
                 () =>
                     {
+                        sent.Frames.Add(frameInst);
                         namedEntity.Frames.Add(frameInst);                        
                         markerControl.Invalidate();
                         panelSentences.Invalidate();
                     },
                     () =>
                     {
+                        sent.Frames.Remove(frameInst);
                         namedEntity.Frames.Remove(frameInst);                        
                         selectedNode = null;
                         selectedMarker = null;
@@ -1366,6 +1384,9 @@ namespace FrameMarker
                 (
                     () =>
                     {
+                        // ***
+                        oldWord.namedEntityID = -1;
+                        newWord.namedEntityID = entity.ID;
                         sent.WordToNamedEntityMap.Remove(oldWord);
                         sent.WordToNamedEntityMap.Add(newWord, entity);   
 
@@ -1386,6 +1407,9 @@ namespace FrameMarker
                     },
                     () =>
                     {                        
+                        // ***
+                        newWord.namedEntityID = -1;
+                        oldWord.namedEntityID = entity.ID;
                         sent.WordToNamedEntityMap.Remove(newWord);
                         sent.WordToNamedEntityMap.Add(oldWord, entity);
 
@@ -1423,13 +1447,15 @@ namespace FrameMarker
                 Ed.Undo.PerformSimpleAction
                 (
                     () =>
-                    {                        
+                    {
+                        node.Node.Word.namedEntityID = entity.ID;
                         sent.WordToNamedEntityMap.Add(node.Node.Word, entity);                                                
                         markerControl.Invalidate();
                         panelSentences.Invalidate();
                     },
                     () =>
                     {
+                        node.Node.Word.namedEntityID = -1;
                         sent.WordToNamedEntityMap.Remove(node.Node.Word);                                                
                         selectedNode = null;
                         selectedMarker = null;
@@ -1713,6 +1739,8 @@ namespace FrameMarker
                     {
                         Ed./*DB*/Doc.NamedEntities.Add(entity.ID, entity);
                         sent.WordToNamedEntityMap.Add(word, entity);
+                        // ***
+                        word.namedEntityID = entity.ID;
                         markerControl.Invalidate();
                         panelSentences.Invalidate();
                         RefreshNamedEntityList();
@@ -1722,6 +1750,8 @@ namespace FrameMarker
                     {
                         Ed./*DB*/Doc.NamedEntities.Remove(entity.ID);
                         sent.WordToNamedEntityMap.Remove(word);
+                        // ***
+                        word.namedEntityID = -1;
 
                         selectedNode = null;
                         selectedMarker = null;
@@ -2409,6 +2439,8 @@ namespace FrameMarker
                 () =>
                 {
                     ent.Frames.Remove(frameInst);
+                    // ***
+                    Ed.Doc.Sentences[frameInst.sentenceIndex].Frames.Remove(frameInst);
 
                     markerControl.Invalidate();
                     panelSentences.Invalidate();
@@ -2417,6 +2449,8 @@ namespace FrameMarker
                 () =>
                 {
                     ent.Frames.Add(frameInst);
+                    // ***
+                    Ed.Doc.Sentences[frameInst.sentenceIndex].Frames.Add(frameInst);
 
                     selectedMarker = null;
                     selectedLink = null;
@@ -2450,6 +2484,8 @@ namespace FrameMarker
                     {
                         foreach (var fe in sentEnt.Value)
                         {
+                            // ***
+                            fe.Key.namedEntityID = -1;
                             sentEnt.Key.WordToNamedEntityMap.Remove(fe.Key);
                         }
                     }
@@ -2476,6 +2512,8 @@ namespace FrameMarker
                     {
                         foreach (var fe in sentEnt.Value)
                         {
+                            // ***
+                            fe.Key.namedEntityID = fe.Value.ID;
                             sentEnt.Key.WordToNamedEntityMap.Add(fe.Key, fe.Value);
                         }
                     }
@@ -2509,6 +2547,8 @@ namespace FrameMarker
             Ed.Undo.PerformSimpleAction(
                 () =>
                 {
+                    // ***
+                    word.namedEntityID = -1;
                     sent.WordToNamedEntityMap.Remove(word);
                     
                     foreach(var framePair in references)
@@ -2525,6 +2565,8 @@ namespace FrameMarker
                 },
                 () =>
                 {                  
+                    // ***
+                    word.namedEntityID = oldEnt.ID;
                     sent.WordToNamedEntityMap.Add(word, oldEnt);
 
                     foreach (var framePair in references)
@@ -2658,6 +2700,8 @@ namespace FrameMarker
                                         namedEntity.Type = wordFields[11];
                                     }
                                     
+                                    // ***
+                                    wordMap[word_index].namedEntityID = namedEntity.ID;
                                     sent.WordToNamedEntityMap.Add(wordMap[word_index], namedEntity);
                                 }                                
                             }
@@ -2864,6 +2908,8 @@ namespace FrameMarker
                                 NamedEntity namedEntity = CreateNamedEntityOrUseExisting(sent, frameInstance.WordIndex);
                                 frameInstance.TargetID = namedEntity.ID;
                                 namedEntity.Frames.Add(frameInstance);
+                                // ***
+                                sent.Frames.Add(frameInstance);
 
                                 foreach(var reference in frameInstance.ElementReferences.Values)
                                 {
@@ -2897,6 +2943,8 @@ namespace FrameMarker
             else
             {
                 namedEntity = GetNewNamedEntity(new TreeNode(word, sent.Words));
+                // ***
+                word.namedEntityID = namedEntity.ID;
                 sent.WordToNamedEntityMap.Add(word, namedEntity);
                 Ed./*DB*/Doc.NamedEntities.Add(namedEntity.ID, namedEntity);
             }
