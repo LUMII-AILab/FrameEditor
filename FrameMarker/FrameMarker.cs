@@ -1817,6 +1817,7 @@ namespace FrameMarker
                         foreach (var fe in sentEnt.Value)
                         {
                             sentEnt.Key.WordToNamedEntityMap[fe.Key] = ent;
+                            fe.Key.namedEntityID = ent.ID;
                         }
                     }
 
@@ -1831,6 +1832,9 @@ namespace FrameMarker
                         foreach(var entRef in frameRef.Value)
                         {
                             entRef.Value.ID = ent.ID;
+                            // vajag nomainīt arī entRef atbilstošo tokenu namedEntityID
+                            Sentence sent = Ed.Doc.Sentences[frameRef.Key.sentenceIndex];
+                            sent.Words.FirstOrDefault<Word>(o => o.Index == entRef.Value.WordIndex).namedEntityID = ent.ID;
                         }
                     }
                                                                              
@@ -1849,6 +1853,7 @@ namespace FrameMarker
                         foreach (var fe in sentEnt.Value)
                         {
                             sentEnt.Key.WordToNamedEntityMap[fe.Key] = oldEntity;
+                            fe.Key.namedEntityID = oldEntity.ID;
                         }
                     }
 
@@ -1863,6 +1868,8 @@ namespace FrameMarker
                         foreach (var entRef in frameRef.Value)
                         {
                             entRef.Value.ID = oldEntity.ID;
+                            Sentence sent = Ed.Doc.Sentences[frameRef.Key.sentenceIndex];
+                            sent.Words.FirstOrDefault<Word>(o => o.Index == entRef.Value.WordIndex).namedEntityID = oldEntity.ID;
                         }
                     }
                                                                                                 
@@ -2466,11 +2473,19 @@ namespace FrameMarker
         {            
             var removedEntities = new Dictionary<Sentence, List<KeyValuePair<Word, NamedEntity>>>();
             var removedMarkers = new Dictionary<Sentence, List<Marker>>();
+            //var frameInstances = new Dictionary<FrameInstance,
+            var frames = new List<FrameInstance>();
 
             foreach (var sent in Ed.Doc.Sentences)
             {
                 var entities = sent.WordToNamedEntityMap.Where(o => o.Value.ID == ent.ID).ToList();
                 removedEntities.Add(sent, entities);                
+
+                foreach(FrameInstance frame in sent.Frames)
+                {
+		    if(frame.TargetID == ent.ID)
+			frames.Add(frame);
+                }
             }
 
             var removedFrameElementReferences = Ed./*DB*/Doc.GetAllElementReferences(ent.ID);
@@ -2492,11 +2507,26 @@ namespace FrameMarker
                     
                     foreach (var sentElemRef in removedFrameElementReferences)
                     {
+                        Sentence sent = Ed.Doc.Sentences[sentElemRef.Key.sentenceIndex];
+
                         foreach (var it in sentElemRef.Value)
                         {
                             sentElemRef.Key.ElementReferences.Remove(it.Key);
+
+                            sent.Words.FirstOrDefault<Word>(o => o.Index == it.Value.WordIndex).namedEntityID = -1;
                         }
                     }
+
+		foreach (var frame in frames)
+		{
+			Sentence sent = Ed.Doc.Sentences[frame.sentenceIndex];
+			sent.Words.FirstOrDefault<Word>(o => o.Index == frame.WordIndex).namedEntityID = -1;
+
+			frame.TargetID = -1;
+
+		    sent.Frames.Remove(frame);
+		}
+
 
                     markerControl.Invalidate();
                     panelSentences.Invalidate();
@@ -2520,11 +2550,25 @@ namespace FrameMarker
                    
                     foreach (var sentElemRef in removedFrameElementReferences)
                     {
+                        Sentence sent = Ed.Doc.Sentences[sentElemRef.Key.sentenceIndex];
+
                         foreach (var it in sentElemRef.Value)
                         {
                             sentElemRef.Key.ElementReferences.Add(it.Key, it.Value);
+
+                            sent.Words.FirstOrDefault<Word>(o => o.Index == it.Value.WordIndex).namedEntityID = ent.ID;
                         }
                     }
+
+                   foreach (var frame in frames)
+                   {
+                       Sentence sent = Ed.Doc.Sentences[frame.sentenceIndex];
+                       sent.Words.FirstOrDefault<Word>(o => o.Index == frame.WordIndex).namedEntityID = ent.ID;
+                       
+                       frame.TargetID = ent.ID;
+
+                       sent.Frames.Add(frame);
+                   }
                     
                     selectedMarker = null;
                     selectedLink = null;

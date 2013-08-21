@@ -195,8 +195,16 @@ namespace FrameMarker
             frame.Frame = Frame;
 
             // ja namedEntities: {}, tad nav pie kā pievienoties: šis solis ir jāizlaiž
-            if (frame.TargetID != -1)
-                NamedEntities[frame.TargetID].Frames.Add(frame);
+            try
+            {
+                if (frame.TargetID != -1)
+                    NamedEntities[frame.TargetID].Frames.Add(frame);
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine("No Named Entity with ID: {0}", frame.TargetID);
+                throw;
+            }
 
             return frame;
         }
@@ -619,7 +627,24 @@ namespace FrameMarker
                 foreach (Word token in sentence.Words)
                 {
                     if (token.namedEntityID != -1)
-                        sentence.WordToNamedEntityMap.Add(sentence.Words.First<Word>(o => o.Index == token.Index), namedEntities[token.namedEntityID]);
+                    {
+                        Word word = sentence.Words.First<Word>(o => o.Index == token.Index);
+                        NamedEntity namedEntity;
+
+                        try
+                        {
+                            namedEntity = namedEntities[token.namedEntityID];
+                        }
+                        catch (Exception ex)
+                        {
+                            Debug.WriteLine("No Named Entity with ID: {0}", token.namedEntityID);
+                            throw;
+                        }
+
+                        sentence.WordToNamedEntityMap.Add(word, namedEntity);
+
+                        //sentence.WordToNamedEntityMap.Add(sentence.Words.First<Word>(o => o.Index == token.Index), namedEntities[token.namedEntityID]);
+                    }
                 }
 
                 // Sakārto augošā secībā, bet ko darīt, ja kāds no indeksiem pa vidu iztrūkst ?
