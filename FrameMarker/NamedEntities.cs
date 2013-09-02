@@ -6,6 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Resources;
+using System.IO;
 
 namespace FrameMarker
 {
@@ -24,7 +26,23 @@ namespace FrameMarker
             lvNamedEntities.Items[selIndex].Selected = true;
                                     
             lvNamedEntities.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
+
+            try
+            {
+                this.LoadCategories(File.ReadAllText("categories.csv"));
+            }
+            catch (Exception ex)
+            {
+                this.LoadCategories(DataResource.Categories);
+            }
         }
+
+	private void LoadCategories(string text)
+	{
+	    var categories = text.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
+	    this.cbCategory.Items.Clear();
+	    this.cbCategory.Items.AddRange((object [])categories);
+	}
         
         void RefreshNamedEntityList(List<NamedEntity> namedEntities)
         {
