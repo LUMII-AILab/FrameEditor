@@ -274,8 +274,20 @@ namespace FrameMarker
                 //Debug.WriteLine(String.Format("ID = {0}, wordIndex = {1}", namedEntityID, wordIndex));
 
                 var frameElement = Frame.Elements.FirstOrDefault(o => o.Name == name);
-                var elReference = new Reference { ID = namedEntityID, WordIndex = wordIndex };
-                ElementReferences.Add(frameElement, elReference);
+		// vēl mēģina pēc LV nosaukuma
+                if (frameElement == null)
+                    frameElement = Frame.Elements.FirstOrDefault(o => o.NameLV == name);
+                if (frameElement == null)
+                {
+                    String msg = String.Format("Unknown frame element name: {0}", name);
+                    Debug.WriteLine(msg);
+                    MessageBox.Show(msg);
+                }
+                else
+                {
+                    var elReference = new Reference { ID = namedEntityID, WordIndex = wordIndex };
+                    ElementReferences.Add(frameElement, elReference);
+                }
             }
 
             //Debug.WriteLine(String.Format("ElementReferences.Count = {0}", ElementReferences.Count));
