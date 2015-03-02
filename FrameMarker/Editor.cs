@@ -35,12 +35,12 @@ namespace FrameMarker
                 new Sentence
                 {
                     ID = "S1",
-                    Text = "Labrīt!",
+                    Text = "Labvakar!",
                     Words = new List<Word>
                     {
                         new Word{Index = 0, 
-                            Original = "Labrīt!", 
-                            Lemma= "Labrīt",
+                            Original = "Labvakar!", 
+                            Lemma= "Labvakar",
                             ParentIndex = -1
                         }
                     }

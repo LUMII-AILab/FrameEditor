@@ -104,7 +104,18 @@ namespace FrameMarker
             var nodes = GetScreenNodes();            
             var size = nodes.FirstOrDefault(o => o.Level == 0).Rect.Size;
             var bottom = nodes.Max(o => o.Rect.Y + o.Rect.Height);
-            markerControl.AutoScrollMinSize = new Size(size.Width + XSpacing * 2, bottom + YSpacing * 2);
+                    
+
+	    // *** hack
+	    var sent = GetSelectedSentence();
+	    var width = size.Width + XSpacing * 2;
+	    foreach (var marker in sent.GetFrameMarkers())
+	    {
+		if (marker.FrameInstance.Marker.X > width)
+		    width = marker.FrameInstance.Marker.X + 20;
+	    }
+            markerControl.AutoScrollMinSize = new Size(width, bottom + YSpacing * 2);
+            //markerControl.AutoScrollMinSize = new Size(size.Width + XSpacing * 2, bottom + YSpacing * 2);
                         
             // Attēlo visas grafiskos elementus - tainsstūru kastes - teikuma koku
             foreach(var node in nodes.OfType<ScreenTreeBox>())
@@ -343,6 +354,9 @@ namespace FrameMarker
             // Pievieno mazās ID kastes katram anotētajam named entity
             foreach (var pair in sent.WordToNamedEntityMap)
             {
+                if (treeNodes.Count(o => o.Node.Word == pair.Key && (o.IsMainWord || o.Node.Kids.Count == 0)) == 0)
+                    continue;
+
                 var node = treeNodes.First(o => o.Node.Word == pair.Key && (o.IsMainWord || o.Node.Kids.Count == 0));
                 var box = new ScreenNamedEntityBox { Word = node.Node.Word, NamedEntity = pair.Value };
 
@@ -507,7 +521,7 @@ namespace FrameMarker
                         sum.Width += size.Width + XSpacing;
                         sum.Height = Math.Max(size.Height + YSpacing*2, sum.Height);
                     }
-                    
+
                     return sum + new Size(width, 0);
                 }
             }
